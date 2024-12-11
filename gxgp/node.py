@@ -109,6 +109,12 @@ class Node:
         result = set()
         _get_subtree(result, self)
         return result
+    
+    # Additions by leonardo, fabio, and dragos
+    @property
+    def get_random_node(self):
+        nodes = list(self.subtree)
+        return random.choice(nodes)
 
     def draw(self):
         try:
