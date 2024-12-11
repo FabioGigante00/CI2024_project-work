@@ -75,6 +75,14 @@ class Node:
     @property
     def successors(self):
         return list(self._successors)
+    
+    @property
+    def is_leaf(self):
+        my_successors = self.successors()
+        if len(my_successors) == 0:
+            return True
+        else:
+            return False
 
     @successors.setter
     def successors(self, new_successors):
