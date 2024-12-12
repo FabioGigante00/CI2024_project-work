@@ -5,6 +5,7 @@
 #  10   11   Distributed under MIT License
 
 import numbers
+import random
 import warnings
 from typing import Callable
 
@@ -75,14 +76,6 @@ class Node:
     @property
     def successors(self):
         return list(self._successors)
-    
-    @property
-    def is_leaf(self):
-        my_successors = self.successors()
-        if len(my_successors) == 0:
-            return True
-        else:
-            return False
 
     @successors.setter
     def successors(self, new_successors):
@@ -109,12 +102,6 @@ class Node:
         result = set()
         _get_subtree(result, self)
         return result
-    
-    # Additions by leonardo, fabio, and dragos
-    @property
-    def get_random_node(self):
-        nodes = list(self.subtree)
-        return random.choice(nodes)
 
     def draw(self):
         try:
@@ -122,6 +109,14 @@ class Node:
         except Exception as msg:
             warnings.warn(f"Drawing not available ({msg})", UserWarning, 2)
             return None
+        
+    # Additions by leonardo, fabio, and dragos
+    def get_random_node(self):
+        nodes = list(self.subtree)
+        return random.choice(nodes)
+    
+    def something(self):
+        return 1
 
 
 def _get_subtree(bunch: set, node: Node):
