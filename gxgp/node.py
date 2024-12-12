@@ -104,10 +104,10 @@ class Node:
         _get_subtree(result, self)
         return result
 
-    def draw(self, depth):
+    def draw(self):
         try:
-            print(f"Drawing tree with depth {self.get_depth()}...")
-            return draw(self, depth)
+            print(f"Drawing tree with depth {self._depth}...")
+            return draw(self, self._depth)
         except Exception as msg:
             warnings.warn(f"Drawing not available ({msg})", UserWarning, 2)
             return None
