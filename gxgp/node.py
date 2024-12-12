@@ -20,6 +20,7 @@ class Node:
     _successors: tuple['Node']
     _arity: int
     _str: str
+    _depth: int
 
     def __init__(self, node=None, successors=None, *, name=None):
         if callable(node):
@@ -105,19 +106,22 @@ class Node:
 
     def draw(self, depth):
         try:
-            print("Drawing the tree...")
+            print(f"Drawing tree with depth {self.get_depth()}...")
             return draw(self, depth)
         except Exception as msg:
             warnings.warn(f"Drawing not available ({msg})", UserWarning, 2)
             return None
         
-    # Additions by leonardo, fabio, and dragos
+    """ Additions by Leonardo, Fabio, Dragos """
     def get_random_node(self):
         nodes = list(self.subtree)
         return random.choice(nodes)
 
-    def something(self):
-        return 1
+    def set_depth(self, depth):
+        self._depth = depth
+
+    def get_depth(self):
+        return self._depth
 
 
 def _get_subtree(bunch: set, node: Node):

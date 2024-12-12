@@ -1,7 +1,7 @@
 import numpy as np
 
-from operations.terminal_constants import crammed_constants
-from operations.evolution import generate_random_tree
+from utils.terminal_constants import crammed_constants
+from utils.evolution import generate_random_tree
 
 if __name__ == '__main__':
     # > Setup
