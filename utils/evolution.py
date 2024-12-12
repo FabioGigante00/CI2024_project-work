@@ -6,7 +6,8 @@ from gxgp.node import Node
 from utils.operations_dict import basic_function_set, complex_function_set
 
 def generate_random_tree(max_depth: int, pc: float, terminal_list: List[str],
-                         constants: list[float] = None, p_pick_constant: float = 0.2, p_cut_tree: float = 0.2) -> Node:
+                         constants: list[float] = None, p_pick_constant: float = 0.2, p_cut_tree: float = 0.2,
+                         is_root: bool = True) -> Node:
     """
     Generate a random symbolic expression tree.
 
@@ -27,6 +28,8 @@ def generate_random_tree(max_depth: int, pc: float, terminal_list: List[str],
         The probability of choosing a constant over a terminal (default is 0.2).
     p_cut_tree : float
         The probability of cutting the tree early (default is 0.2).
+    is_root : bool
+        Flag to check if root, in order not to create 0-length trees
 
     Returns
     -------
@@ -35,7 +38,7 @@ def generate_random_tree(max_depth: int, pc: float, terminal_list: List[str],
     """
 
     # Cut the tree early with probability 0.2
-    if (random.random() < p_cut_tree) or max_depth == 0:  
+    if (not is_root and random.random() < p_cut_tree) or max_depth == 0:  
         # If constants are provided, choose one with probability p_pick_constant
         if constants is not None and random.random() < p_pick_constant: 
             terminal = random.choice(constants) 
@@ -52,7 +55,7 @@ def generate_random_tree(max_depth: int, pc: float, terminal_list: List[str],
         if random.random() < pc:                       
             func = random.choice(list(complex_function_set.keys()))
             num_children = complex_function_set[func].__code__.co_argcount  # Numero di argomenti della funzione
-            children = [generate_random_tree(max_depth - 1, pc, terminal_list, constants, p_pick_constant, p_cut_tree)
+            children = [generate_random_tree(max_depth - 1, pc, terminal_list, constants, p_pick_constant, p_cut_tree, False)
                         for _ in range(num_children)]
             
             # Set depth
@@ -64,7 +67,7 @@ def generate_random_tree(max_depth: int, pc: float, terminal_list: List[str],
         else:                                           
             func = random.choice(list(basic_function_set.keys()))
             num_children = basic_function_set[func].__code__.co_argcount  # Numero di argomenti della funzione
-            children = [generate_random_tree(max_depth - 1, pc, terminal_list, constants, p_pick_constant, p_cut_tree)
+            children = [generate_random_tree(max_depth - 1, pc, terminal_list, constants, p_pick_constant, p_cut_tree, False)
                         for _ in range(num_children)]
             # Set depth
             cur_depth = max([child.get_depth() for child in children]) + 1
