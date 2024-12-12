@@ -103,9 +103,10 @@ class Node:
         _get_subtree(result, self)
         return result
 
-    def draw(self):
+    def draw(self, depth):
         try:
-            return draw(self)
+            print("Drawing the tree...")
+            return draw(self, depth)
         except Exception as msg:
             warnings.warn(f"Drawing not available ({msg})", UserWarning, 2)
             return None
@@ -114,7 +115,7 @@ class Node:
     def get_random_node(self):
         nodes = list(self.subtree)
         return random.choice(nodes)
-    
+
     def something(self):
         return 1
 
