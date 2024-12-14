@@ -8,9 +8,9 @@ function_set = {
     'sin': lambda x: np.sin(x),
     'cos': lambda x: np.cos(x),
     'neg': lambda x: np.negative(x),
-    'inv': lambda x: np.reciprocal(x),
-    'sqrt': lambda x: np.sqrt(x),
-    'log': lambda x: np.log(x),
+    'inv': lambda x: np.reciprocal(x) if x != 0 else x,
+    'sqrt': lambda x: np.sqrt(np.abs(x)),
+    'log': lambda x: np.log(np.abs(x)),
     'abs': lambda x: np.abs(x),
     'pow': lambda x, y: np.power(x, y),
 }
