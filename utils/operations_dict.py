@@ -19,6 +19,8 @@ basic_function_set = {
     'sub': function_set['sub'],
     'mul': function_set['mul'],
     'div': function_set['div'],
+    'abs': function_set['abs'],
+    'sqrt': function_set['sqrt'],
 }
 complex_function_set = {
     'exp': function_set['exp'],
@@ -26,8 +28,6 @@ complex_function_set = {
     'cos': function_set['cos'],
     'neg': function_set['neg'],
     'inv': function_set['inv'],
-    'sqrt': function_set['sqrt'],
     'log': function_set['log'],
-    'abs': function_set['abs'],
     'pow': function_set['pow'],
 }

@@ -84,3 +84,47 @@ def generate_random_tree_R(max_depth: int, pc: float, terminal_list: List[str],
             my_node = Node(basic_function_set[func], children, name=func)
             my_node.set_depth(cur_depth)
             return my_node
+        
+def point_mutation(Tree: Node, terminal_list: List[str], constants: list[float] = None, p_pick_constant: float = 0.2, pc: float = 0.2) -> Node:
+    """
+    Mutate a tree by changing a random node to a new random node.
+
+    Parameters
+    ----------
+    Tree : Node
+        The tree to mutate.
+
+    Returns
+    -------
+    Node
+        The mutated tree.
+    """
+
+    # Get the list of nodes in the tree
+    node = Tree.get_random_node()
+
+    # If the node is a terminal, change it to a new terminal
+    if node.is_leaf:
+        if constants is not None and random.random() < p_pick_constant:
+            terminal = random.choice(constants)
+        else:
+            terminal = random.choice(terminal_list)
+        node.set_func(terminal)
+        return Tree
+    # Otherwise, change it to a new function maintaining the arity
+    else:
+        if random.random() < pc:
+            while True:
+                func = random.choice(list(complex_function_set.keys()))
+                arity = complex_function_set[func].__code__.co_argcount
+                if arity == node._arity:
+                    break
+            node.set_func(complex_function_set[func], name=func)
+        else:
+            while True:
+                func = random.choice(list(basic_function_set.keys()))
+                arity = basic_function_set[func].__code__.co_argcount
+                if arity == node._arity:
+                    break
+            node.set_func(basic_function_set[func], name=func)
+        return Tree

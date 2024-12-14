@@ -122,7 +122,29 @@ class Node:
 
     def get_depth(self):
         return self._depth
-
+    
+    def set_func(self, func, name=None):
+        def _f(*_args, **_kwargs):
+                return func(*_args)
+        if callable(func):
+            self._func = _f
+            self._arity = arity(func)
+            if name is not None:
+                self._str = name
+            elif func.__name__ == '<lambda>':
+                self._str = 'λ'
+            else:
+                self._str = func.__name__
+        elif isinstance(func, numbers.Number):
+            self._func = eval(f'lambda **_kw: {func}')
+            self._arity = 0
+            self._str = f'{func:g}'
+        elif isinstance(func, str):
+            self._func = eval(f'lambda *, {func}, **_kw: {func}')
+            self._arity = 0
+            self._str = str(func)
+        else:
+            assert False
 
 def _get_subtree(bunch: set, node: Node):
     bunch.add(node)
