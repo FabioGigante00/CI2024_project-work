@@ -93,6 +93,14 @@ def point_mutation(Tree: Node, terminal_list: List[str], constants: list[float] 
     ----------
     Tree : Node
         The tree to mutate.
+    terminal_list : List[str]
+        The terminal list to choose from. Example: ['x0', 'x1', 'x2']
+    constants : list[float]
+        A list of constants that can be used in the tree.
+    p_pick_constant : float
+        The probability of choosing a constant over a terminal.
+    pc : float
+        The probability of choosing a complex function over a basic function.
 
     Returns
     -------
@@ -128,3 +136,52 @@ def point_mutation(Tree: Node, terminal_list: List[str], constants: list[float] 
                     break
             node.set_func(basic_function_set[func], name=func)
         return Tree
+    
+def subtree_mutation(Tree: Node, terminal_list: List[str], constants: list[float] = None, p_pick_constant: float = 0.2, pc: float = 0.2, depth: int = 3, verbose: bool = False) -> Node:
+    """
+    Mutate a tree by changing a random subtree to a new random subtree.
+
+    Parameters
+    ----------
+    Tree : Node
+        The tree to mutate.
+    terminal_list : List[str]
+        The terminal list to choose from. Example: ['x0', 'x1', 'x2']
+    constants : list[float]
+        A list of constants that can be used in the tree.
+    p_pick_constant : float
+        The probability of choosing a constant over a terminal.
+    pc : float
+        The probability of choosing a complex function over a basic function.
+    depth : int
+        The maximum depth of the new subtree.
+
+    Returns
+    -------
+    Node
+        The mutated tree.
+    """
+
+    # Get the list of nodes in the tree
+    node = Tree.get_random_node()
+
+    if verbose:
+        print(f"Node to mutate: {node._str} at depth {node._depth}")
+
+    # If the node is a terminal, change it to a new terminal
+    new_subtree = generate_random_tree(depth, pc, terminal_list, constants, p_pick_constant)
+
+    #select from the tuple of the successor a node randomly
+    successors = list(node._successors)
+    if len(successors) != 0:
+        index = random.randint(0, len(successors) - 1)
+    else:
+        index = 0
+
+    if verbose:
+        print(f"Old subtree: {successors[index]._str}")
+    successors[index] = new_subtree
+
+    node._successors = tuple(successors)
+    return Tree
+
