@@ -5,15 +5,15 @@ from typing import List
 from gxgp.node import Node
 from utils.operations_dict import basic_function_set, complex_function_set
 
-def generate_random_tree(max_depth: int, pc: float, terminal_list: List[str],
+def generate_random_tree(max_height: int, pc: float, terminal_list: List[str],
                          constants: list[float] = None, p_pick_constant: float = 0.2, p_cut_tree: float = 0.2) -> Node:
     """
     Generate a random symbolic expression tree.
 
     Mandatory Parameters
     ----------
-    max_depth : int
-        The maximum depth of the tree.
+    max_height : int
+        The maximum height of the tree.
     pc : float
         The probability of choosing a complex function over a basic function.
     terminal_list : List[str]
@@ -34,13 +34,13 @@ def generate_random_tree(max_depth: int, pc: float, terminal_list: List[str],
         A Node object representing the root of the tree.
     """
 
-    if max_depth < 1:
-        raise ValueError("max_depth must be 1 or greater")
+    if max_height < 1:
+        raise ValueError("max_height must be 1 or greater")
 
     #                                                                                                   > Flag to check if root, in order not to create 0-length trees
-    return generate_random_tree_R(max_depth, pc, terminal_list, constants, p_pick_constant, p_cut_tree, True)
+    return generate_random_tree_R(max_height, pc, terminal_list, constants, p_pick_constant, p_cut_tree, True)
 
-def generate_random_tree_R(max_depth: int, pc: float, terminal_list: List[str],
+def generate_random_tree_R(max_height: int, pc: float, terminal_list: List[str],
                          constants: list[float] = None, p_pick_constant: float = 0.2, p_cut_tree: float = 0.2,
                          is_root: bool = True) -> Node:
     """
@@ -48,7 +48,7 @@ def generate_random_tree_R(max_depth: int, pc: float, terminal_list: List[str],
     """
 
     # Cut the tree early with probability 0.2
-    if (not is_root and random.random() < p_cut_tree) or max_depth == 0:  
+    if (not is_root and random.random() < p_cut_tree) or max_height == 0:  
         # If constants are provided, choose one with probability p_pick_constant
         if constants is not None and random.random() < p_pick_constant: 
             terminal = random.choice(constants) 
@@ -56,33 +56,33 @@ def generate_random_tree_R(max_depth: int, pc: float, terminal_list: List[str],
         else:                                                
             terminal = random.choice(terminal_list)
 
-        # Set the depth of the node to 0
+        # Set the height of the node to 0
         my_node = Node(terminal)
-        my_node.set_depth(0)
+        my_node.set_height(0)
         return my_node
     else:
         # Choose a complex function with probability pc
         if random.random() < pc:                       
             func = random.choice(list(complex_function_set.keys()))
             num_children = complex_function_set[func].__code__.co_argcount  # Numero di argomenti della funzione
-            children = [generate_random_tree_R(max_depth - 1, pc, terminal_list, constants, p_pick_constant, p_cut_tree, False)
+            children = [generate_random_tree_R(max_height - 1, pc, terminal_list, constants, p_pick_constant, p_cut_tree, False)
                         for _ in range(num_children)]
             
-            # Set depth
-            cur_depth = max([child.get_depth() for child in children]) + 1
+            # Set height
+            cur_height = max([child.get_height() for child in children]) + 1
             my_node = Node(complex_function_set[func], children, name=func)
-            my_node.set_depth(cur_depth)
+            my_node.set_height(cur_height)
             return my_node
         # Otherwise, choose a basic function
         else:                                           
             func = random.choice(list(basic_function_set.keys()))
             num_children = basic_function_set[func].__code__.co_argcount  # Numero di argomenti della funzione
-            children = [generate_random_tree_R(max_depth - 1, pc, terminal_list, constants, p_pick_constant, p_cut_tree, False)
+            children = [generate_random_tree_R(max_height - 1, pc, terminal_list, constants, p_pick_constant, p_cut_tree, False)
                         for _ in range(num_children)]
-            # Set depth
-            cur_depth = max([child.get_depth() for child in children]) + 1
+            # Set height
+            cur_height = max([child.get_height() for child in children]) + 1
             my_node = Node(basic_function_set[func], children, name=func)
-            my_node.set_depth(cur_depth)
+            my_node.set_height(cur_height)
             return my_node
         
 def point_mutation(Tree: Node, terminal_list: List[str], constants: list[float] = None, p_pick_constant: float = 0.2, pc: float = 0.2) -> Node:
@@ -137,7 +137,7 @@ def point_mutation(Tree: Node, terminal_list: List[str], constants: list[float] 
             node.set_func(basic_function_set[func], name=func)
         return Tree
     
-def subtree_mutation(Tree: Node, terminal_list: List[str], constants: list[float] = None, p_pick_constant: float = 0.2, pc: float = 0.2, depth: int = 3, verbose: bool = False) -> Node:
+def subtree_mutation(Tree: Node, terminal_list: List[str], constants: list[float] = None, p_pick_constant: float = 0.2, pc: float = 0.2, height: int = 3, verbose: bool = False) -> Node:
     """
     Mutate a tree by changing a random subtree to a new random subtree.
 
@@ -153,8 +153,8 @@ def subtree_mutation(Tree: Node, terminal_list: List[str], constants: list[float
         The probability of choosing a constant over a terminal.
     pc : float
         The probability of choosing a complex function over a basic function.
-    depth : int
-        The maximum depth of the new subtree.
+    height : int
+        The maximum height of the new subtree.
 
     Returns
     -------
@@ -166,10 +166,10 @@ def subtree_mutation(Tree: Node, terminal_list: List[str], constants: list[float
     node = Tree.get_random_node()
 
     if verbose:
-        print(f"Node to mutate: {node._str} at depth {node._depth}")
+        print(f"Node to mutate: {node._str} at height {node._height}")
 
     # If the node is a terminal, change it to a new terminal
-    new_subtree = generate_random_tree(depth, pc, terminal_list, constants, p_pick_constant)
+    new_subtree = generate_random_tree(height, pc, terminal_list, constants, p_pick_constant)
 
     #select from the tuple of the successor a node randomly
     successors = list(node._successors)

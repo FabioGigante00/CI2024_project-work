@@ -6,24 +6,24 @@
 
 import inspect
 
-def draw(node: "Node", depth: int = None):
+def draw(node: "Node", height: int = None):
     import networkx as nx
     from networkx.drawing.nx_pydot import graphviz_layout
     import matplotlib.pyplot as plt
     import inspect
 
     # Set the figure size (fine-tuning used a full_tree=True generation in generate_random_tree())
-    if depth < 1:
-        raise ValueError("Depth must be at least 1 (inside draw()). Modify this Error to a special solution for depth = 0, i.e. terminal node")
+    if height < 1:
+        raise ValueError("height must be at least 1 (inside draw()). Modify this Error to a special solution for height = 0, i.e. terminal node")
     
-    if not depth:
-        depth = 10
+    if not height:
+        height = 10
 
-    if depth < 6:
+    if height < 6:
         my_size = 30
-    elif depth == 6:
+    elif height == 6:
         my_size = 50
-    elif depth < 9:
+    elif height < 9:
         my_size = 100
     else:
         my_size = 200
