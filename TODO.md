@@ -1,4 +1,7 @@
+# Pruning the solution space
+maybe it's hard to implement these, but let's consider them at some point
+- `div` should not be able to divide a value by itself, since it just becomes a 1 and we already have it in the constants
+- try allowing for only sinusoids and paraboloids to reduce overfitting
+
 # Known Bugs
-Alle volte quando si runna draw (o forse avviene dentro generate_random_tree ma non sono sicuro) compare `UserWarning: Drawing not available (`np.alltrue` was removed in the NumPy 2.0 release. Use `np.all` instead.)`.  
-Non mi sono soffermato a comprenderlo e non mi è più apparso, quindi è da investigare.  
-È possibile che la riproducibilità sia maggiore per alberi piccoli.  
+Generando un albero di altezza 1 con operazione unaria (quindi una sola radice accompagnata da una sola foglia) tipo `cos` o `sqrt` esce `UserWarning: Drawing not available (`np.alltrue` was removed in the NumPy 2.0 release. Use `np.all` instead.)`, e la foglia viene disegnata a fanculo giu senza linea a collegarle radice e foglia

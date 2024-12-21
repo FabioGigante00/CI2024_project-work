@@ -6,18 +6,25 @@
 
 import inspect
 
-def draw(node: "Node", height: int = None):
+def draw(node: "Node", height: int):
+    """ 
+    Draws the tree of course. Note that if the depth is too high, you may need to save the output figure and then zoom in using a photo viewer.
+    """
     import networkx as nx
     from networkx.drawing.nx_pydot import graphviz_layout
     import matplotlib.pyplot as plt
     import inspect
 
-    # Set the figure size (fine-tuning used a full_tree=True generation in generate_random_tree())
-    if height < 1:
-        raise ValueError("height must be at least 1 (inside draw()). Modify this Error to a special solution for height = 0, i.e. terminal node")
+    if height < 0:
+        raise ValueError(f"height can't be negative, but is {height}")
     
-    if not height:
-        height = 10
+    if height == 0:
+        plt.figure(figsize=(5,5))
+        plt.scatter(0.5, 0.5, s=500, c='lightblue', marker='s')
+        plt.text(0.5, 0.5, node.short_name, ha='center', va='center', fontsize=12)
+        plt.axis('off')
+        plt.show()
+        return
 
     if height < 6:
         my_size = 30

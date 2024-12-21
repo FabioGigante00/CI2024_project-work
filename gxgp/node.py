@@ -105,6 +105,10 @@ class Node:
         return result
 
     def draw(self):
+        """ 
+        Draws the tree of course.  
+        Note that if the depth is too high, you may need to save the output figure and then zoom in using a photo viewer.
+        """
         try:
             print(f"Drawing tree with height {self._height}...")
             return draw(self, self._height)
