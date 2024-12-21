@@ -106,8 +106,7 @@ class Node:
 
     def draw(self):
         """ 
-        Draws the tree of course.  
-        Note that if the depth is too high, you may need to save the output figure and then zoom in using a photo viewer.
+        Draws the tree. Note that if the depth is too high, you may need to save the output figure and then zoom in using a photo viewer.
         """
         try:
             print(f"Drawing tree with height {self._height}...")
@@ -115,7 +114,8 @@ class Node:
         except Exception as msg:
             warnings.warn(f"Drawing not available ({msg})", UserWarning, 2)
             return None
-        
+
+
     """ Additions by Leonardo, Fabio, Dragos """
     def get_random_node(self):
         nodes = list(self.subtree)
@@ -149,6 +149,13 @@ class Node:
             self._str = str(func)
         else:
             assert False
+
+    def replace_tree(self, tree):
+        self._func = tree._func
+        self._successors = tree._successors
+        self._arity = tree._arity
+        self._str = tree._str
+        self._height = tree._height
 
 def _get_subtree(bunch: set, node: Node):
     bunch.add(node)
