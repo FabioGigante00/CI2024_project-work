@@ -27,9 +27,12 @@ class Node:
 
             def _f(*_args, **_kwargs):
                 return node(*_args)
-
+            self._height=None
             self._func = _f
-            self._successors = tuple(successors)
+            if successors is None:
+                successors = tuple([])
+            else:
+                self._successors = tuple(successors)
             self._arity = arity(node)
             assert self._arity is None or len(tuple(successors)) == self._arity, (
                 "Panic: Incorrect number of children."
@@ -162,6 +165,14 @@ class Node:
             if node.is_leaf:
                 leafs.append(node)
         return leafs
+    def clone(self):
+        #recursive clone of the tree
+        if self.is_leaf:
+            return Node(self._func, name=self._str)
+        else:
+            return Node(self._func, [c.clone() for c in self._successors], name=self._str)
+        
+
 
 def _get_subtree(bunch: set, node: Node):
     bunch.add(node)
