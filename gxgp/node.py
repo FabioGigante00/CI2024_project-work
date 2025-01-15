@@ -156,6 +156,12 @@ class Node:
         self._arity = tree._arity
         self._str = tree._str
         self._height = tree._height
+    def get_leafs(self):
+        leafs = []
+        for node in self.subtree:
+            if node.is_leaf:
+                leafs.append(node)
+        return leafs
 
 def _get_subtree(bunch: set, node: Node):
     bunch.add(node)
