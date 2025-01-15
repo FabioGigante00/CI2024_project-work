@@ -119,7 +119,10 @@ class Node:
             height = self._height
 
         try:
-            print(f"Drawing tree with height {height}...")
+            if self._height is None:
+                print(f"Drawing tree with height None. Defaulting to height 10 representation...")
+            else:
+                print(f"Drawing tree with height {height}...")
             return draw(self, height)
         except Exception as msg:
             warnings.warn(f"Drawing not available ({msg})", UserWarning, 2)
