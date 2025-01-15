@@ -111,9 +111,16 @@ class Node:
         """ 
         Draws the tree. Note that if the depth is too high, you may need to save the output figure and then zoom in using a photo viewer.
         """
+        if self._arity == 0:
+            height = 0
+        elif self._height is None:
+            height = 10
+        else:
+            height = self._height
+
         try:
-            print(f"Drawing tree with height {self._height}...")
-            return draw(self, self._height)
+            print(f"Drawing tree with height {height}...")
+            return draw(self, height)
         except Exception as msg:
             warnings.warn(f"Drawing not available ({msg})", UserWarning, 2)
             return None
@@ -153,12 +160,13 @@ class Node:
         else:
             assert False
 
-    def replace_tree(self, tree):
+    def replace_tree_shallow(self, tree):
         self._func = tree._func
         self._successors = tree._successors
         self._arity = tree._arity
         self._str = tree._str
         self._height = tree._height
+
     def get_leafs(self):
         leafs = []
         for node in self.subtree:
