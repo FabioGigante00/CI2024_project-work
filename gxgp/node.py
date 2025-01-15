@@ -8,12 +8,28 @@ import numbers
 import random
 import warnings
 from typing import Callable
+import numpy as np
 
 from .draw import draw
 from .utils import arity
 
 __all__ = ['Node']
 
+function_set = {
+    'add': lambda x, y: np.add(x, y),
+    'sub': lambda x, y: np.subtract(x, y),
+    'mul': lambda x, y: np.multiply(x, y),
+    'div': lambda x, y: np.divide(x, y),
+    'exp': lambda x: np.exp(x),
+    'sin': lambda x: np.sin(x),
+    'cos': lambda x: np.cos(x),
+    'neg': lambda x: np.negative(x),
+    'inv': lambda x: np.reciprocal(x) if x != 0 else x,
+    'sqrt': lambda x: np.sqrt(np.abs(x)),
+    'log': lambda x: np.log(np.abs(x)),
+    'abs': lambda x: np.abs(x),
+    'pow': lambda x, y: np.power(x, y),
+}
 
 class Node:
     _func: Callable
@@ -22,12 +38,12 @@ class Node:
     _str: str
     _height: int
 
-    def __init__(self, node=None, successors=None, *, name=None):
+    def __init__(self, node=None, successors=None, *, name=None, height=None):
         if callable(node):
-
+            # print(f"inside callable(node)")
             def _f(*_args, **_kwargs):
                 return node(*_args)
-            self._height=None
+            self._height=height
             self._func = _f
             if successors is None:
                 successors = tuple([])
@@ -48,19 +64,37 @@ class Node:
             else:
                 self._str = node.__name__
         elif isinstance(node, numbers.Number):
+            # print(f"inside isinstance(node, numbers.Number)")
             self._func = eval(f'lambda **_kw: {node}')
             self._successors = tuple()
             self._arity = 0
             self._str = f'{node:g}'
+            self._height=height
         elif isinstance(node, str):
+            # print(f"inside isinstance(node, str)")
             self._func = eval(f'lambda *, {node}, **_kw: {node}')
             self._successors = tuple()
             self._arity = 0
             self._str = str(node)
+            self._height=height
         else:
             assert False
 
     def __call__(self, **kwargs):
+        #====# Debugging Fossils
+        # print(f"successors are ", end="")
+        # for c in self._successors:
+        #     print(f"{c._str} ", end="")
+        # print()
+        # print(f"Calling node: {self._str} with kwargs: {kwargs}")
+        # try:
+        #     result = self._func(*[c(**kwargs) for c in self._successors], **kwargs)
+        #     print(f"Result of node {self._str}: {result}")
+        #     return result
+        # except TypeError as e:
+        #     print(f"Error in node {self._str}: {e}")
+        #     raise
+        #====# End of Debugging Fossils
         return self._func(*[c(**kwargs) for c in self._successors], **kwargs)
 
     def __str__(self):
@@ -88,7 +122,8 @@ class Node:
 
     @property
     def is_leaf(self):
-        return not self._successors
+        # return self._successors is None or len(self._successors) == 0
+        return self._arity == 0
 
     @property
     def short_name(self):
@@ -111,19 +146,11 @@ class Node:
         """ 
         Draws the tree. Note that if the depth is too high, you may need to save the output figure and then zoom in using a photo viewer.
         """
-        if self._arity == 0:
-            height = 0
-        elif self._height is None:
-            height = 10
-        else:
-            height = self._height
+        self.reeval_heights()
 
         try:
-            if self._height is None:
-                print(f"Drawing tree with height None. Defaulting to height 10 representation...")
-            else:
-                print(f"Drawing tree with height {height}...")
-            return draw(self, height)
+            print(f"Drawing tree with height {self._height}...")
+            return draw(self, self._height)
         except Exception as msg:
             warnings.warn(f"Drawing not available ({msg})", UserWarning, 2)
             return None
@@ -178,11 +205,29 @@ class Node:
         return leafs
     def clone(self):
         #recursive clone of the tree
+        try:
+            my_node = function_set[self._str]   # 1) if the node _str is in the function set then take the relative lambda
+        except KeyError:
+            try:
+                my_node = float(self._str)      # 2) if the node _str is a number then take the number converted as float
+            except ValueError:
+                my_node = self._str             # 3) if the node _str is a string then keep it as string
+
         if self.is_leaf:
-            return Node(self._func, name=self._str)
+            return Node(my_node, name=self._str, height=self._height)
         else:
-            return Node(self._func, [c.clone() for c in self._successors], name=self._str)
+            return Node(my_node, [c.clone() for c in self._successors], name=self._str, height=self._height)
         
+    def reeval_heights(self):
+        def _reeval_heights(node):
+            if node.is_leaf:
+                node._height = 0
+            else:
+                for child in node._successors:
+                    _reeval_heights(child)
+                node._height = 1 + max(child._height for child in node._successors)
+
+        _reeval_heights(self) 
 
 
 def _get_subtree(bunch: set, node: Node):
