@@ -15,21 +15,7 @@ from .utils import arity
 
 __all__ = ['Node']
 
-function_set = {
-    'add': lambda x, y: np.add(x, y),
-    'sub': lambda x, y: np.subtract(x, y),
-    'mul': lambda x, y: np.multiply(x, y),
-    'div': lambda x, y: np.divide(x, y),
-    'exp': lambda x: np.exp(x),
-    'sin': lambda x: np.sin(x),
-    'cos': lambda x: np.cos(x),
-    'neg': lambda x: np.negative(x),
-    'inv': lambda x: np.reciprocal(x) if x != 0 else x,
-    'sqrt': lambda x: np.sqrt(np.abs(x)),
-    'log': lambda x: np.log(np.abs(x)),
-    'abs': lambda x: np.abs(x),
-    'pow': lambda x, y: np.power(x, y),
-}
+from utils.operations_dict import function_set
 
 class Node:
     _func: Callable
@@ -228,6 +214,19 @@ class Node:
                 node._height = 1 + max(child._height for child in node._successors)
 
         _reeval_heights(self) 
+
+    def tree_distance(self, other):
+        def _tree_distance(node1, node2):
+            if node1.is_leaf:
+                return 1 if node1._str != node2._str else 0
+            if node2.is_leaf:
+                return 1
+            if node1._str != node2._str:
+                # return number of descendants of the two nodes
+                return node1.__len__() + node2.__len__() + 1
+            return sum(_tree_distance(c1, c2) for c1, c2 in zip(node1._successors, node2._successors))
+
+        return _tree_distance(self, other)
 
 
 def _get_subtree(bunch: set, node: Node):
