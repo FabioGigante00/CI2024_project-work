@@ -218,9 +218,9 @@ class Node:
     def tree_distance(self, other):
         def _tree_distance(node1, node2):
             if node1.is_leaf:
-                return 1 if node1._str != node2._str else 0
+                return node2.__len__() + 1 if node1._str != node2._str else 0
             if node2.is_leaf:
-                return 1
+                return node1.__len__() + 1
             if node1._str != node2._str:
                 # return number of descendants of the two nodes
                 return node1.__len__() + node2.__len__() + 1
