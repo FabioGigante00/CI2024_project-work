@@ -1,0 +1,19 @@
+# Configuration
+conf = {
+    'problem': 6,
+    'crossover': <function recombination_crossover at 0x10907fd80>,
+    'OFFSPRING_SIZE': 100,
+    'POPULATION_SIZE': 40,
+    'OUTSIDER_SIZE': 10,
+    'pm': 0.05375000000000002,
+    'x_elitism': 0.08,
+    'MAX_GENERATIONS': 40,
+    'HEIGHT': 5,
+    'PC': 0.1,
+    'P_PICK_CONSTANT': 0.4,
+    'P_CUT_TREE': 0.05,
+}
+
+# Resulting function
+mul(add(x1, log(sqrt(sub(div(x0, 4), sqrt(div(x1, mul(x1, sqrt(sqrt(log(sqrt(sub(div(x0, 4), sqrt(div(abs(x1), mul(x1, div(sqrt(mul(1, add(sqrt(mul(sqrt(div(x1, mul(x1, sqrt(sqrt(log(sqrt(sub(div(x0, 4), sqrt(div(abs(x1), mul(x1, div(sqrt(mul(1, add(sqrt(mul(1, add(sqrt(x0), add(sqrt(x1), mul(sqrt(sqrt(abs(4))), sqrt(sqrt(1))))))), add(sqrt(x1), mul(sqrt(sqrt(abs(sqrt(sqrt(abs(add(mul(x0, x1), mul(sqrt(sqrt(add(mul(add(x1, 17), add(sqrt(x0), add(div(abs(x1), mul(x1, sqrt(abs(log(sqrt(sub(div(x0, 4), sqrt(div(div(13, 16), mul(x1, sqrt(sqrt(sqrt(add(mul(1, x0), add(add(mul(1, add(sqrt(x0), add(sqrt(x1), mul(sqrt(x1), sqrt(sqrt(x0)))))), add(x1, x0)), abs(x1)))))))))))))))), 4))), add(x1, x0)))), x1)))))))), sqrt(sqrt(1))))))), div(x0, x0))))))))))))), add(sqrt(x0), add(sqrt(x1), mul(sqrt(sqrt(abs(4))), sqrt(sqrt(1))))))), add(sqrt(x1), mul(sqrt(sqrt(abs(sqrt(sqrt(abs(add(mul(x0, x1), mul(sqrt(sqrt(add(mul(add(x1, 17), add(sqrt(x0), add(div(abs(x1), mul(x1, sqrt(abs(log(sqrt(sub(sqrt(abs(add(mul(x0, x1), mul(add(sqrt(x0), add(sqrt(x1), mul(sqrt(sqrt(abs(sqrt(sqrt(abs(add(mul(x0, x1), mul(sqrt(sqrt(add(mul(add(x1, 17), add(sqrt(x0), add(div(abs(x1), mul(x1, sqrt(abs(log(sqrt(sub(div(x0, 4), sqrt(div(x1, mul(x1, mul(sqrt(sqrt(abs(sqrt(sqrt(abs(add(mul(x0, x1), mul(sqrt(x1), x1)))))))), sqrt(sqrt(x0))))))))))))), mul(sqrt(sqrt(abs(sqrt(sqrt(x0))))), x0)))), add(x1, 17)))), x1)))))))), sqrt(sqrt(sqrt(sqrt(add(mul(x0, abs(3)), add(x1, 17))))))))), x1)))), sqrt(div(div(13, 16), mul(x1, sqrt(sqrt(sqrt(add(mul(1, x0), add(add(mul(1, add(sqrt(x0), add(sqrt(x1), mul(sqrt(x1), sqrt(sqrt(x0)))))), add(x1, x0)), abs(x1)))))))))))))))), 4))), add(x1, 17)))), x1)))))))), sqrt(sqrt(1))))))), div(x0, x0))))))))))))))))), sqrt(abs(3)))# Resulting fitness
+37.27320046559264
