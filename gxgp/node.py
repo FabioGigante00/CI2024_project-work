@@ -23,6 +23,7 @@ class Node:
     _arity: int
     _str: str
     _height: int
+    _constant:bool
 
     def __init__(self, node=None, successors=None, *, name=None, height=None):
         if callable(node):
@@ -49,6 +50,7 @@ class Node:
                 self._str = 'λ'
             else:
                 self._str = node.__name__
+            self._constant = False
         elif isinstance(node, numbers.Number):
             # print(f"inside isinstance(node, numbers.Number)")
             self._func = eval(f'lambda **_kw: {node}')
@@ -56,6 +58,7 @@ class Node:
             self._arity = 0
             self._str = f'{node:g}'
             self._height=height
+            self._constant = True
         elif isinstance(node, str):
             # print(f"inside isinstance(node, str)")
             self._func = eval(f'lambda *, {node}, **_kw: {node}')
@@ -63,6 +66,7 @@ class Node:
             self._arity = 0
             self._str = str(node)
             self._height=height
+            self._constant = False
         else:
             assert False
 
@@ -182,6 +186,7 @@ class Node:
         self._arity = tree._arity
         self._str = tree._str
         self._height = tree._height
+        self._constant = tree._constant
 
     def get_leafs(self):
         leafs = []
@@ -227,6 +232,19 @@ class Node:
             return sum(_tree_distance(c1, c2) for c1, c2 in zip(node1._successors, node2._successors))
 
         return _tree_distance(self, other)
+    def collapse_costants(self):
+        # This function needs to explore the tree and replace
+        # subtrees that have only constants as leafs with a single node
+        # that contains the result of the evaluation of the subtree
+        # with the constants as arguments
+        def _collapse_constants(node):
+            if node.is_leaf:
+                return node
+            if all(c._constant for c in node.get_leafs()):
+                return Node(node._func(*[c() for c in node._successors]), name=node._str, height=node._height)
+
+            return Node(node._func, [_collapse_constants(c) for c in node._successors], name=node._str, height=node._height)
+        return _collapse_constants(self)
 
 
 def _get_subtree(bunch: set, node: Node):

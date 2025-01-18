@@ -1,0 +1,19 @@
+# Configuration
+conf = {
+    'problem': 6,
+    'crossover': <function recombination_crossover at 0x1181a8360>,
+    'OFFSPRING_SIZE': 200,
+    'POPULATION_SIZE': 100,
+    'OUTSIDER_SIZE': 20,
+    'pm': 0.15300000000000002,
+    'x_elitism': 0.08,
+    'MAX_GENERATIONS': 150,
+    'HEIGHT': 5,
+    'PC': 0.1,
+    'P_PICK_CONSTANT': 0.4,
+    'P_CUT_TREE': 0.05,
+}
+
+# Resulting function
+sub(add(add(x1, x1), abs(sub(add(sqrt(add(sub(sub(sub(add(add(x0, x1), abs(sub(sub(6, 6), add(sub(sin(sub(sqrt(add(sqrt(inv(sqrt(sub(6, 6)))), sqrt(x0))), x1)), add(add(sqrt(x0), mul(sub(sub(add(add(x0, x1), abs(sub(sub(6, 6), sqrt(add(add(sqrt(x1), mul(sub(x1, x1), sub(sin(sub(x1, x1)), add(add(sqrt(add(x1, mul(sub(x1, x1), add(6, x0)))), mul(sub(div(sin(sub(10, x1)), x1), mul(sin(sub(x1, x1)), add(sqrt(inv(sqrt(sub(abs(x1), 6)))), sqrt(x0)))), x1)), x1)))), mul(sin(sub(x1, x1)), add(sqrt(inv(sqrt(x1))), sqrt(x0)))))))), x0), x1), x1)), mul(sin(x1), div(mul(sub(x1, x1), add(6, x1)), abs(x0))))), x1)))), x0), x1), x1), x0)), mul(sub(x1, x1), add(6, add(x1, x1)))), sqrt(add(add(sqrt(add(sub(sin(sub(x1, x1)), add(add(sqrt(x0), mul(sub(sub(add(add(x0, x1), abs(sub(sub(6, 6), sqrt(add(sqrt(x0), mul(sin(x1), mul(sub(x1, x1), add(6, x1)))))))), x0), x1), x1)), mul(sin(sub(x1, x1)), 6))), x1)), mul(sub(x1, x1), add(mul(sin(sub(x1, x1)), sqrt(x1)), x1))), mul(sin(sub(x1, x1)), add(sqrt(inv(sqrt(sub(abs(x1), 6)))), sqrt(add(add(x0, x1), abs(sub(sub(6, 6), sqrt(add(sqrt(x0), mul(sin(x1), mul(sub(x1, x1), 6))))))))))))))), x0)# Resulting fitness
+9.165831125897162
