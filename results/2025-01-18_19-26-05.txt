@@ -1,0 +1,19 @@
+# Configuration
+conf = {
+    'problem': 6,
+    'crossover': <function recombination_crossover at 0x1088d0360>,
+    'OFFSPRING_SIZE': 200,
+    'POPULATION_SIZE': 100,
+    'OUTSIDER_SIZE': 20,
+    'pm': 0.131,
+    'x_elitism': 0.08,
+    'MAX_GENERATIONS': 100,
+    'HEIGHT': 5,
+    'PC': 0.1,
+    'P_PICK_CONSTANT': 0.4,
+    'P_CUT_TREE': 0.05,
+}
+
+# Resulting function
+add(x1, sub(div(add(add(x1, x1), sub(x1, sub(div(add(x1, sub(div(add(add(x1, x0), sub(add(x1, sub(x1, sub(div(div(sub(mul(div(x1, 3.4641), sub(add(x1, -0.48014), 0.31986)), sub(div(add(div(add(add(x1, x1), sub(x1, sub(x0, x0))), 3.4641), sub(add(x1, sub(x1, sub(div(div(sub(mul(-0.48014, sub(add(x1, -0.48014), 0.31986)), x1), 1), 3.4641), x0))), sub(div(abs(add(x1, div(x1, mul(div(4.3589, sub(4.3589, x1)), add(x1, x1))))), 18), abs(add(x1, abs(add(x1, div(x1, mul(div(4.3589, sub(4.3589, x1)), add(x1, x1)))))))))), 3.4641), x0)), 1), 3.4641), x0))), sub(div(abs(x1), 18), x0))), 3.4641), x0)), 3.4641), x0))), 3.4641), x0))# Resulting fitness
+0.00631456841139416
