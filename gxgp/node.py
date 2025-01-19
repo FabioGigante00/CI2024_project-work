@@ -232,7 +232,8 @@ class Node:
             return sum(_tree_distance(c1, c2) for c1, c2 in zip(node1._successors, node2._successors))
 
         return _tree_distance(self, other)
-    def collapse_costants(self):
+    
+    def collapse_constants(self):
         # This function needs to explore the tree and replace
         # subtrees that have only constants as leafs with a single node
         # that contains the result of the evaluation of the subtree
@@ -241,8 +242,18 @@ class Node:
             if node.is_leaf:
                 return node
             if all(c._constant for c in node.get_leafs()):
-                return Node(node._func(*[c() for c in node._successors]), name=node._str, height=node._height)
-
+                try:
+                    with warnings.catch_warnings():
+                        warnings.simplefilter("error", RuntimeWarning)
+                        result = node._func(*[c() for c in node._successors])
+                        if np.isfinite(result):
+                            return Node(result, name=node._str, height=node._height)
+                        else:
+                            return node
+                except (OverflowError, RuntimeWarning) as e:
+                    print(f"Error in node {node._str}: {e}")
+                    return node
+                
             return Node(node._func, [_collapse_constants(c) for c in node._successors], name=node._str, height=node._height)
         return _collapse_constants(self)
 
