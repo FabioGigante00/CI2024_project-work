@@ -22,10 +22,31 @@ basic_function_set = {
     'abs': function_set['abs'],
     'sqrt': function_set['sqrt'],
 }
+
 complex_function_set = {
     'exp': function_set['exp'],
     'sin': function_set['sin'],
     'cos': function_set['cos'],
+    'neg': function_set['neg'],
+    'inv': function_set['inv'],
+    'log': function_set['log'],
+    'pow': function_set['pow'],
+}
+
+
+sinusoidal_basic_function_set = {
+    'add': function_set['add'],
+    'sub': function_set['sub'],
+    'mul': function_set['mul'],
+    'div': function_set['div'],
+    'abs': function_set['abs'],
+    'sin': function_set['sin'],
+    'cos': function_set['cos'],
+}
+
+sinusoidal_complex_function_set = {
+    'sqrt': function_set['sqrt'],
+    'exp': function_set['exp'],
     'neg': function_set['neg'],
     'inv': function_set['inv'],
     'log': function_set['log'],
