@@ -1,0 +1,19 @@
+# Configuration
+conf = {
+    'problem': 6,
+    'crossover': <function recombination_crossover at 0x1088d0360>,
+    'OFFSPRING_SIZE': 200,
+    'POPULATION_SIZE': 100,
+    'OUTSIDER_SIZE': 20,
+    'pm': 0.131,
+    'x_elitism': 0.08,
+    'MAX_GENERATIONS': 100,
+    'HEIGHT': 5,
+    'PC': 0.1,
+    'P_PICK_CONSTANT': 0.4,
+    'P_CUT_TREE': 0.05,
+}
+
+# Resulting function
+np.add(x[1], np.subtract(np.divide(np.add(np.add(x[1], x[1]), np.subtract(x[1], np.subtract(np.divide(np.add(x[1], np.subtract(np.divide(np.add(np.add(x[1], x[0]), np.subtract(np.add(x[1], np.subtract(x[1], np.subtract(np.divide(np.divide(np.subtract(np.multiply(np.divide(x[1], 3.4641), np.subtract(np.add(x[1], -0.48014), 0.31986)), np.subtract(np.divide(np.add(np.divide(np.add(np.add(x[1], x[1]), np.subtract(x[1], np.subtract(x[0], x[0]))), 3.4641), np.subtract(np.add(x[1], np.subtract(x[1], np.subtract(np.divide(np.divide(np.subtract(np.multiply(-0.48014, np.subtract(np.add(x[1], -0.48014), 0.31986)), x[1]), 1), 3.4641), x[0]))), np.subtract(np.divide(np.abs(np.add(x[1], np.divide(x[1], np.multiply(np.divide(4.3589, np.subtract(4.3589, x[1])), np.add(x[1], x[1]))))), 18), np.abs(np.add(x[1], np.abs(np.add(x[1], np.divide(x[1], np.multiply(np.divide(4.3589, np.subtract(4.3589, x[1])), np.add(x[1], x[1])))))))))), 3.4641), x[0])), 1), 3.4641), x[0]))), np.subtract(np.divide(np.abs(x[1]), 18), x[0]))), 3.4641), x[0])), 3.4641), x[0]))), 3.4641), x[0]))# Resulting fitness
+0.00631456841139416
