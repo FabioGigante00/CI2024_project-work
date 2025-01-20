@@ -1,0 +1,19 @@
+# Configuration
+conf = {
+    'problem': 6,
+    'crossover': <function recombination_crossover at 0x10907fd80>,
+    'OFFSPRING_SIZE': 100,
+    'POPULATION_SIZE': 40,
+    'OUTSIDER_SIZE': 10,
+    'pm': 0.05375000000000002,
+    'x_elitism': 0.08,
+    'MAX_GENERATIONS': 40,
+    'HEIGHT': 5,
+    'PC': 0.1,
+    'P_PICK_CONSTANT': 0.4,
+    'P_CUT_TREE': 0.05,
+}
+
+# Resulting function
+np.multiply(np.add(x[1], my_log(my_sqrt(np.subtract(np.divide(x[0], 4), my_sqrt(np.divide(x[1], np.multiply(x[1], my_sqrt(my_sqrt(my_log(my_sqrt(np.subtract(np.divide(x[0], 4), my_sqrt(np.divide(np.abs(x[1]), np.multiply(x[1], np.divide(my_sqrt(np.multiply(1, np.add(my_sqrt(np.multiply(my_sqrt(np.divide(x[1], np.multiply(x[1], my_sqrt(my_sqrt(my_log(my_sqrt(np.subtract(np.divide(x[0], 4), my_sqrt(np.divide(np.abs(x[1]), np.multiply(x[1], np.divide(my_sqrt(np.multiply(1, np.add(my_sqrt(np.multiply(1, np.add(my_sqrt(x[0]), np.add(my_sqrt(x[1]), np.multiply(my_sqrt(my_sqrt(np.abs(4))), my_sqrt(my_sqrt(1))))))), np.add(my_sqrt(x[1]), np.multiply(my_sqrt(my_sqrt(np.abs(my_sqrt(my_sqrt(np.abs(np.add(np.multiply(x[0], x[1]), np.multiply(my_sqrt(my_sqrt(np.add(np.multiply(np.add(x[1], 17), np.add(my_sqrt(x[0]), np.add(np.divide(np.abs(x[1]), np.multiply(x[1], my_sqrt(np.abs(my_log(my_sqrt(np.subtract(np.divide(x[0], 4), my_sqrt(np.divide(np.divide(13, 16), np.multiply(x[1], my_sqrt(my_sqrt(my_sqrt(np.add(np.multiply(1, x[0]), np.add(np.add(np.multiply(1, np.add(my_sqrt(x[0]), np.add(my_sqrt(x[1]), np.multiply(my_sqrt(x[1]), my_sqrt(my_sqrt(x[0])))))), np.add(x[1], x[0])), np.abs(x[1])))))))))))))))), 4))), np.add(x[1], x[0])))), x[1])))))))), my_sqrt(my_sqrt(1))))))), np.divide(x[0], x[0]))))))))))))), np.add(my_sqrt(x[0]), np.add(my_sqrt(x[1]), np.multiply(my_sqrt(my_sqrt(np.abs(4))), my_sqrt(my_sqrt(1))))))), np.add(my_sqrt(x[1]), np.multiply(my_sqrt(my_sqrt(np.abs(my_sqrt(my_sqrt(np.abs(np.add(np.multiply(x[0], x[1]), np.multiply(my_sqrt(my_sqrt(np.add(np.multiply(np.add(x[1], 17), np.add(my_sqrt(x[0]), np.add(np.divide(np.abs(x[1]), np.multiply(x[1], my_sqrt(np.abs(my_log(my_sqrt(np.subtract(my_sqrt(np.abs(np.add(np.multiply(x[0], x[1]), np.multiply(np.add(my_sqrt(x[0]), np.add(my_sqrt(x[1]), np.multiply(my_sqrt(my_sqrt(np.abs(my_sqrt(my_sqrt(np.abs(np.add(np.multiply(x[0], x[1]), np.multiply(my_sqrt(my_sqrt(np.add(np.multiply(np.add(x[1], 17), np.add(my_sqrt(x[0]), np.add(np.divide(np.abs(x[1]), np.multiply(x[1], my_sqrt(np.abs(my_log(my_sqrt(np.subtract(np.divide(x[0], 4), my_sqrt(np.divide(x[1], np.multiply(x[1], np.multiply(my_sqrt(my_sqrt(np.abs(my_sqrt(my_sqrt(np.abs(np.add(np.multiply(x[0], x[1]), np.multiply(my_sqrt(x[1]), x[1])))))))), my_sqrt(my_sqrt(x[0]))))))))))))), np.multiply(my_sqrt(my_sqrt(np.abs(my_sqrt(my_sqrt(x[0]))))), x[0])))), np.add(x[1], 17)))), x[1])))))))), my_sqrt(my_sqrt(my_sqrt(my_sqrt(np.add(np.multiply(x[0], np.abs(3)), np.add(x[1], 17))))))))), x[1])))), my_sqrt(np.divide(np.divide(13, 16), np.multiply(x[1], my_sqrt(my_sqrt(my_sqrt(np.add(np.multiply(1, x[0]), np.add(np.add(np.multiply(1, np.add(my_sqrt(x[0]), np.add(my_sqrt(x[1]), np.multiply(my_sqrt(x[1]), my_sqrt(my_sqrt(x[0])))))), np.add(x[1], x[0])), np.abs(x[1])))))))))))))))), 4))), np.add(x[1], 17)))), x[1])))))))), my_sqrt(my_sqrt(1))))))), np.divide(x[0], x[0]))))))))))))))))), my_sqrt(np.abs(3)))# Resulting fitness
+37.27320046559264
