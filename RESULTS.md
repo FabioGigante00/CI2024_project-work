@@ -1,0 +1,1 @@
+Problem 3: 600m at 150gen with 48 fitness
