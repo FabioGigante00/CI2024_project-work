@@ -257,6 +257,63 @@ class Node:
                 
             return Node(node._func, [_collapse_constants(c) for c in node._successors], name=node._str, height=node._height)
         return _collapse_constants(self)
+    
+    def parse_formula(self, formula: str):
+        """
+        Parses a formula string and recreates a tree using the Node class.
+
+        Parameters
+        ----------
+        formula : str
+            The formula string to parse.
+
+        Returns
+        -------
+        Node
+            The root node of the recreated tree.
+        """
+        # Remove whitespace
+        formula = formula.replace(" ", "")
+
+        # Define a regex pattern to match function calls and their arguments
+        pattern = re.compile(r'(\w+)\((.*)\)')
+
+        def parse_subtree(subformula: str):
+            match = pattern.match(subformula)
+            if match:
+                func_name = match.group(1)
+                args_str = match.group(2)
+                args = split_args(args_str)
+                children = [parse_subtree(arg) for arg in args]
+                return Node(function_set[func_name], successors=children, name=func_name)
+            else:
+                # Handle terminal nodes (variables and constants)
+                try:
+                    return Node(float(subformula))
+                except ValueError:
+                    return Node(subformula)
+
+        def split_args(args_str: str) -> list:
+            """
+            Splits the arguments string into individual arguments, handling nested parentheses.
+            """
+            args = []
+            depth = 0
+            current_arg = []
+            for char in args_str:
+                if char == ',' and depth == 0:
+                    args.append(''.join(current_arg))
+                    current_arg = []
+                else:
+                    if char == '(':
+                        depth += 1
+                    elif char == ')':
+                        depth -= 1
+                    current_arg.append(char)
+            args.append(''.join(current_arg))
+            return args
+
+        return parse_subtree(formula)
 
 
 def _get_subtree(bunch: set, node: Node):
@@ -264,60 +321,3 @@ def _get_subtree(bunch: set, node: Node):
     for c in node._successors:
         _get_subtree(bunch, c)
 
-
-def parse_formula(formula: str) -> Node:
-    """
-    Parses a formula string and recreates a tree using the Node class.
-
-    Parameters
-    ----------
-    formula : str
-        The formula string to parse.
-
-    Returns
-    -------
-    Node
-        The root node of the recreated tree.
-    """
-    # Remove whitespace
-    formula = formula.replace(" ", "")
-
-    # Define a regex pattern to match function calls and their arguments
-    pattern = re.compile(r'(\w+)\((.*)\)')
-
-    def parse_subtree(subformula: str) -> Node:
-        match = pattern.match(subformula)
-        if match:
-            func_name = match.group(1)
-            args_str = match.group(2)
-            args = split_args(args_str)
-            children = [parse_subtree(arg) for arg in args]
-            return Node(function_set[func_name], successors=children, name=func_name)
-        else:
-            # Handle terminal nodes (variables and constants)
-            try:
-                return Node(float(subformula))
-            except ValueError:
-                return Node(subformula)
-
-    def split_args(args_str: str) -> list:
-        """
-        Splits the arguments string into individual arguments, handling nested parentheses.
-        """
-        args = []
-        depth = 0
-        current_arg = []
-        for char in args_str:
-            if char == ',' and depth == 0:
-                args.append(''.join(current_arg))
-                current_arg = []
-            else:
-                if char == '(':
-                    depth += 1
-                elif char == ')':
-                    depth -= 1
-                current_arg.append(char)
-        args.append(''.join(current_arg))
-        return args
-
-    return parse_subtree(formula)
