@@ -13,8 +13,6 @@ except ImportError:
 
 from .draw import *
 from .gp_common import *
-from .gp_dag import *
-from .gp_tree import *
 from .node import *
 from .random import gxgp_random
 from .utils import *
