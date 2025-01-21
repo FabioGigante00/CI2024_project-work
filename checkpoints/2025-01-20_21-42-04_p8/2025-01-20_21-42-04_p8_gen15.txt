@@ -1,0 +1,443 @@
+# Configuration
+conf = {
+    'problem': 8,
+    'crossover': <function recombination_crossover at 0x0000024850BA2840>,
+    'OFFSPRING_SIZE': 200,
+    'POPULATION_SIZE': 100,
+    'OUTSIDER_SIZE': 20,
+    'INITIAL_PM': 0.2,
+    'FINAL_PM': 0.05,
+    'x_elitism': 0.08,
+    'MAX_GENERATIONS': 100,
+    'HEIGHT': 5,
+    'PC': 0.15,
+    'P_PICK_CONSTANT': 0.4,
+    'P_CUT_TREE': 0.05,
+    'CONSTANTS': [1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0, 15.0, 16.0, 17.0, 18.0, 19.0, 20.0],
+}
+
+# Population
+Tree 0:
+mul(mul(9.94444, add(x5, 0.841471)), add(add(sub(mul(x5, add(x5, x5)), sub(add(9.94444, x5), sub(abs(add(abs(add(sub(sub(mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5)), add(x5, 0.841471)), mul(x5, add(add(x5, 0.841471), x5))), 0.841471)), -9.39445)), 13))), -9.39445), -9.39445))
+Fitness: 91002507.96965376
+
+Tree 1:
+mul(mul(9.94444, add(x5, 0.841471)), add(add(sub(mul(x5, add(x5, x5)), sub(add(add(x5, 0.841471), 13), sub(abs(add(abs(add(sub(sub(mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5)), add(x5, 0.841471)), mul(x5, add(add(x5, 0.841471), x5))), x5)), -9.39445)), 13))), -9.39445), -9.39445))
+Fitness: 92510739.59453121
+
+Tree 2:
+mul(mul(9.94444, add(x5, 0.841471)), add(add(sub(mul(x5, add(x5, x5)), sub(0.841471, sub(abs(add(abs(add(sub(sub(mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5)), add(x5, 0.841471)), mul(x5, add(x5, x5))), 9.94444)), -9.39445)), 9.94444))), -9.39445), -9.39445))
+Fitness: 93089725.74579482
+
+Tree 3:
+mul(mul(9.94444, add(x5, 0.841471)), add(add(sub(mul(x5, add(x5, x5)), sub(add(add(9.94444, x5), log(sqrt(sqrt(x4)))), sub(abs(add(abs(add(sub(sub(mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5)), add(x5, 0.841471)), mul(x5, add(x5, x5))), 0.841471)), -9.39445)), 13))), -9.39445), -9.39445))
+Fitness: 95328851.61614129
+
+Tree 4:
+mul(mul(9.94444, add(x5, 0.841471)), add(add(sub(mul(x5, add(x5, x5)), sub(add(9.39445, x5), sub(abs(add(abs(add(sub(sub(mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5)), add(x5, 0.841471)), mul(x5, add(add(x5, 0.841471), x5))), x5)), -9.39445)), 13))), -9.39445), -9.39445))
+Fitness: 95345084.06155595
+
+Tree 5:
+mul(mul(9.94444, add(x5, 0.841471)), add(add(sub(mul(x5, add(x5, x5)), sub(add(9.94444, x5), sub(abs(add(abs(add(sub(sub(mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5)), 1.68294), mul(x5, add(add(x5, 0.841471), x5))), 0.841471)), -9.39445)), 13))), -9.39445), -9.39445))
+Fitness: 95431110.33322398
+
+Tree 6:
+mul(mul(9.94444, add(x5, 0.841471)), add(sub(mul(x5, add(add(0.841471, x5), add(0.841471, x5))), sub(0.841471, sub(abs(sub(abs(add(abs(add(sub(sub(add(sub(mul(x5, add(x5, x5)), mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5))), -9.39445), add(x5, 0.841471)), mul(x5, add(0.841471, sqrt(x5)))), x5)), -9.39445)), 9.94444)), 9.94444))), -9.39445))
+Fitness: 95490366.65625374
+
+Tree 7:
+mul(mul(9.94444, add(x5, 0.841471)), add(add(sub(mul(x5, add(x5, x5)), sub(add(add(x5, 0.841471), x5), sub(abs(add(abs(add(sub(sub(mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5)), add(x5, 0.841471)), mul(x5, add(add(x5, 0.841471), x5))), 0.841471)), -9.39445)), 13))), -9.39445), -9.39445))
+Fitness: 95711917.34656186
+
+Tree 8:
+mul(mul(9.94444, add(x5, 0.841471)), add(add(sub(mul(x5, add(x5, 0.841471)), sub(add(x5, x5), sub(abs(add(abs(add(sub(sub(mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5)), 1.68294), mul(x5, add(add(x5, 0.841471), x5))), 0.841471)), -9.39445)), 13))), -9.39445), -9.39445))
+Fitness: 109490209.03740877
+
+Tree 9:
+mul(mul(9.94444, add(x5, 0.841471)), add(add(sub(mul(x5, add(x5, x5)), sub(mul(x0, div(add(x5, add(add(x5, 0.841471), x5)), 13)), sub(abs(add(abs(add(sub(sub(mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5)), -9.39445), mul(x5, add(add(x5, 0.841471), x5))), x5)), -9.39445)), 9.94444))), -9.39445), -9.39445))
+Fitness: 97521811.06380495
+
+Tree 10:
+mul(mul(9.94444, add(x5, 0.841471)), add(add(sub(mul(x5, add(x5, x5)), sub(mul(x0, div(add(x1, sub(mul(add(0.1, cos(mul(x4, 121.761))), add(x5, 0.841471)), 9)), 13)), sub(abs(add(abs(add(sub(sub(mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5)), -9.39445), mul(x5, add(add(x5, 0.841471), x5))), x5)), -9.39445)), 9.94444))), -9.39445), -9.39445))
+Fitness: 97179158.16819589
+
+Tree 11:
+mul(add(add(sub(mul(x5, x5), sub(mul(x0, div(add(x1, sub(mul(add(0.1, cos(add(sub(sub(mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5)), -9.39445), mul(x5, add(add(x5, 0.841471), x5))), x5))), add(x5, 0.841471)), 9)), mul(9.94444, add(x5, 0.841471)))), sub(abs(add(abs(add(sub(sub(mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5)), add(x5, 0.841471)), mul(x5, add(x5, x5))), 0.841471)), -9.39445)), 9.94444))), -9.39445), -9.39445), mul(9.94444, add(x5, 0.841471)))
+Fitness: 111272194.56990701
+
+Tree 12:
+x5
+Fitness: 2298575143.9894643
+
+Tree 13:
+mul(mul(9.94444, add(x5, 0.841471)), add(add(sub(mul(x5, add(x5, x5)), sub(add(add(x5, 0.841471), x5), sub(abs(add(abs(sub(mul(x5, add(x5, x5)), sub(mul(x0, 0.1), sub(abs(add(abs(add(sub(sub(mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5)), -9.39445), mul(x5, add(add(x5, 0.841471), x5))), x5)), -9.39445)), 9.94444)))), -9.39445)), 13))), x3), -9.39445))
+Fitness: 137704041.19545424
+
+Tree 14:
+sub(7.38906, sub(x3, x5))
+Fitness: 2349443206.324081
+
+Tree 15:
+mul(mul(9.94444, add(x5, 0.841471)), add(sub(mul(x5, add(add(0.841471, x5), add(0.841471, x5))), sub(x5, sub(abs(sub(abs(add(abs(add(sub(sub(add(sub(mul(x5, add(x5, x5)), mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5))), -9.39445), add(x5, 0.841471)), mul(x5, add(0.841471, sqrt(x5)))), x5)), -9.39445)), 9.94444)), 9.94444))), -9.39445))
+Fitness: 106942083.80735132
+
+Tree 16:
+mul(mul(9.94444, add(x5, 0.841471)), add(add(sub(mul(x5, add(0.841471, x5)), sub(sub(sqrt(x5), sqrt(sqrt(add(x5, cos(mul(x4, x3)))))), sub(abs(add(abs(add(sub(sub(mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(x5, 0.841471)), 0.841471), mul(x5, add(add(x5, 0.841471), x5))), x5)), -9.39445)), 9.94444))), -9.39445), -9.39445))
+Fitness: 106698978.04982185
+
+Tree 17:
+mul(mul(9.94444, add(x5, 0.841471)), add(add(sub(mul(x5, add(x5, x5)), sub(mul(x0, div(add(x1, sub(mul(add(0.1, cos(mul(x5, sub(18.9444, sub(mul(9.94444, add(mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), 10.7859), 0.841471)), 9.39445))))), add(x5, 0.841471)), 9)), 13)), sub(abs(add(abs(add(sub(sub(mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5)), -9.39445), mul(x5, add(add(x5, 0.841471), x5))), x5)), -9.39445)), 9.94444))), -9.39445), -9.39445))
+Fitness: 103493446.59802848
+
+Tree 18:
+mul(mul(9.94444, add(x5, 0.841471)), add(add(sub(mul(x5, add(x5, x5)), sub(9.94444, sub(abs(add(abs(add(sub(sub(mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5)), add(x5, div(add(add(sub(mul(x5, add(x5, x5)), sub(mul(x0, div(add(x1, sub(mul(add(0.1, cos(mul(x4, 5))), add(x5, 0.841471)), 9)), 13)), sub(abs(add(abs(add(sub(sub(mul(9.94444, add(0.841471, x5)), -9.39445), mul(x5, add(add(x5, 0.841471), add(x5, 0.841471)))), x5)), -9.39445)), 9.94444))), -9.39445), -9.39445), 13))), mul(x5, add(add(x5, 0.841471), x5))), 0.841471)), -9.39445)), 13))), -9.39445), -9.39445))
+Fitness: 110790321.8369207
+
+Tree 19:
+mul(mul(9.94444, add(x5, 0.841471)), add(add(sub(mul(x5, add(x5, x5)), sub(0.841471, sub(abs(add(abs(add(sub(sub(mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5)), add(x5, 0.841471)), mul(x5, add(x5, x5))), x5)), -9.39445)), 9.94444))), -9.39445), -9.39445))
+Fitness: 109679521.72868592
+
+Tree 20:
+mul(mul(9.94444, add(x5, 0.841471)), add(sub(mul(x5, add(x5, add(0.841471, x5))), sub(-9.39445, sub(abs(add(abs(add(sub(sub(add(-9.39445, sub(mul(x5, add(x5, x5)), mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5)))), 5.84147), mul(x5, 1.75879)), x5)), -9.39445)), 9.94444))), -9.39445))
+Fitness: 135896440.19573644
+
+Tree 21:
+mul(mul(9.94444, add(x5, 0.841471)), add(add(sub(mul(x5, add(x5, x5)), sub(add(9.94444, mul(x5, x5)), sub(abs(add(abs(add(sub(sub(mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5)), add(x5, 0.841471)), mul(x5, add(add(x5, 0.841471), x5))), 0.841471)), add(0.841471, x5))), add(x5, 0.841471)))), -9.39445), -9.39445))
+Fitness: 118745530.49121033
+
+Tree 22:
+mul(mul(9.94444, add(x5, 0.841471)), add(add(sub(mul(x5, add(x5, x5)), sub(add(add(x5, 0.841471), 13), sub(abs(add(abs(add(sub(sub(mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5)), add(x5, 0.841471)), mul(x5, add(add(x5, 0.841471), x5))), x5)), add(x5, x5))), 13))), -9.39445), -9.39445))
+Fitness: 106853900.35306953
+
+Tree 23:
+mul(mul(9.94444, add(x5, 0.841471)), add(add(sub(mul(x5, add(x5, add(x5, 0.841471))), sub(add(add(x5, 0.841471), x5), sub(abs(add(abs(add(sub(sub(mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.94444)), add(0.841471, x5)), add(x5, 0.841471)), mul(x5, add(x5, abs(abs(x0))))), 0.841471)), -9.39445)), 13))), -9.39445), 0.841471))
+Fitness: 116281837.5106642
+
+Tree 24:
+mul(mul(9.94444, add(x5, 0.841471)), add(add(sub(mul(x5, add(x5, x5)), sub(add(add(x5, add(x5, 1.07056)), x5), sub(abs(add(abs(add(sub(sub(mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5)), add(x5, 0.841471)), mul(x5, add(0.841471, x5))), 0.841471)), x5)), 13))), -9.39445), -9.39445))
+Fitness: 106658576.7018618
+
+Tree 25:
+mul(mul(9.94444, add(x5, 0.841471)), add(add(sub(mul(x5, add(x5, x5)), sub(add(add(x5, 0.841471), x5), sub(abs(add(abs(add(sub(sub(mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5)), add(0.841471, x5)), mul(x5, add(add(x5, 0.841471), x5))), 0.841471)), -9.39445)), 13))), -9.39445), -9.39445))
+Fitness: 101343185.3830391
+
+Tree 26:
+mul(add(add(sub(mul(x5, x5), sub(mul(x0, div(add(x1, sub(mul(add(0.841471, cos(mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), 0.841471))), add(x5, 0.841471)), 9)), mul(9.94444, add(x5, 0.841471)))), sub(abs(add(abs(add(sub(sub(mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5)), add(x5, 0.841471)), mul(x5, add(add(x5, 0.841471), x5))), x5)), 1.68294)), 9.94444))), -9.39445), -9.39445), mul(9.94444, add(x5, 0.841471)))
+Fitness: 117363172.24697113
+
+Tree 27:
+mul(mul(9.94444, add(x5, 0.841471)), add(add(sub(mul(x5, add(x5, x5)), sub(0.841471, sub(abs(add(add(add(sub(mul(x5, add(x5, x5)), sub(0.841471, sub(abs(add(abs(add(sub(sub(mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5)), add(x5, 0.841471)), mul(x5, add(x5, x5))), 9.94444)), -9.39445)), 9.94444))), -9.39445), -9.39445), -9.39445)), 18.9444))), -9.39445), -9.39445))
+Fitness: 105375848.55172287
+
+Tree 28:
+mul(mul(9.94444, add(x5, 0.841471)), add(add(sub(mul(x5, add(x5, x5)), sub(mul(x0, div(add(x1, sub(mul(add(0.1, cos(mul(x4, x5))), add(x5, 0.841471)), x5)), 13)), sub(abs(add(abs(add(sub(sub(mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5)), -9.39445), mul(x5, add(add(x5, 0.841471), x5))), x5)), add(x5, 0.841471))), 9.94444))), -9.39445), -9.39445))
+Fitness: 121651947.07372719
+
+Tree 29:
+5
+Fitness: 2301362358.7639823
+
+Tree 30:
+mul(mul(9.94444, add(x5, 0.841471)), add(add(sub(mul(x5, add(x5, x5)), sub(x5, sub(abs(add(abs(add(add(add(sub(mul(x5, x5), sub(13, sub(abs(add(abs(add(sub(sub(mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5)), add(x5, 0.841471)), mul(x5, add(add(x5, x5), x5))), 0.841471)), -9.39445)), 13))), -9.39445), -9.39445), 0.841471)), -9.39445)), 13))), -9.39445), -9.39445))
+Fitness: 109031343.00972852
+
+Tree 31:
+mul(mul(9.94444, add(x5, 0.841471)), add(add(sub(mul(x5, add(x5, x5)), sub(add(9.94444, x5), sub(abs(add(abs(add(sub(sub(mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5)), add(x5, 0.841471)), mul(x5, add(add(x5, add(x5, 0.841471)), x5))), 0.841471)), -9.39445)), 13))), -9.39445), -9.39445))
+Fitness: 119144417.13880405
+
+Tree 32:
+mul(mul(9.94444, add(x5, 0.841471)), add(add(sub(mul(x5, add(x5, x5)), sub(add(9.94444, x5), sub(abs(add(abs(add(sub(sub(mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5)), add(x5, div(add(x5, x3), 13))), mul(x5, add(0.841471, x5))), 0.841471)), -9.39445)), 13))), -9.39445), -9.39445))
+Fitness: 132346248.78797066
+
+Tree 33:
+mul(mul(9.94444, add(x5, 0.841471)), add(add(sub(mul(x5, add(x5, x5)), sub(mul(x0, div(add(x1, sub(mul(add(0.1, cos(mul(x4, sub(sub(mul(9.94444, add(x5, 0.841471)), 9.39445), sub(mul(9.94444, add(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), 0.841471)), 9.39445))))), add(x5, 0.841471)), 9)), 13)), sub(abs(add(abs(add(sub(sub(mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5)), -9.39445), mul(x5, add(add(x5, 0.841471), x5))), x5)), -9.39445)), 9.94444))), -9.39445), -9.39445))
+Fitness: 102237851.6577422
+
+Tree 34:
+add(0.841471, x5)
+Fitness: 2321654403.055004
+
+Tree 35:
+mul(mul(9.94444, add(x5, 0.841471)), add(add(sub(mul(x5, add(x5, x5)), sub(mul(x0, div(add(x1, sub(mul(add(0.1, cos(add(x5, x5))), add(x5, 0.841471)), 9)), 13)), sub(abs(add(abs(add(sub(sub(mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5)), -9.39445), mul(x5, add(add(x5, 0.841471), x5))), x5)), -9.39445)), 9.94444))), mul(x0, div(add(x1, sub(mul(add(0.1, cos(mul(x4, sub(18.9444, sub(mul(9.94444, add(mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), add(x5, 0.841471))), add(0.841471, x5)), 0.841471)), 9.39445))))), add(x5, 0.841471)), 9)), 13))), -9.39445))
+Fitness: 118175786.22488561
+
+Tree 36:
+mul(mul(9.94444, add(x5, 0.841471)), add(add(sub(mul(x5, add(x5, x5)), sub(-9.39445, sub(abs(add(abs(add(sub(sub(mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5)), -9.39445), mul(x5, add(add(x5, 0.841471), x5))), x5)), -9.39445)), 9.94444))), -9.39445), -9.39445))
+Fitness: 113695257.98787136
+
+Tree 37:
+mul(mul(9.94444, add(x5, 0.841471)), add(add(sub(mul(x5, add(x5, x5)), sub(add(add(x5, 0.841471), x5), sub(abs(add(abs(add(sub(sub(mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5)), 13), mul(x5, add(add(x5, 0.841471), x5))), 0.841471)), -9.39445)), 13))), -9.39445), -9.39445))
+Fitness: 131243107.94375288
+
+Tree 38:
+x4
+Fitness: 2300821037.195684
+
+Tree 39:
+mul(mul(9.94444, add(x5, 0.841471)), add(add(sub(mul(x5, add(x5, x5)), sub(sub(0.841471, sqrt(sqrt(add(add(abs(add(sub(sub(add(sub(mul(x5, add(x5, x5)), mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5))), -9.39445), add(x5, 0.841471)), mul(x5, add(0.841471, sqrt(x5)))), x5)), -9.39445), add(x5, add(x5, x5)))))), sub(abs(add(abs(add(sub(sub(mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5)), x5), mul(x5, add(add(x5, 0.841471), x5))), mul(x5, x5))), -9.39445)), 9.94444))), -9.39445), -9.39445))
+Fitness: 114636675.32238702
+
+Tree 40:
+add(x5, 0.841471)
+Fitness: 2321654403.055004
+
+Tree 41:
+-9.39445
+Fitness: 2299786114.038257
+
+Tree 42:
+mul(mul(9.94444, add(x5, 0.841471)), add(add(sub(mul(x5, add(x5, x5)), sub(mul(x0, div(add(x1, sub(mul(add(0.1, cos(mul(x5, sub(18.9444, sub(mul(9.94444, add(mul(sub(18.9444, sub(mul(9.94444, mul(9.94444, add(x5, 0.841471))), 9.39445)), add(0.841471, x5)), 0.841471)), 9.39445))))), add(x5, 0.841471)), 9)), 13)), sub(abs(add(abs(add(sub(sub(mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5)), -9.39445), mul(x5, add(add(x5, 0.841471), x5))), x5)), -9.39445)), 9.94444))), -9.39445), -9.39445))
+Fitness: 104722231.85657668
+
+Tree 43:
+mul(mul(9.94444, add(x5, 0.841471)), add(add(sub(mul(x5, add(x5, x5)), sub(9.94444, sub(abs(add(abs(add(sub(sub(mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5)), add(x5, div(add(x5, x3), 13))), mul(x5, add(add(x5, 0.841471), x5))), 0.841471)), -9.39445)), 13))), -9.39445), -9.39445))
+Fitness: 100120858.9483997
+
+Tree 44:
+mul(mul(9.94444, add(x5, 0.841471)), add(add(sub(mul(x5, add(x5, x5)), sub(mul(x0, div(add(x5, x5), 13)), sub(abs(add(abs(add(sub(sub(mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5)), -9.39445), mul(x5, add(add(x5, 0.841471), x5))), x5)), -9.39445)), 9.94444))), -9.39445), -9.39445))
+Fitness: 97061942.21183752
+
+Tree 45:
+18.9444
+Fitness: 2302928838.200803
+
+Tree 46:
+mul(mul(9.94444, add(0.841471, x5)), add(add(sub(mul(x5, add(x5, x5)), sub(mul(x0, div(add(x1, sub(mul(add(0.1, cos(mul(x4, mul(mul(9.94444, add(x5, 0.841471)), add(add(sub(mul(x5, add(x5, x5)), sub(mul(x0, div(add(x1, sub(mul(add(0.1, cos(mul(x4, sub(sub(mul(9.94444, add(x5, 0.841471)), 9.39445), sub(mul(9.94444, add(mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5)), 0.841471)), 9.39445))))), add(x5, 0.841471)), 9)), 13)), sub(abs(add(abs(add(sub(sub(mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5)), -9.39445), mul(x5, add(add(x5, 0.841471), x5))), x5)), -9.39445)), 9.94444))), -9.39445), -9.39445))))), add(x5, 0.841471)), 9)), 13)), sub(abs(add(abs(add(sub(sub(mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5)), -9.39445), mul(x5, add(add(x5, 0.841471), x5))), x5)), -9.39445)), 9.94444))), -9.39445), -9.39445))
+Fitness: 120525830.05815077
+
+Tree 47:
+add(x5, x5)
+Fitness: 2319305229.047916
+
+Tree 48:
+mul(mul(9.94444, add(x5, 0.841471)), add(add(sub(mul(x5, add(x5, x5)), sub(add(9.94444, x5), sub(abs(add(abs(add(sub(sub(mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5)), 1.68294), mul(x5, add(add(x5, 0.841471), x5))), -9.39445)), -9.39445)), 13))), -9.39445), -9.39445))
+Fitness: 105110016.80217442
+
+Tree 49:
+mul(mul(9.94444, add(x5, 0.841471)), add(add(sub(mul(x5, add(x5, x5)), sub(0.841471, sub(abs(add(add(add(sub(mul(x5, add(x5, x5)), sub(0.841471, sub(abs(add(abs(add(sub(sub(mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5)), add(x5, 0.841471)), mul(x5, add(x5, x5))), 9.94444)), 0.841471)), 9.94444))), -9.39445), -9.39445), -9.39445)), 18.9444))), -9.39445), -9.39445))
+Fitness: 95850273.48461333
+
+Tree 50:
+mul(mul(9.94444, add(x5, 0.841471)), add(add(sub(mul(x5, add(x5, x5)), sub(mul(x0, div(add(x1, sub(mul(add(0.1, cos(mul(x4, sub(18.9444, sub(mul(9.94444, add(mul(121.761, add(0.841471, x5)), 0.841471)), 9.39445))))), add(x5, 0.841471)), 9)), 13)), sub(abs(add(abs(add(sub(sub(mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5)), -9.39445), mul(x5, add(add(x5, 0.841471), x5))), x5)), 0.841471)), 9.94444))), -9.39445), -9.39445))
+Fitness: 122598423.5606597
+
+Tree 51:
+mul(mul(9.94444, add(x5, 0.841471)), add(sub(mul(x5, add(add(0.841471, x5), add(0.841471, x5))), sub(0.841471, sub(abs(sub(abs(add(abs(add(sub(sub(add(sub(mul(x5, add(x5, x5)), mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5))), add(x5, 0.841471)), add(x5, 0.841471)), mul(x5, 1.75879)), x5)), -9.39445)), 9.94444)), 9.94444))), -9.39445))
+Fitness: 117028569.11817756
+
+Tree 52:
+mul(mul(9.94444, add(x5, 0.841471)), add(add(sub(mul(x5, add(x5, x5)), sub(add(x5, 13), sub(abs(add(abs(add(sub(sub(mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5)), add(x5, 0.841471)), mul(x5, add(add(x5, 0.841471), x5))), x5)), -9.39445)), 13))), -9.39445), -9.39445))
+Fitness: 97125159.2467186
+
+Tree 53:
+mul(mul(9.94444, add(x5, 0.841471)), add(add(sub(mul(x5, add(x5, x5)), sub(13, sub(abs(add(abs(add(sub(sub(mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5)), add(x5, 0.841471)), mul(x5, add(add(x5, x5), add(x5, 0.841471)))), 0.841471)), -9.39445)), 13))), -9.39445), -9.39445))
+Fitness: 118289178.06936207
+
+Tree 54:
+mul(mul(9.94444, add(x5, 0.841471)), add(add(sub(mul(x5, add(x5, x5)), sub(add(x5, 13), sub(abs(add(abs(add(add(abs(add(sub(sub(mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5)), 1.68294), mul(x5, add(add(x5, 0.841471), x5))), x5)), 0.841471), x5)), -9.39445)), 13))), 9.39445), -9.39445))
+Fitness: 129799392.30552965
+
+Tree 55:
+mul(mul(9.94444, add(x5, 0.841471)), add(add(sub(mul(x5, add(x5, x5)), sub(mul(x0, 0.1), sub(abs(add(abs(add(sub(sub(mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5)), -9.39445), mul(x5, add(add(x5, 0.841471), x5))), x5)), -9.39445)), 9.94444))), -9.39445), -9.39445))
+Fitness: 96721404.76341712
+
+Tree 56:
+mul(add(add(sub(mul(x5, x5), sub(mul(x0, div(add(x1, sub(mul(add(x0, cos(mul(x4, x3))), add(x5, 0.841471)), 9)), 13)), sub(abs(add(abs(add(sub(sub(mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5)), 1.68294), mul(x5, add(add(x5, 0.841471), x5))), x5)), 0.841471)), 9.94444))), -9.39445), -9.39445), mul(9.94444, add(x5, 0.841471)))
+Fitness: 113210534.51233889
+
+Tree 57:
+mul(mul(9.94444, add(x5, 0.841471)), add(add(sub(mul(x5, add(x5, x5)), sub(0.841471, sub(abs(add(add(add(sub(mul(x5, add(x5, x5)), sub(0.841471, sub(abs(add(abs(add(sub(sub(mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5)), add(x5, 9)), mul(x5, add(x5, x5))), 9.94444)), -9.39445)), 9.94444))), -9.39445), -9.39445), -9.39445)), 18.9444))), -9.39445), -9.39445))
+Fitness: 99975424.1028019
+
+Tree 58:
+mul(mul(9.94444, add(x5, 0.841471)), add(add(sub(mul(x5, add(x5, x5)), sub(x5, sub(abs(add(abs(add(sub(sub(mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5)), add(x5, 0.841471)), mul(add(x5, x5), x5)), 9.94444)), -9.39445)), 9.94444))), -9.39445), -9.39445))
+Fitness: 96825408.10197805
+
+Tree 59:
+mul(mul(9.94444, add(x5, 0.841471)), add(add(sub(mul(x5, add(x5, x5)), sub(mul(x0, div(add(x5, 9.39445), 13)), sub(abs(add(abs(add(sub(sub(mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5)), -9.39445), mul(x5, add(add(x5, 0.841471), x5))), x5)), -9.39445)), 9.94444))), -9.39445), -9.39445))
+Fitness: 97466760.42391928
+
+Tree 60:
+mul(mul(9.94444, add(x5, 0.841471)), add(add(sub(mul(x5, add(x5, x5)), sub(add(add(x5, 0.841471), x5), sub(abs(add(abs(add(sub(sub(mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5)), 1.68294), mul(x5, add(add(x5, 0.841471), x5))), x5)), -9.39445)), 13))), -9.39445), -9.39445))
+Fitness: 105469747.93736437
+
+Tree 61:
+mul(mul(9.94444, add(x5, 0.841471)), add(add(sub(mul(x5, add(x5, x5)), sub(add(x5, 13), sub(abs(add(abs(add(add(abs(add(sub(sub(mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5)), mul(x5, add(0.841471, sqrt(x5)))), mul(x5, add(add(x5, 0.841471), x5))), x5)), 0.841471), x5)), -9.39445)), 13))), -9.39445), -9.39445))
+Fitness: 110043011.38543326
+
+Tree 62:
+mul(mul(9.94444, add(x5, 0.841471)), add(sub(mul(x5, add(add(0.841471, x5), add(0.841471, x5))), sub(x5, sub(abs(sub(abs(add(abs(add(sub(sub(add(sub(mul(x5, add(x5, x5)), mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5))), -9.39445), add(x5, 0.841471)), 1.68294), x5)), -9.39445)), 9.94444)), 9.94444))), -9.39445))
+Fitness: 100775837.42575152
+
+Tree 63:
+mul(mul(9.94444, add(x5, 0.841471)), add(add(sub(mul(x5, add(x5, x5)), sub(mul(x0, div(add(x1, sub(mul(add(0.1, cos(add(9.94444, x5))), add(x5, 0.841471)), 9)), 13)), sub(abs(add(abs(add(sub(sub(mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5)), -9.39445), mul(x5, add(add(x5, 0.841471), x5))), x5)), -9.39445)), 9.94444))), -9.39445), -9.39445))
+Fitness: 97222714.89916354
+
+Tree 64:
+mul(mul(9.94444, add(x5, 0.841471)), add(add(sub(mul(x5, add(x5, x5)), sub(add(x5, 13), sub(abs(add(abs(add(add(abs(add(sub(sub(mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5)), 1.68294), mul(x5, add(add(x5, 0.841471), x5))), x5)), 0.841471), x5)), -9.39445)), 13))), -9.39445), -9.39445))
+Fitness: 100190166.59176916
+
+Tree 65:
+mul(mul(9.94444, add(x5, 0.841471)), add(add(sub(mul(x5, add(x5, x5)), sub(mul(x0, 0.1), sub(abs(add(abs(add(sub(sub(mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5)), x5), mul(x5, add(add(x5, 0.841471), x5))), x5)), -9.39445)), 9.94444))), -9.39445), -9.39445))
+Fitness: 114097866.12821044
+
+Tree 66:
+mul(mul(9.94444, add(x5, 0.841471)), add(sub(mul(x5, add(x5, add(0.841471, x5))), sub(mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.94444)), add(0.841471, x5)), mul(div(add(mul(sub(x5, add(add(0.841471, x5), 9.94444)), 0.841471), sqrt(add(x5, x5))), 13), x5))), -9.39445))
+Fitness: 120585358.71771294
+
+Tree 67:
+mul(mul(9.94444, add(x5, 0.841471)), add(add(sub(mul(x5, add(x5, x5)), sub(add(add(x5, x5), x5), sub(abs(add(abs(add(sub(sub(mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5)), add(x0, 0.841471)), mul(x5, add(add(x5, 0.841471), x5))), x5)), -9.39445)), 13))), -9.39445), -9.39445))
+Fitness: 111839942.15289113
+
+Tree 68:
+mul(mul(9.94444, add(x5, 0.841471)), add(add(sub(mul(x5, x5), sub(13, sub(abs(add(abs(add(sub(sub(mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5)), mul(x5, x5)), mul(x5, add(add(x5, x5), x5))), 0.841471)), -9.39445)), 13))), -9.39445), -9.39445))
+Fitness: 104931382.7183713
+
+Tree 69:
+mul(mul(9.94444, add(x5, 0.841471)), add(add(sub(add(x5, 0.841471), sub(13, sub(abs(add(abs(add(sub(sub(mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5)), add(x5, 0.841471)), mul(x5, add(add(x5, x5), x5))), 0.841471)), -9.39445)), 13))), -9.39445), -9.39445))
+Fitness: 136675618.21234763
+
+Tree 70:
+mul(mul(9.94444, add(x5, 0.841471)), add(add(sub(mul(x5, add(x5, x5)), sub(add(x5, 0.841471), sub(abs(add(abs(add(sub(sub(mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5)), add(x5, 0.841471)), mul(x5, add(add(x5, 0.841471), x5))), x5)), -9.39445)), 13))), -9.39445), -9.39445))
+Fitness: 102601626.78061324
+
+Tree 71:
+mul(mul(9.94444, add(x5, 0.841471)), add(add(sub(mul(x5, add(x5, x5)), sub(mul(x0, div(add(add(0.841471, x5), x5), 13)), sub(abs(add(abs(add(sub(sub(mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5)), -9.39445), mul(x5, add(add(x5, 0.841471), x5))), x5)), -9.39445)), 9.94444))), -9.39445), -9.39445))
+Fitness: 97095937.37267497
+
+Tree 72:
+mul(mul(9.94444, add(x5, 0.841471)), add(add(sub(mul(x5, add(x5, x5)), sub(add(add(add(x5, x5), 0.841471), x5), sub(abs(add(-9.39445, abs(add(sub(sub(mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5)), add(x5, 0.841471)), mul(x5, add(add(x5, 0.841471), x5))), x5)))), 13))), -9.39445), -9.39445))
+Fitness: 104638471.87972753
+
+Tree 73:
+mul(mul(9.94444, add(x5, 0.841471)), add(add(sub(mul(x5, add(x5, x5)), sub(add(9.39445, x5), sub(abs(add(abs(add(sub(sub(mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5)), add(x5, 0.841471)), mul(x5, add(add(x5, 0.841471), x5))), x5)), -9.39445)), x5))), -9.39445), -9.39445))
+Fitness: 110682320.05573481
+
+Tree 74:
+mul(add(add(sub(mul(x5, x5), sub(mul(x0, div(add(x1, sub(mul(add(x0, cos(mul(add(9.94444, x5), x3))), add(x5, 0.841471)), 9)), 13)), sub(abs(add(abs(add(sub(sub(mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5)), 1.68294), mul(x5, add(add(x5, 0.841471), x5))), x5)), 0.841471)), 9.94444))), -9.39445), -9.39445), mul(9.94444, add(x5, 0.841471)))
+Fitness: 113214503.66330737
+
+Tree 75:
+mul(mul(9.94444, add(x5, 0.841471)), add(add(sub(mul(x5, add(x5, x5)), sub(add(x4, log(sqrt(sqrt(x4)))), sub(abs(add(abs(add(sub(sub(mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5)), add(x5, 0.841471)), mul(x5, add(x5, x5))), 0.841471)), -9.39445)), 13))), -9.39445), -9.39445))
+Fitness: 107602133.05334608
+
+Tree 76:
+mul(mul(9.94444, add(x5, 0.841471)), add(add(sub(mul(x5, add(x5, x5)), sub(add(9.94444, mul(x5, x5)), sub(abs(add(abs(add(sub(sub(mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5)), add(x5, 0.841471)), mul(x5, add(add(x5, 0.841471), x5))), 0.841471)), -9.39445)), add(x5, 0.841471)))), -9.39445), -9.39445))
+Fitness: 107256858.6429107
+
+Tree 77:
+mul(mul(9.94444, add(x5, 0.841471)), add(sub(mul(x5, add(add(0.841471, x5), add(0.841471, x5))), sub(0.841471, sub(abs(sub(abs(add(abs(add(sub(sub(add(sub(mul(x5, add(x5, x5)), mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5))), -9.39445), add(x5, 0.841471)), mul(x5, 1.75879)), x5)), -9.39445)), 9.94444)), 9.94444))), -9.39445))
+Fitness: 100143886.58030087
+
+Tree 78:
+mul(mul(9.94444, add(x5, 0.841471)), add(add(sub(mul(x5, add(x5, x5)), sub(add(add(9.94444, x5), log(sqrt(sqrt(x4)))), sub(abs(add(abs(add(sub(sub(mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5)), add(add(x5, x5), 0.841471)), mul(x5, add(x5, x5))), 0.841471)), -9.39445)), 13))), -9.39445), -9.39445))
+Fitness: 96586361.5049547
+
+Tree 79:
+mul(mul(9.94444, add(x5, 0.841471)), add(add(sub(mul(x5, x5), sub(mul(x0, div(add(x5, sub(mul(0.989649, add(mul(x5, add(x5, x5)), 0.841471)), 9)), 13)), sub(abs(add(abs(add(sub(sub(mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5)), -9.39445), mul(x5, add(add(x5, 0.841471), x5))), x5)), -9.39445)), 9.94444))), -9.39445), -9.39445))
+Fitness: 127402297.13208956
+
+Tree 80:
+mul(mul(9.94444, add(x5, 0.841471)), add(add(sub(mul(x5, add(x5, x5)), sub(9.94444, sub(abs(abs(add(abs(add(sub(sub(mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5)), -9.39445), mul(x5, add(add(x5, 0.841471), x5))), x5)), -9.39445))), 13))), -9.39445), -9.39445))
+Fitness: 106681655.3509766
+
+Tree 81:
+mul(mul(9.94444, add(x5, 0.841471)), add(add(sub(mul(x5, add(x5, x5)), sub(mul(x0, div(add(x1, sub(mul(add(0.1, cos(mul(x4, sub(sub(mul(9.94444, add(x5, 0.841471)), 9.39445), sub(mul(9.94444, add(mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5)), 0.841471)), 9.39445))))), add(x5, 0.841471)), 9)), 13)), sub(add(abs(add(sub(sub(mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5)), add(x5, div(add(x5, x3), 13))), mul(x5, add(add(x5, 0.841471), x5))), 0.841471)), -9.39445), 9.94444))), -9.39445), -9.39445))
+Fitness: 129113499.75445217
+
+Tree 82:
+mul(add(add(sub(mul(x5, x5), sub(mul(x0, div(add(x1, sub(mul(add(0.841471, cos(mul(sub(add(abs(add(sub(sub(mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5)), add(x5, add(x5, 0.841471))), mul(x5, add(add(x5, 0.841471), x5))), 0.841471)), -9.39445), sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), x3))), add(x5, 0.841471)), 9)), mul(9.94444, add(mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5)), 0.841471)))), sub(abs(add(abs(add(sub(sub(mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5)), add(x5, 0.841471)), mul(x5, add(add(x5, 0.841471), x5))), x5)), -9.39445)), 9.94444))), -9.39445), -9.39445), mul(9.94444, add(x5, 0.841471)))
+Fitness: 116485440.58208156
+
+Tree 83:
+mul(mul(9.94444, add(x5, 0.841471)), add(add(sub(mul(x5, add(0.841471, x5)), sub(mul(mul(x5, x5), div(add(x5, sub(mul(add(0.1, cos(mul(x4, 5))), add(x5, 0.841471)), 9)), 13)), sub(abs(add(abs(add(sub(sub(mul(add(0.841471, x5), sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445))), -9.39445), mul(x5, add(add(x5, 0.841471), x5))), x5)), -9.39445)), 9.94444))), -9.39445), -9.39445))
+Fitness: 103772724.65961473
+
+Tree 84:
+mul(mul(9.94444, add(x5, 0.841471)), add(add(sub(mul(x5, add(x5, x5)), sub(mul(0.1, div(add(x1, sub(mul(add(0.1, cos(add(x5, x5))), x5), 9)), 13)), sub(abs(add(abs(add(sub(sub(mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5)), -9.39445), mul(x5, add(add(x5, 0.841471), x5))), x5)), -9.39445)), 9.94444))), -9.39445), -9.39445))
+Fitness: 96755277.5294926
+
+Tree 85:
+mul(mul(9.94444, add(x5, 0.841471)), add(add(sub(mul(x5, add(x5, add(x5, 0.841471))), sub(add(add(add(add(0.841471, x5), x5), 0.841471), x5), sub(abs(add(-9.39445, abs(add(sub(sub(mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5)), add(x5, 0.841471)), mul(x5, add(add(x5, 0.841471), x5))), x5)))), 13))), -9.39445), -9.39445))
+Fitness: 101121114.67493838
+
+Tree 86:
+mul(mul(9.94444, add(x5, 0.841471)), add(add(sub(mul(x5, add(x5, x5)), sub(10.7859, sub(abs(add(abs(add(sub(sub(mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5)), add(x5, div(add(x5, x3), 13))), mul(x5, add(add(x5, 0.841471), x5))), 0.841471)), -9.39445)), 13))), 3.60555), -9.39445))
+Fitness: 117898798.80366805
+
+Tree 87:
+mul(mul(9.94444, add(x5, 0.841471)), add(add(sub(mul(x5, add(add(x5, 0.841471), x5)), sub(mul(x0, div(add(x1, sub(mul(add(x5, cos(mul(x4, 5))), add(x5, 0.841471)), 9)), 13)), sub(abs(add(abs(add(sub(sub(mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5)), -9.39445), mul(x5, add(add(x5, 0.841471), add(x5, 0.841471)))), x5)), -9.39445)), 9.94444))), -9.39445), -9.39445))
+Fitness: 102596832.28396955
+
+Tree 88:
+mul(add(add(sub(mul(x5, x5), sub(mul(x0, div(add(x1, sub(mul(add(0.1, add(x5, 0.841471)), add(x5, 0.841471)), 9)), 13)), sub(abs(add(abs(add(sub(sub(mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5)), 1.68294), mul(x5, add(x5, x5))), x5)), 0.841471)), 9.94444))), -9.39445), -9.39445), mul(9.94444, add(x5, 0.841471)))
+Fitness: 114080180.53225431
+
+Tree 89:
+mul(mul(9.94444, add(x5, 0.841471)), add(add(sub(mul(x5, add(x5, x5)), sub(9.94444, sub(abs(add(abs(add(sub(sub(mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5)), add(x5, div(add(x5, x3), sub(mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5)), add(x5, 0.841471))))), mul(x5, add(add(x5, 0.841471), x5))), 0.841471)), -9.39445)), 13))), -9.39445), -9.39445))
+Fitness: 125746309.2316003
+
+Tree 90:
+mul(mul(9.94444, add(x5, 0.841471)), add(add(sub(mul(x5, add(x5, x5)), sub(add(9.94444, x5), sub(abs(add(abs(add(sub(mul(x5, add(add(x5, 0.841471), x5)), sub(mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5)), 1.68294)), 0.841471)), -9.39445)), 13))), -9.39445), -9.39445))
+Fitness: 95615729.36336212
+
+Tree 91:
+mul(mul(9.94444, add(x5, 0.841471)), add(add(sub(mul(x5, add(x5, x5)), sub(add(add(x5, 0.841471), x5), sub(abs(add(abs(add(sub(sub(mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5)), add(x5, 0.841471)), mul(x5, add(add(0.841471, x5), 0.841471))), 0.841471)), -9.39445)), 13))), -9.39445), -9.39445))
+Fitness: 109883266.31086434
+
+Tree 92:
+mul(mul(9.94444, add(x5, 0.841471)), add(add(sub(mul(x5, add(x5, x5)), sub(mul(x0, div(add(x1, sub(mul(add(0.1, cos(mul(x5, sub(18.9444, sub(mul(9.94444, add(mul(add(x5, 0.841471), add(0.841471, x5)), 0.841471)), 9.39445))))), add(x5, 0.841471)), 9)), 13)), sub(abs(add(abs(add(sub(sub(mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5)), -9.39445), mul(x5, add(add(x5, 0.841471), x5))), x5)), -9.39445)), 9.94444))), -9.39445), -9.39445))
+Fitness: 99661106.85299483
+
+Tree 93:
+mul(mul(9.94444, add(x5, 0.841471)), add(add(sub(mul(x5, add(x5, x5)), sub(mul(x0, 0.841471), sub(abs(add(abs(add(sub(sub(mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5)), -9.39445), mul(x5, add(add(x5, 0.841471), x5))), x5)), -9.39445)), 9.94444))), -9.39445), -9.39445))
+Fitness: 97387713.62998077
+
+Tree 94:
+mul(mul(9.94444, add(x5, 0.841471)), add(add(sub(mul(x5, add(x5, x5)), sub(mul(x0, div(add(x1, sub(mul(add(0.1, cos(mul(x4, sub(18.9444, sub(mul(9.94444, add(mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), add(x5, 0.841471))), add(0.841471, x5)), 0.841471)), 9.39445))))), add(x5, 0.841471)), 9)), 13)), sub(abs(add(abs(add(sub(sub(mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5)), -9.39445), mul(x5, add(add(x5, 0.841471), x5))), x5)), add(x5, x5))), 9.94444))), -9.39445), -9.39445))
+Fitness: 135840317.71111098
+
+Tree 95:
+mul(mul(9.94444, add(x5, 0.841471)), add(add(sub(mul(x5, add(x5, x5)), sub(mul(0.1, div(add(x1, sub(mul(add(0.1, cos(add(x5, x5))), sub(mul(x5, add(x5, x5)), sub(x5, sub(abs(add(abs(add(sub(sub(mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5)), add(x5, 0.841471)), mul(x5, add(add(x5, 0.841471), x5))), 0.841471)), -9.39445)), 13)))), 9)), 13)), sub(abs(add(abs(add(sub(sub(mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5)), -9.39445), mul(x5, add(add(x5, 0.841471), x5))), x5)), -9.39445)), 9.94444))), -9.39445), -9.39445))
+Fitness: 103375596.45782848
+
+Tree 96:
+mul(mul(9.94444, add(x5, 0.841471)), add(add(sub(mul(x5, add(x5, x5)), sub(add(add(x5, add(x5, x5)), x5), sub(abs(add(-9.39445, abs(add(sub(sub(mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5)), add(x5, 0.841471)), mul(x5, add(add(x5, 0.841471), x5))), x5)))), 13))), -9.39445), -9.39445))
+Fitness: 111188883.57701758
+
+Tree 97:
+mul(mul(9.94444, add(x5, 0.841471)), add(add(sub(mul(x5, add(x5, x5)), sub(mul(x0, div(add(x1, sub(mul(add(0.1, cos(x5)), add(add(x5, 0.841471), x5)), 9)), 13)), sub(abs(add(abs(add(sub(sub(mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5)), -9.39445), mul(x5, add(add(x5, 0.841471), x5))), x5)), -9.39445)), 9.94444))), -9.39445), -9.39445))
+Fitness: 97397823.69466698
+
+Tree 98:
+mul(mul(9.94444, add(x5, 0.841471)), add(add(sub(mul(x5, add(x5, x5)), sub(add(add(9.94444, x5), log(sqrt(sqrt(x4)))), sub(abs(add(abs(add(sub(sub(mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5)), add(x5, 0.841471)), mul(x5, add(x5, 0.841471))), 0.841471)), -9.39445)), 13))), -9.39445), -9.39445))
+Fitness: 130238662.08056015
+
+Tree 99:
+mul(mul(9.94444, add(x5, 0.841471)), add(add(sub(mul(x5, add(x5, x5)), sub(add(add(x5, 0.841471), x5), sub(abs(add(-9.39445, abs(add(sub(sub(mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5)), add(x5, 0.841471)), mul(x5, add(add(x5, 0.841471), x5))), x5)))), 13))), -9.39445), -9.39445))
+Fitness: 102022143.62556756
+
+Tree 100:
+mul(mul(9.94444, add(x5, 0.841471)), add(add(sub(mul(x5, add(x5, x5)), sub(mul(x0, div(add(x1, add(x5, 0.841471)), 13)), sub(abs(add(abs(add(sub(sub(mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5)), -9.39445), mul(x5, add(add(x5, 0.841471), x5))), x5)), add(x5, 0.841471))), 9.94444))), -9.39445), -9.39445))
+Fitness: 121686822.07149985
+
+Tree 101:
+mul(mul(9.94444, add(x5, 0.841471)), add(add(sub(mul(x5, add(x5, x5)), sub(add(add(x5, 0.841471), x5), sub(abs(add(abs(add(sub(sub(mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5)), add(x5, 0.841471)), mul(x5, add(add(0.841471, x5), x5))), 0.841471)), -9.39445)), 13))), -9.39445), -9.39445))
+Fitness: 101343185.3830391
+
+Tree 102:
+mul(mul(9.94444, add(x5, 0.841471)), add(add(sub(mul(x5, add(x5, x5)), sub(add(add(9.94444, x5), log(sqrt(sqrt(x4)))), sub(abs(add(abs(add(sub(sub(mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5)), add(x5, 0.841471)), mul(x5, add(x5, x5))), 0.841471)), -9.39445)), 13))), -9.39445), x5))
+Fitness: 105696626.98798326
+
+Tree 103:
+mul(add(add(sub(mul(x5, x5), sub(mul(x0, div(add(x1, sub(mul(add(0.1, add(x5, 0.841471)), add(x5, 0.841471)), 9)), -9.39445)), sub(abs(add(abs(add(sub(sub(mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5)), 1.68294), mul(x5, add(add(x5, 0.841471), x5))), x5)), 0.841471)), 9.94444))), -9.39445), -9.39445), mul(9.94444, add(x5, 0.841471)))
+Fitness: 115292813.49764374
+
+Tree 104:
+mul(mul(9.94444, add(x5, 0.841471)), add(add(sub(mul(x5, add(x5, x5)), sub(add(add(9.94444, x5), 0.574253), sub(abs(add(abs(add(sub(sub(mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5)), add(x5, 0.841471)), mul(x5, add(add(x5, 0.841471), x5))), 0.841471)), -9.39445)), 13))), -9.39445), -9.39445))
+Fitness: 96436482.84854308
+
+Tree 105:
+mul(mul(9.94444, add(x5, 0.841471)), add(sub(mul(x5, add(x5, add(0.841471, x5))), sub(add(0.841471, x5), sub(abs(add(abs(add(sub(sub(add(-9.39445, sub(mul(x5, add(x5, x5)), mul(sub(18.9444, sub(mul(9.94444, add(x5, 0.841471)), 9.39445)), add(0.841471, x5)))), 5.84147), mul(x5, 1.75879)), x5)), -9.39445)), 9.94444))), -9.39445))
+Fitness: 104956273.1562222
+
