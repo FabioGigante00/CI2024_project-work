@@ -1,0 +1,20 @@
+# Configuration
+conf = {
+    'problem': 3,
+    'crossover': <function recombination_crossover at 0x000002992396E980>,
+    'OFFSPRING_SIZE': 200,
+    'POPULATION_SIZE': 100,
+    'OUTSIDER_SIZE': 20,
+    'pm': 0.18,
+    'x_elitism': 0.08,
+    'MAX_GENERATIONS': 100,
+    'HEIGHT': 5,
+    'PC': 0.15,
+    'P_PICK_CONSTANT': 0.4,
+    'P_CUT_TREE': 0.05,
+    'CONSTANTS': [1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0, 15.0, 16.0, 17.0, 18.0, 19.0, 20.0],
+}
+
+# Resulting function
+sub(mul(mul(sqrt(add(abs(div(sub(sub(-3, mul(sub(div(x2, 1), 14), div(x1, x1))), mul(sqrt(add(abs(x0), abs(div(abs(sub(div(x2, 1), 14)), div(x1, x1))))), sub(abs(abs(sub(abs(abs(x0)), -0.333333))), inv(sub(-3, sqrt(sqrt(mul(x1, abs(div(3.4641, x0)))))))))), sqrt(x0))), abs(div(abs(sub(div(x2, div(x1, x1)), 14)), div(x1, x1))))), sub(abs(abs(x0)), inv(sub(-3, sqrt(mul(abs(add(add(abs(abs(div(abs(x0), x0))), sub(add(add(div(x1, x1), mul(mul(x1, mul(sqrt(x0), abs(x1))), div(x1, x1))), abs(x0)), div(x2, 1))), x2)), x0)))))), sqrt(x0)), sub(add(add(abs(sub(-3, div(x2, 1))), sub(add(add(div(x1, x1), mul(mul(x1, mul(abs(x1), sub(abs(x1), div(div(abs(div(x2, 1)), 18), x1)))), div(x1, x1))), div(x2, 1)), sqrt(sqrt(div(sub(sub(-3, mul(sub(div(div(x1, x1), 1), 14), div(x1, x1))), mul(sqrt(add(abs(x0), abs(div(abs(sub(x2, 14)), div(x1, x1))))), abs(div(sub(sub(-3, mul(sub(div(x2, 1), 14), div(x1, x1))), mul(sqrt(add(abs(x0), abs(div(abs(sub(x2, 14)), div(x1, x1))))), sub(abs(abs(x0)), -0.333333))), sqrt(x0))))), sqrt(inv(sub(-3, sub(sqrt(x0), x2))))))))), x2), 3.4641))# Resulting fitness
+133.53940609126442

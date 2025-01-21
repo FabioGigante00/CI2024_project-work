@@ -1,0 +1,21 @@
+# Configuration
+conf = {
+    'problem': 4,
+    'crossover': <function recombination_crossover at 0x7a3dd2778860>,
+    'OFFSPRING_SIZE': 200,
+    'POPULATION_SIZE': 100,
+    'OUTSIDER_SIZE': 20,
+    'INITIAL_PM': 0.2,
+    'FINAL_PM': 0.15,
+    'x_elitism': 0.08,
+    'MAX_GENERATIONS': 150,
+    'HEIGHT': 5,
+    'PC': 0.5,
+    'P_PICK_CONSTANT': 0.4,
+    'P_CUT_TREE': 0.05,
+    'CONSTANTS': [1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0, 15.0, 16.0, 17.0, 18.0, 19.0, 20.0],
+}
+
+# Resulting function
+log(mul(mul(mul(exp(exp(cos(x1))), mul(exp(cos(abs(x1))), add(cos(abs(x1)), sqrt(sqrt(exp(cos(exp(cos(x1))))))))), abs(sqrt(sin(exp(cos(exp(cos(x1)))))))), abs(mul(exp(cos(abs(x1))), mul(mul(mul(sqrt(x1), exp(cos(x1))), exp(exp(cos(x1)))), div(exp(add(sqrt(sqrt(sqrt(sqrt(x1)))), cos(x1))), sqrt(x1)))))))# Resulting fitness
+7.674891104765343

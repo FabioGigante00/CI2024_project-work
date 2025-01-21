@@ -1,0 +1,447 @@
+# Configuration
+conf = {
+    'problem': 4,
+    'crossover': <function recombination_crossover at 0x7a3dd2778860>,
+    'OFFSPRING_SIZE': 200,
+    'POPULATION_SIZE': 100,
+    'OUTSIDER_SIZE': 20,
+    'INITIAL_PM': 0.2,
+    'FINAL_PM': 0.15,
+    'x_elitism': 0.08,
+    'MAX_GENERATIONS': 150,
+    'HEIGHT': 5,
+    'PC': 0.5,
+    'P_PICK_CONSTANT': 0.4,
+    'P_CUT_TREE': 0.05,
+    'CONSTANTS': [1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0, 15.0, 16.0, 17.0, 18.0, 19.0, 20.0],
+}
+
+# Population
+Tree 0:
+log(abs(mul(abs(mul(exp(cos(x1)), mul(div(exp(add(sqrt(sqrt(sqrt(cos(abs(cos(x1)))))), cos(x1))), sqrt(abs(x1))), mul(exp(exp(cos(abs(x1)))), mul(exp(cos(x1)), abs(sqrt(x1))))))), mul(mul(exp(exp(cos(x1))), mul(exp(cos(abs(x1))), add(sqrt(sqrt(abs(abs(x1)))), cos(x1)))), abs(sqrt(sin(exp(cos(x1)))))))))
+Fitness: 11.744558311773805
+
+Tree 1:
+log(abs(mul(abs(mul(mul(div(exp(add(sqrt(sqrt(x1)), cos(x1))), sqrt(abs(x1))), mul(exp(exp(cos(x1))), mul(exp(cos(x1)), abs(abs(sqrt(sqrt(abs(x1)))))))), exp(cos(x1)))), mul(mul(exp(exp(cos(x1))), mul(exp(cos(x1)), add(sqrt(sqrt(abs(x1))), cos(x1)))), abs(sqrt(sin(exp(cos(x1)))))))))
+Fitness: 11.76753948410036
+
+Tree 2:
+log(abs(mul(abs(mul(mul(div(exp(add(sqrt(sqrt(x1)), cos(x1))), sqrt(abs(x1))), mul(mul(exp(cos(x1)), abs(abs(sqrt(sqrt(abs(x1)))))), exp(exp(cos(x1))))), exp(cos(x1)))), mul(mul(exp(exp(cos(x1))), mul(exp(cos(x1)), add(sqrt(sqrt(abs(x1))), cos(x1)))), abs(sqrt(sin(exp(cos(x1)))))))))
+Fitness: 11.76753948410036
+
+Tree 3:
+log(abs(mul(abs(mul(exp(cos(x1)), mul(div(exp(add(sqrt(sqrt(sqrt(cos(abs(cos(sqrt(sqrt(abs(x1))))))))), cos(x1))), sqrt(abs(x1))), mul(exp(exp(cos(abs(x1)))), mul(exp(cos(x1)), abs(sqrt(x1))))))), mul(mul(exp(exp(cos(x1))), mul(exp(cos(abs(x1))), add(sqrt(sqrt(abs(x1))), cos(x1)))), abs(sqrt(sin(exp(cos(x1)))))))))
+Fitness: 11.835598813202274
+
+Tree 4:
+log(abs(mul(abs(mul(exp(cos(x1)), mul(div(exp(add(sqrt(sqrt(sqrt(cos(abs(cos(sqrt(sqrt(abs(x1))))))))), cos(x1))), sqrt(abs(x1))), mul(exp(exp(cos(abs(x1)))), mul(exp(cos(x1)), abs(sqrt(x1))))))), mul(mul(exp(exp(cos(abs(x1)))), mul(exp(cos(abs(x1))), add(sqrt(sqrt(abs(x1))), cos(x1)))), abs(sqrt(sin(exp(cos(x1)))))))))
+Fitness: 11.835598813202274
+
+Tree 5:
+log(abs(mul(abs(mul(exp(cos(x1)), mul(div(exp(add(sqrt(sqrt(sqrt(cos(abs(cos(sqrt(sqrt(abs(x1))))))))), cos(x1))), sqrt(abs(x1))), mul(exp(exp(cos(abs(x1)))), mul(exp(cos(x1)), abs(sqrt(x1))))))), mul(mul(exp(exp(cos(x1))), mul(exp(cos(abs(x1))), add(sqrt(sqrt(abs(abs(x1)))), cos(x1)))), abs(sqrt(sin(exp(cos(x1)))))))))
+Fitness: 11.835598813202274
+
+Tree 6:
+log(abs(mul(abs(mul(exp(cos(x1)), mul(div(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), x1), mul(mul(exp(cos(x1)), abs(sqrt(x1))), exp(add(sqrt(sqrt(abs(x1))), cos(x1))))))), mul(mul(mul(exp(cos(x1)), add(sqrt(sqrt(abs(x1))), cos(x1))), exp(exp(cos(abs(x1))))), abs(sqrt(sin(sqrt(exp(cos(x1))))))))))
+Fitness: 12.242868025974243
+
+Tree 7:
+log(abs(mul(mul(mul(mul(exp(cos(x1)), add(sqrt(sqrt(abs(x1))), cos(x1))), exp(exp(cos(abs(x1))))), abs(sqrt(sin(sqrt(exp(cos(x1))))))), abs(mul(exp(cos(x1)), mul(div(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), x1), mul(mul(exp(cos(x1)), abs(sqrt(x1))), exp(add(sqrt(sqrt(abs(x1))), cos(x1))))))))))
+Fitness: 12.242868025974243
+
+Tree 8:
+log(abs(mul(abs(mul(exp(cos(x1)), mul(div(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), x1), mul(mul(exp(cos(x1)), abs(sqrt(x1))), exp(add(sqrt(sqrt(abs(x1))), cos(x1))))))), mul(mul(mul(exp(cos(x1)), add(sqrt(sqrt(abs(x1))), cos(x1))), exp(exp(cos(abs(x1))))), abs(sqrt(sin(sqrt(cos(abs(cos(abs(mul(exp(cos(abs(mul(abs(mul(exp(cos(x1)), mul(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), mul(exp(cos(x1)), abs(sqrt(x1)))))), mul(mul(mul(add(sqrt(sqrt(x1)), cos(x1)), add(sqrt(sqrt(abs(x1))), cos(mul(exp(cos(x1)), abs(sqrt(x1)))))), exp(exp(cos(abs(cos(x1)))))), abs(sqrt(abs(x1)))))))), mul(div(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), x1), mul(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), mul(exp(cos(x1)), abs(sqrt(x1))))))))))))))))))
+Fitness: 15.72858076473407
+
+Tree 9:
+log(abs(mul(abs(mul(exp(cos(x1)), mul(div(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), x1), mul(mul(exp(cos(x1)), abs(sqrt(x1))), exp(add(sqrt(sqrt(abs(x1))), cos(x1))))))), mul(mul(mul(exp(cos(x1)), add(sqrt(sqrt(abs(x1))), cos(x1))), exp(exp(cos(abs(x1))))), abs(sqrt(sin(sqrt(cos(abs(cos(abs(mul(exp(x1), mul(div(exp(add(sqrt(sqrt(abs(x1))), cos(sqrt(sub(2.71828, sqrt(x1)))))), x1), mul(abs(x1), mul(exp(cos(abs(x1))), abs(sqrt(x1))))))))))))))))))
+Fitness: 14.298981111374365
+
+Tree 10:
+abs(sqrt(sin(exp(cos(x1)))))
+Fitness: 2369.999585825452
+
+Tree 11:
+log(abs(mul(abs(mul(exp(cos(x1)), mul(div(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), x1), mul(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), mul(exp(cos(x1)), abs(sqrt(x1))))))), mul(abs(sqrt(sin(sqrt(cos(abs(cos(cos(sqrt(exp(cos(mul(div(mul(exp(exp(cos(x1))), mul(exp(cos(sqrt(abs(x1)))), abs(sqrt(x1)))), x1), abs(sqrt(x1)))))))))))))), mul(mul(exp(cos(x1)), add(sqrt(sqrt(abs(x1))), cos(x1))), exp(exp(cos(abs(x1)))))))))
+Fitness: 15.185447647016222
+
+Tree 12:
+log(abs(mul(abs(mul(exp(cos(x1)), mul(div(exp(add(sqrt(sqrt(abs(sqrt(sqrt(abs(x1)))))), cos(x1))), x1), mul(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), mul(exp(cos(x1)), abs(sqrt(x1))))))), mul(abs(sqrt(sin(sqrt(x1)))), mul(mul(exp(cos(x1)), add(sqrt(sqrt(abs(x1))), cos(x1))), exp(exp(cos(x1))))))))
+Fitness: 12.411386092937883
+
+Tree 13:
+log(abs(mul(abs(mul(exp(cos(x1)), mul(div(exp(add(sqrt(sqrt(sqrt(cos(abs(cos(sqrt(exp(add(sqrt(sqrt(abs(x1))), cos(sqrt(sub(2.71828, x1)))))))))))), cos(x1))), sqrt(abs(x1))), mul(exp(exp(cos(abs(x1)))), mul(exp(cos(x1)), abs(sqrt(x1))))))), mul(mul(exp(exp(cos(abs(x1)))), mul(exp(cos(abs(x1))), add(sqrt(sqrt(abs(x1))), cos(x1)))), abs(sqrt(sin(exp(cos(x1)))))))))
+Fitness: 12.982505811739198
+
+Tree 14:
+log(abs(mul(abs(mul(exp(cos(x1)), mul(div(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), x1), mul(mul(exp(cos(x1)), abs(sqrt(x1))), exp(add(sqrt(sqrt(abs(x1))), cos(x1))))))), mul(mul(mul(exp(cos(x1)), add(sqrt(sqrt(abs(x1))), cos(x1))), exp(exp(cos(abs(x1))))), abs(sqrt(sin(sqrt(cos(abs(cos(abs(mul(exp(x1), mul(div(sqrt(abs(x1)), x1), mul(abs(x1), mul(exp(cos(abs(x1))), abs(sqrt(x1))))))))))))))))))
+Fitness: 14.397575869977768
+
+Tree 15:
+log(abs(mul(abs(mul(exp(cos(x1)), mul(div(exp(add(cos(x1), sqrt(sqrt(abs(x1))))), x1), mul(exp(add(sqrt(sqrt(x1)), cos(x1))), mul(exp(cos(x1)), abs(sqrt(x1))))))), mul(mul(mul(exp(cos(x1)), add(sqrt(sqrt(abs(x1))), cos(x1))), exp(exp(cos(abs(x1))))), abs(sqrt(sin(sqrt(sin(exp(cos(cos(x1))))))))))))
+Fitness: 13.83421222262268
+
+Tree 16:
+sqrt(sqrt(abs(exp(add(sqrt(sqrt(abs(sqrt(sqrt(abs(x1)))))), cos(x1))))))
+Fitness: 2337.465990172947
+
+Tree 17:
+log(abs(mul(abs(mul(exp(cos(x1)), mul(div(exp(add(sqrt(sqrt(sqrt(sqrt(abs(x1))))), cos(x1))), sqrt(abs(x1))), mul(exp(exp(cos(abs(x1)))), mul(exp(cos(x1)), abs(sqrt(x1))))))), mul(mul(exp(exp(cos(x1))), mul(exp(cos(abs(x1))), add(sqrt(sqrt(abs(abs(x1)))), cos(x1)))), abs(sqrt(sin(exp(cos(x1)))))))))
+Fitness: 10.733754421318718
+
+Tree 18:
+log(abs(mul(abs(mul(exp(cos(x1)), mul(div(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), x1), mul(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), mul(exp(cos(x1)), abs(sqrt(x1))))))), mul(abs(sqrt(sin(mul(exp(cos(x1)), abs(sqrt(x1)))))), mul(mul(exp(cos(abs(x1))), add(sqrt(sqrt(abs(x1))), cos(x1))), exp(exp(cos(x1))))))))
+Fitness: 12.510743080749869
+
+Tree 19:
+log(abs(mul(mul(mul(mul(exp(cos(x1)), add(sqrt(sqrt(abs(x1))), cos(x1))), exp(exp(cos(abs(x1))))), abs(sqrt(sin(sqrt(x1))))), abs(mul(exp(cos(x1)), mul(div(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), x1), mul(exp(add(cos(abs(x1)), sqrt(sqrt(x1)))), mul(exp(cos(x1)), abs(sqrt(x1))))))))))
+Fitness: 14.079434798856346
+
+Tree 20:
+log(abs(mul(abs(mul(exp(cos(x1)), mul(div(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), x1), mul(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), mul(exp(cos(x1)), abs(sqrt(abs(x1)))))))), mul(mul(exp(exp(cos(x1))), mul(exp(cos(x1)), add(sqrt(sqrt(abs(x1))), cos(x1)))), abs(sqrt(sin(sqrt(cos(abs(cos(mul(exp(cos(abs(x1))), abs(sqrt(x1))))))))))))))
+Fitness: 12.870202693029714
+
+Tree 21:
+log(abs(mul(abs(mul(exp(cos(x1)), mul(div(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), x1), mul(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), mul(exp(cos(x1)), abs(sqrt(x1))))))), mul(mul(mul(exp(cos(x1)), add(sqrt(sqrt(abs(x1))), cos(x1))), exp(exp(cos(abs(x1))))), abs(sqrt(sin(sqrt(cos(abs(cos(cos(sqrt(exp(cos(mul(div(add(sqrt(sqrt(abs(x1))), cos(x1)), x1), mul(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), x1)))))))))))))))))
+Fitness: 15.207726169372158
+
+Tree 22:
+log(abs(mul(abs(mul(exp(cos(x1)), mul(div(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), x1), mul(exp(add(sqrt(sqrt(x1)), cos(x1))), mul(exp(cos(x1)), abs(sqrt(x1))))))), mul(mul(mul(exp(cos(x1)), add(sqrt(sqrt(abs(x1))), cos(abs(x1)))), exp(exp(cos(abs(x1))))), abs(sqrt(sin(sqrt(cos(abs(cos(x1)))))))))))
+Fitness: 12.90638839117814
+
+Tree 23:
+log(abs(mul(abs(mul(exp(cos(x1)), mul(div(exp(add(sqrt(sqrt(abs(sqrt(x1)))), cos(x1))), x1), mul(exp(exp(cos(abs(x1)))), mul(mul(exp(cos(x1)), abs(sqrt(x1))), abs(sqrt(x1))))))), mul(mul(exp(exp(cos(abs(x1)))), mul(exp(cos(x1)), add(sqrt(sqrt(abs(x1))), cos(x1)))), abs(sqrt(sin(exp(cos(sqrt(abs(x1)))))))))))
+Fitness: 15.579156059468817
+
+Tree 24:
+log(abs(mul(mul(mul(mul(exp(cos(x1)), add(sqrt(sqrt(abs(x1))), cos(x1))), exp(exp(cos(abs(x1))))), abs(sqrt(sin(sqrt(x1))))), abs(mul(exp(cos(x1)), mul(div(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), x1), mul(exp(add(cos(x1), sqrt(sqrt(x1)))), mul(exp(cos(x1)), abs(sqrt(x1))))))))))
+Fitness: 14.079434798856346
+
+Tree 25:
+log(abs(mul(abs(mul(exp(cos(x1)), mul(div(exp(add(sqrt(sqrt(x1)), cos(x1))), x1), mul(mul(exp(cos(x1)), abs(sqrt(x1))), exp(add(sqrt(sqrt(abs(x1))), cos(x1))))))), mul(mul(mul(exp(cos(x1)), add(sqrt(sqrt(abs(x1))), cos(x1))), exp(exp(cos(abs(x1))))), abs(sqrt(sin(sqrt(exp(cos(x1))))))))))
+Fitness: 12.242868025974243
+
+Tree 26:
+log(abs(mul(abs(mul(exp(cos(x1)), mul(div(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), x1), mul(mul(exp(cos(x1)), abs(sqrt(x1))), exp(add(sqrt(sqrt(abs(x1))), cos(x1))))))), mul(mul(mul(exp(cos(x1)), add(sqrt(sqrt(abs(x1))), cos(x1))), exp(exp(cos(abs(x1))))), abs(sqrt(sin(sqrt(cos(abs(cos(abs(mul(exp(x1), mul(div(exp(add(sqrt(sqrt(abs(abs(sqrt(x1))))), cos(x1))), x1), mul(exp(add(sqrt(x1), cos(x1))), mul(exp(cos(abs(x1))), x1))))))))))))))))
+Fitness: 14.748655313918947
+
+Tree 27:
+log(abs(mul(abs(mul(exp(cos(x1)), mul(div(exp(add(sqrt(sqrt(x1)), cos(x1))), x1), mul(mul(exp(cos(x1)), abs(sqrt(x1))), exp(add(sqrt(sqrt(abs(x1))), cos(x1))))))), mul(mul(mul(exp(cos(x1)), add(sqrt(sqrt(abs(x1))), cos(x1))), exp(exp(cos(abs(x1))))), abs(sqrt(sin(sqrt(cos(abs(cos(abs(mul(exp(cos(abs(abs(mul(exp(cos(x1)), mul(div(exp(add(sqrt(sqrt(x1)), cos(x1))), x1), mul(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), mul(exp(cos(x1)), abs(sqrt(x1)))))))))), mul(div(exp(x1), x1), mul(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), mul(exp(cos(x1)), abs(sqrt(x1))))))))))))))))))
+Fitness: 15.264218171921787
+
+Tree 28:
+log(abs(mul(abs(mul(exp(cos(x1)), mul(div(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), x1), mul(mul(exp(cos(x1)), abs(sqrt(x1))), exp(add(sqrt(sqrt(abs(x1))), cos(x1))))))), mul(mul(mul(exp(cos(x1)), add(sqrt(sqrt(abs(x1))), cos(x1))), exp(exp(cos(abs(x1))))), abs(sqrt(sin(sqrt(cos(abs(cos(abs(mul(exp(x1), mul(div(sqrt(sin(sqrt(cos(abs(cos(sqrt(sqrt(cos(x1))))))))), x1), mul(exp(x1), cos(cos(abs(cos(sqrt(x1))))))))))))))))))))
+Fitness: 15.810535364217706
+
+Tree 29:
+cos(x1)
+Fitness: 2087.1246303132752
+
+Tree 30:
+log(abs(mul(abs(mul(exp(cos(x1)), mul(div(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), x1), mul(mul(exp(cos(x1)), abs(sqrt(x1))), exp(add(sqrt(sqrt(abs(x1))), cos(x1))))))), mul(mul(mul(exp(cos(x1)), add(sqrt(sqrt(abs(x1))), cos(x1))), exp(exp(cos(abs(abs(x1)))))), abs(sqrt(sin(sqrt(cos(abs(cos(abs(mul(sqrt(abs(cos(x1))), mul(div(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), x1), mul(exp(add(sqrt(sqrt(cos(abs(x1)))), cos(x1))), mul(exp(cos(abs(sqrt(x1)))), abs(sqrt(x1))))))))))))))))))
+Fitness: 14.291377436133132
+
+Tree 31:
+abs(sqrt(x1))
+Fitness: 2639.4927950838037
+
+Tree 32:
+log(abs(mul(abs(mul(exp(cos(x1)), mul(mul(exp(add(sqrt(sqrt(x1)), cos(x1))), mul(exp(cos(x1)), abs(sqrt(x1)))), div(exp(add(sqrt(sqrt(x1)), cos(x1))), x1)))), mul(mul(mul(exp(cos(x1)), add(sqrt(sqrt(abs(x1))), cos(x1))), exp(exp(cos(abs(x1))))), abs(sqrt(sin(sqrt(add(sqrt(sqrt(abs(x1))), cos(x1))))))))))
+Fitness: 13.049619468746538
+
+Tree 33:
+log(abs(mul(abs(mul(exp(cos(x1)), mul(div(exp(add(sqrt(sqrt(sqrt(cos(abs(cos(sqrt(mul(div(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), x1), mul(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), mul(exp(cos(abs(abs(x1)))), abs(sqrt(x1)))))))))))), cos(x1))), sqrt(abs(x1))), mul(exp(exp(cos(abs(x1)))), mul(exp(cos(x1)), abs(sqrt(x1))))))), mul(mul(exp(exp(cos(x1))), mul(exp(cos(abs(x1))), add(sqrt(sqrt(abs(x1))), cos(x1)))), abs(sqrt(sin(exp(cos(x1)))))))))
+Fitness: 13.232099893415148
+
+Tree 34:
+log(abs(mul(abs(mul(exp(cos(x1)), mul(div(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), x1), mul(mul(exp(cos(x1)), abs(sqrt(x1))), exp(add(sqrt(sqrt(abs(x1))), cos(x1))))))), mul(mul(mul(exp(cos(x1)), add(sqrt(sqrt(abs(x1))), cos(x1))), exp(exp(cos(abs(x1))))), abs(sqrt(sin(sqrt(cos(abs(cos(abs(mul(exp(cos(abs(mul(mul(mul(exp(exp(cos(x1))), mul(exp(cos(x1)), add(sqrt(sqrt(abs(x1))), cos(x1)))), abs(sqrt(sin(exp(cos(x1)))))), mul(mul(mul(add(sqrt(sqrt(x1)), cos(x1)), add(sqrt(sqrt(abs(x1))), cos(x1))), exp(exp(cos(abs(cos(x1)))))), abs(sqrt(sin(sqrt(cos(abs(cos(x1)))))))))))), mul(div(exp(x1), x1), mul(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), mul(exp(cos(x1)), abs(sqrt(x1))))))))))))))))))
+Fitness: 15.303818679207925
+
+Tree 35:
+log(abs(mul(abs(mul(exp(cos(x1)), mul(div(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), x1), mul(mul(exp(cos(x1)), abs(sqrt(x1))), exp(add(sqrt(sqrt(abs(x1))), cos(x1))))))), mul(mul(mul(exp(cos(x1)), add(sqrt(sqrt(abs(x1))), cos(x1))), exp(exp(cos(abs(x1))))), abs(sqrt(sin(sqrt(cos(abs(cos(abs(mul(exp(x1), mul(div(exp(add(sqrt(sqrt(abs(abs(sqrt(x1))))), cos(x1))), x1), mul(exp(abs(x1)), mul(exp(cos(abs(x1))), x1))))))))))))))))
+Fitness: 15.02140513125565
+
+Tree 36:
+log(abs(mul(abs(mul(exp(cos(x1)), mul(div(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), x1), mul(mul(exp(cos(x1)), abs(sqrt(x1))), exp(add(sqrt(sqrt(abs(x1))), cos(x1))))))), mul(mul(mul(exp(cos(x1)), add(sqrt(sqrt(abs(x1))), cos(x1))), exp(exp(cos(abs(x1))))), abs(sqrt(sin(sqrt(cos(abs(cos(abs(x1))))))))))))
+Fitness: 12.90638839117814
+
+Tree 37:
+log(abs(mul(abs(mul(exp(cos(x1)), mul(div(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), x1), mul(mul(exp(cos(x1)), abs(sqrt(x1))), exp(add(sqrt(sqrt(abs(x1))), cos(x1))))))), mul(mul(exp(exp(cos(abs(x1)))), mul(exp(cos(x1)), add(sqrt(sqrt(abs(x1))), cos(x1)))), abs(sqrt(sin(sqrt(cos(abs(cos(abs(mul(exp(x1), cos(x1))))))))))))))
+Fitness: 13.693877994783794
+
+Tree 38:
+log(abs(mul(abs(mul(exp(cos(x1)), mul(div(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), x1), mul(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), mul(exp(cos(x1)), abs(sqrt(x1))))))), mul(mul(mul(exp(cos(x1)), add(sqrt(sqrt(abs(x1))), cos(x1))), exp(exp(cos(abs(x1))))), abs(sqrt(sin(sqrt(cos(cos(sqrt(exp(cos(x1)))))))))))))
+Fitness: 12.52409765891727
+
+Tree 39:
+log(abs(mul(abs(mul(exp(cos(x1)), mul(div(exp(add(sqrt(sqrt(sqrt(cos(abs(cos(sqrt(mul(abs(x1), mul(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), mul(exp(cos(x1)), abs(sqrt(x1)))))))))))), cos(x1))), sqrt(abs(x1))), mul(exp(exp(cos(abs(x1)))), mul(exp(cos(x1)), abs(sqrt(x1))))))), mul(mul(exp(exp(cos(x1))), mul(exp(cos(abs(x1))), add(sqrt(sqrt(abs(x1))), cos(x1)))), abs(sqrt(sin(exp(cos(x1)))))))))
+Fitness: 12.932688605055452
+
+Tree 40:
+log(abs(mul(abs(mul(exp(cos(x1)), mul(div(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), x1), mul(mul(exp(cos(x1)), abs(sqrt(x1))), exp(add(sqrt(sqrt(abs(x1))), cos(abs(x1)))))))), mul(mul(mul(exp(cos(x1)), add(sqrt(sqrt(abs(x1))), cos(x1))), exp(exp(cos(abs(x1))))), abs(sqrt(sin(sqrt(cos(abs(cos(abs(mul(x1, mul(div(exp(add(sqrt(sqrt(x1)), cos(x1))), x1), mul(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), mul(exp(abs(x1)), abs(div(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), x1))))))))))))))))))
+Fitness: 15.040654767990386
+
+Tree 41:
+log(abs(cos(abs(x1))))
+Fitness: 3333.428888561725
+
+Tree 42:
+log(abs(mul(abs(mul(exp(cos(x1)), mul(div(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), x1), mul(mul(exp(cos(x1)), abs(sqrt(x1))), exp(add(sqrt(sqrt(abs(x1))), cos(x1))))))), mul(mul(mul(exp(cos(x1)), add(sqrt(sqrt(abs(x1))), cos(x1))), exp(exp(cos(abs(x1))))), abs(sqrt(sin(sqrt(cos(abs(cos(abs(mul(exp(x1), mul(div(exp(add(sqrt(sqrt(abs(abs(sqrt(x1))))), cos(x1))), x1), mul(exp(add(sqrt(x1), cos(x1))), mul(cos(mul(exp(cos(abs(x1))), abs(sqrt(x1)))), x1))))))))))))))))
+Fitness: 15.043560358937391
+
+Tree 43:
+exp(cos(x1))
+Fitness: 1678.471472039193
+
+Tree 44:
+log(abs(mul(abs(mul(exp(cos(x1)), mul(mul(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), mul(exp(cos(x1)), abs(sqrt(x1)))), div(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), x1)))), mul(mul(mul(exp(cos(x1)), add(sqrt(sqrt(abs(x1))), cos(x1))), exp(exp(cos(abs(x1))))), abs(sqrt(sin(sqrt(x1))))))))
+Fitness: 14.079434798856346
+
+Tree 45:
+log(abs(mul(abs(mul(exp(cos(x1)), mul(div(exp(add(sqrt(sqrt(sqrt(cos(abs(cos(sqrt(cos(x1)))))))), cos(x1))), sqrt(abs(x1))), mul(exp(exp(cos(abs(x1)))), mul(exp(cos(x1)), abs(sqrt(x1))))))), mul(mul(exp(exp(cos(x1))), mul(exp(cos(abs(x1))), add(sqrt(sqrt(abs(abs(x1)))), cos(x1)))), abs(sqrt(sin(exp(cos(x1)))))))))
+Fitness: 12.538240921923126
+
+Tree 46:
+log(abs(mul(abs(mul(exp(cos(x1)), mul(div(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), x1), mul(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), mul(exp(cos(x1)), abs(sqrt(abs(x1)))))))), mul(mul(mul(exp(cos(x1)), add(sqrt(sqrt(abs(x1))), cos(x1))), exp(exp(cos(abs(x1))))), sqrt(sin(sqrt(cos(abs(cos(cos(sqrt(mul(exp(exp(cos(exp(cos(cos(abs(x1))))))), mul(mul(exp(cos(x1)), abs(sqrt(cos(sqrt(sqrt(abs(x1))))))), abs(x1)))))))))))))))
+Fitness: 15.643222744989178
+
+Tree 47:
+log(abs(mul(abs(mul(exp(cos(x1)), mul(div(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), x1), mul(exp(add(sqrt(sqrt(x1)), cos(x1))), mul(exp(cos(x1)), abs(sqrt(x1))))))), mul(mul(mul(exp(cos(x1)), add(sqrt(sqrt(abs(x1))), cos(x1))), exp(exp(cos(abs(x1))))), abs(sqrt(sin(sqrt(sin(exp(cos(cos(x1))))))))))))
+Fitness: 13.83421222262268
+
+Tree 48:
+log(abs(mul(abs(mul(exp(cos(x1)), mul(div(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), x1), mul(mul(exp(cos(x1)), abs(sqrt(x1))), exp(add(sqrt(sqrt(abs(x1))), cos(x1))))))), mul(mul(mul(exp(cos(x1)), add(sqrt(sqrt(abs(x1))), cos(x1))), exp(exp(cos(abs(x1))))), abs(sqrt(sin(sqrt(cos(abs(cos(abs(mul(exp(cos(abs(mul(mul(mul(exp(exp(cos(x1))), mul(exp(cos(x1)), add(sqrt(sqrt(abs(x1))), cos(x1)))), abs(sqrt(sin(exp(cos(x1)))))), mul(mul(mul(add(sqrt(sqrt(x1)), cos(x1)), add(sqrt(sqrt(abs(x1))), cos(x1))), exp(exp(cos(abs(cos(x1)))))), abs(sqrt(sin(sqrt(cos(abs(cos(x1)))))))))))), mul(div(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), x1), mul(exp(exp(cos(abs(x1)))), mul(exp(cos(x1)), abs(sqrt(x1))))))))))))))))))
+Fitness: 15.44479899312352
+
+Tree 49:
+log(abs(mul(abs(mul(exp(cos(x1)), mul(div(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), x1), mul(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), mul(exp(cos(x1)), abs(sqrt(x1))))))), mul(mul(mul(exp(cos(x1)), add(sqrt(sqrt(abs(x1))), cos(x1))), exp(exp(cos(abs(x1))))), abs(sqrt(sin(sqrt(cos(abs(cos(cos(abs(mul(exp(cos(x1)), mul(div(cos(x1), x1), mul(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), mul(exp(cos(x1)), abs(sqrt(x1)))))))))))))))))))
+Fitness: 14.841331813241183
+
+Tree 50:
+log(abs(mul(abs(mul(exp(cos(x1)), mul(div(exp(add(sqrt(sqrt(x1)), cos(x1))), x1), mul(exp(exp(cos(abs(x1)))), mul(add(sqrt(sqrt(x1)), cos(x1)), abs(sqrt(x1))))))), mul(mul(exp(exp(cos(abs(x1)))), mul(exp(cos(x1)), add(sqrt(sqrt(abs(x1))), cos(x1)))), abs(sqrt(sin(exp(cos(sqrt(abs(x1)))))))))))
+Fitness: 12.316192349851223
+
+Tree 51:
+log(abs(mul(abs(mul(exp(cos(x1)), mul(div(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), x1), mul(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), mul(exp(cos(x1)), abs(sqrt(abs(abs(x1))))))))), mul(mul(mul(exp(cos(x1)), add(sqrt(sqrt(abs(x1))), cos(x1))), exp(exp(cos(abs(x1))))), abs(sqrt(sin(sqrt(abs(x1)))))))))
+Fitness: 14.079434798856346
+
+Tree 52:
+log(abs(mul(abs(mul(exp(cos(x1)), mul(div(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), x1), mul(mul(exp(cos(x1)), abs(sqrt(x1))), exp(add(sqrt(sqrt(abs(x1))), cos(x1))))))), mul(mul(exp(exp(cos(abs(x1)))), mul(exp(cos(x1)), add(sqrt(sqrt(abs(x1))), cos(x1)))), abs(sqrt(sin(sqrt(cos(abs(cos(abs(mul(exp(x1), mul(div(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), x1), mul(abs(cos(x1)), mul(exp(cos(abs(x1))), exp(cos(abs(x1)))))))))))))))))))
+Fitness: 14.482798623111432
+
+Tree 53:
+exp(cos(exp(cos(x1))))
+Fitness: 3060.5980230724736
+
+Tree 54:
+log(abs(mul(abs(mul(exp(cos(x1)), mul(div(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), x1), mul(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), mul(exp(cos(x1)), abs(sqrt(x1))))))), mul(mul(mul(exp(cos(x1)), add(sqrt(sqrt(abs(x1))), cos(x1))), exp(exp(cos(abs(x1))))), sqrt(sin(sqrt(cos(abs(cos(cos(sqrt(mul(exp(exp(cos(exp(cos(cos(abs(x1))))))), mul(pow(exp(cos(x1)), exp(exp(cos(x1)))), abs(x1)))))))))))))))
+Fitness: 14.810282478600154
+
+Tree 55:
+log(abs(mul(abs(mul(exp(cos(x1)), mul(div(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), x1), mul(exp(add(1.2175, cos(x1))), mul(exp(cos(x1)), abs(sqrt(x1))))))), mul(mul(mul(add(sqrt(sqrt(abs(x1))), cos(x1)), exp(cos(x1))), exp(exp(cos(abs(x1))))), abs(sqrt(sin(sqrt(cos(abs(cos(x1)))))))))))
+Fitness: 12.842176299080837
+
+Tree 56:
+log(abs(mul(abs(mul(exp(cos(x1)), mul(div(exp(add(sqrt(sqrt(sqrt(cos(abs(cos(sqrt(mul(div(exp(add(sqrt(x1), cos(x1))), x1), mul(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), mul(exp(cos(abs(x1))), abs(sqrt(x1)))))))))))), cos(x1))), sqrt(abs(x1))), mul(exp(exp(cos(abs(x1)))), mul(exp(cos(x1)), abs(sqrt(x1))))))), mul(mul(exp(exp(cos(x1))), mul(exp(cos(abs(x1))), add(sqrt(sqrt(abs(x1))), cos(x1)))), abs(sqrt(sin(exp(cos(x1)))))))))
+Fitness: 13.16220988531223
+
+Tree 57:
+log(abs(mul(abs(mul(exp(cos(x1)), mul(div(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), x1), mul(mul(exp(cos(x1)), abs(sqrt(x1))), exp(add(sqrt(sqrt(abs(x1))), cos(x1))))))), mul(mul(mul(exp(cos(x1)), add(sqrt(sqrt(abs(x1))), cos(x1))), exp(exp(cos(abs(x1))))), abs(sqrt(sin(sqrt(cos(abs(cos(abs(mul(exp(x1), mul(div(exp(x1), x1), mul(abs(x1), mul(exp(cos(abs(x1))), sqrt(sqrt(abs(x1)))))))))))))))))))
+Fitness: 14.771063183888607
+
+Tree 58:
+log(abs(mul(abs(mul(exp(cos(x1)), mul(div(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), x1), mul(mul(exp(cos(x1)), abs(sqrt(x1))), exp(add(sqrt(sqrt(abs(x1))), cos(x1))))))), mul(mul(mul(exp(cos(x1)), add(sqrt(sqrt(abs(x1))), cos(x1))), exp(exp(cos(abs(x1))))), abs(sqrt(sin(sqrt(cos(abs(cos(abs(mul(x1, mul(div(exp(add(sqrt(sqrt(x1)), cos(x1))), x1), mul(exp(add(sqrt(sqrt(abs(abs(x1)))), cos(x1))), mul(exp(abs(x1)), abs(div(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), x1))))))))))))))))))
+Fitness: 15.040654767990386
+
+Tree 59:
+log(abs(mul(abs(mul(exp(cos(x1)), mul(div(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), x1), mul(mul(exp(cos(x1)), abs(sqrt(x1))), exp(add(sqrt(sqrt(abs(x1))), cos(x1))))))), mul(mul(mul(exp(cos(x1)), add(sqrt(sqrt(abs(x1))), cos(x1))), exp(exp(cos(abs(x1))))), abs(sqrt(sin(sqrt(cos(abs(cos(abs(mul(exp(x1), mul(div(exp(x1), x1), mul(abs(x1), mul(exp(cos(x1)), abs(sqrt(x1))))))))))))))))))
+Fitness: 14.579472913369434
+
+Tree 60:
+sqrt(sqrt(abs(abs(x1))))
+Fitness: 2522.1345127894574
+
+Tree 61:
+log(abs(mul(abs(mul(exp(cos(x1)), mul(div(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), x1), mul(mul(exp(cos(x1)), abs(sqrt(x1))), exp(add(sqrt(sqrt(abs(x1))), cos(x1))))))), mul(mul(mul(exp(cos(x1)), add(sqrt(sqrt(abs(x1))), cos(x1))), exp(exp(cos(abs(x1))))), abs(sqrt(sin(sqrt(cos(abs(cos(abs(mul(exp(x1), mul(div(sqrt(sin(sqrt(cos(abs(cos(sqrt(sqrt(cos(x1))))))))), x1), mul(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), cos(cos(abs(exp(cos(x1))))))))))))))))))))
+Fitness: 15.058474934556994
+
+Tree 62:
+log(abs(mul(abs(mul(exp(cos(x1)), mul(div(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), x1), mul(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), mul(exp(cos(x1)), abs(sqrt(x1))))))), mul(mul(mul(exp(cos(x1)), add(sqrt(sqrt(abs(x1))), cos(x1))), exp(exp(cos(abs(x1))))), abs(sqrt(sin(sqrt(cos(abs(cos(cos(sqrt(mul(div(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), x1), mul(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), mul(exp(cos(x1)), abs(sqrt(x1))))))))))))))))))
+Fitness: 14.518822062658844
+
+Tree 63:
+log(abs(mul(abs(mul(exp(cos(x1)), mul(div(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), x1), mul(mul(exp(cos(x1)), abs(sqrt(x1))), exp(add(sqrt(sqrt(abs(x1))), cos(x1))))))), mul(mul(mul(exp(cos(x1)), add(sqrt(sqrt(abs(x1))), cos(x1))), exp(exp(cos(abs(abs(x1)))))), abs(sqrt(sin(sqrt(cos(abs(cos(abs(mul(sqrt(abs(x1)), mul(div(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), x1), mul(exp(add(sqrt(sqrt(cos(abs(x1)))), cos(x1))), mul(exp(cos(abs(sqrt(x1)))), abs(sqrt(x1))))))))))))))))))
+Fitness: 14.850515855117767
+
+Tree 64:
+log(abs(mul(abs(mul(exp(cos(x1)), mul(div(exp(add(sqrt(sqrt(sqrt(cos(abs(cos(sqrt(mul(div(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), x1), mul(exp(add(sqrt(div(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), x1)), cos(x1))), mul(exp(cos(abs(x1))), abs(sqrt(x1)))))))))))), cos(x1))), sqrt(abs(x1))), mul(exp(exp(cos(abs(x1)))), mul(exp(cos(x1)), abs(sqrt(x1))))))), mul(mul(exp(exp(cos(x1))), mul(exp(cos(abs(x1))), add(sqrt(sqrt(abs(x1))), cos(x1)))), abs(sqrt(sin(exp(cos(x1)))))))))
+Fitness: 14.017842337048943
+
+Tree 65:
+log(abs(mul(abs(mul(exp(cos(x1)), mul(div(exp(add(sqrt(sqrt(sqrt(cos(abs(cos(sqrt(mul(sqrt(abs(x1)), mul(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), mul(exp(cos(abs(x1))), abs(sqrt(x1)))))))))))), cos(x1))), sqrt(abs(x1))), mul(exp(exp(cos(abs(x1)))), mul(exp(cos(x1)), abs(sqrt(x1))))))), mul(mul(exp(exp(cos(x1))), mul(exp(cos(abs(x1))), add(sqrt(sqrt(abs(x1))), cos(x1)))), abs(sqrt(sin(exp(cos(x1)))))))))
+Fitness: 12.728326142705
+
+Tree 66:
+log(abs(mul(abs(mul(exp(cos(x1)), mul(div(exp(add(sqrt(sqrt(x1)), cos(x1))), x1), mul(exp(exp(cos(sqrt(x1)))), mul(add(sqrt(sqrt(abs(abs(x1)))), cos(x1)), abs(sqrt(x1))))))), mul(abs(sqrt(sin(exp(cos(x1))))), mul(exp(exp(cos(x1))), mul(exp(cos(x1)), add(sqrt(sqrt(abs(x1))), cos(x1))))))))
+Fitness: 14.339134690814177
+
+Tree 67:
+log(cos(abs(cos(cos(sqrt(x1))))))
+Fitness: 2880.5215828731543
+
+Tree 68:
+log(abs(mul(abs(mul(exp(cos(x1)), mul(div(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), x1), mul(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), mul(exp(cos(x1)), abs(sqrt(x1))))))), mul(mul(mul(exp(cos(x1)), add(sqrt(sqrt(abs(x1))), cos(x1))), exp(exp(cos(abs(x1))))), abs(sqrt(sin(sqrt(cos(abs(cos(cos(exp(sqrt(x1))))))))))))))
+Fitness: 13.204717830134179
+
+Tree 69:
+log(abs(mul(abs(mul(exp(cos(x1)), mul(div(exp(add(sqrt(sqrt(abs(x1))), cos(abs(x1)))), x1), mul(exp(add(sqrt(sqrt(x1)), cos(x1))), mul(exp(cos(x1)), abs(sqrt(x1))))))), mul(mul(mul(exp(cos(x1)), add(sqrt(sqrt(abs(x1))), cos(x1))), exp(exp(cos(abs(x1))))), abs(sqrt(sin(sqrt(sqrt(sqrt(abs(x1)))))))))))
+Fitness: 13.335929479675421
+
+Tree 70:
+log(abs(mul(abs(mul(exp(cos(x1)), mul(div(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), x1), mul(mul(exp(cos(x1)), abs(sqrt(x1))), exp(add(sqrt(sqrt(abs(x1))), cos(x1))))))), mul(mul(mul(exp(cos(x1)), add(sqrt(sqrt(abs(x1))), cos(x1))), exp(exp(cos(abs(x1))))), abs(sqrt(sin(sqrt(cos(abs(cos(abs(mul(exp(cos(abs(mul(abs(mul(exp(cos(x1)), mul(div(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), x1), mul(exp(exp(cos(abs(x1)))), mul(exp(cos(x1)), abs(sqrt(x1))))))), mul(mul(mul(add(sqrt(sqrt(x1)), cos(x1)), add(sqrt(sqrt(abs(x1))), cos(x1))), exp(exp(cos(abs(cos(x1)))))), abs(sqrt(sin(sqrt(cos(abs(cos(x1)))))))))))), mul(div(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), x1), mul(cos(x1), mul(exp(cos(x1)), abs(sqrt(x1))))))))))))))))))
+Fitness: 15.590534484095492
+
+Tree 71:
+log(abs(mul(abs(mul(exp(cos(x1)), mul(div(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), x1), mul(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), mul(exp(cos(x1)), abs(sqrt(x1))))))), mul(mul(mul(exp(cos(x1)), add(sqrt(sqrt(abs(x1))), cos(x1))), exp(exp(cos(abs(x1))))), abs(sqrt(sin(sqrt(cos(abs(cos(cos(sqrt(exp(cos(mul(cos(x1), abs(sqrt(x1))))))))))))))))))
+Fitness: 15.336049587414108
+
+Tree 72:
+log(abs(mul(abs(mul(exp(cos(x1)), mul(div(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), x1), mul(mul(exp(cos(x1)), abs(sqrt(x1))), exp(add(sqrt(sqrt(abs(x1))), cos(x1))))))), mul(mul(mul(exp(cos(x1)), add(sqrt(sqrt(abs(x1))), cos(x1))), exp(exp(cos(abs(x1))))), abs(sqrt(sin(sqrt(cos(abs(cos(abs(mul(exp(x1), mul(div(exp(add(sqrt(sqrt(abs(abs(sqrt(x1))))), cos(x1))), x1), mul(exp(add(sqrt(x1), div(mul(exp(exp(cos(x1))), mul(x1, abs(sqrt(x1)))), x1))), mul(exp(cos(abs(x1))), x1))))))))))))))))
+Fitness: 14.940927112577736
+
+Tree 73:
+log(abs(mul(abs(mul(exp(cos(x1)), mul(div(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), x1), mul(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), mul(exp(cos(x1)), abs(sqrt(x1))))))), mul(mul(mul(exp(cos(x1)), add(sqrt(sqrt(abs(x1))), cos(x1))), exp(exp(cos(abs(x1))))), abs(sqrt(sin(sqrt(cos(abs(cos(cos(sqrt(exp(cos(mul(div(exp(add(sqrt(sqrt(abs(abs(cos(sqrt(abs(x1))))))), cos(cos(x1)))), x1), cos(x1)))))))))))))))))
+Fitness: 16.091366186415136
+
+Tree 74:
+log(abs(mul(abs(mul(exp(cos(x1)), mul(div(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), x1), mul(mul(exp(cos(x1)), abs(sqrt(x1))), exp(add(sqrt(sqrt(abs(x1))), cos(x1))))))), mul(mul(mul(exp(cos(x1)), add(sqrt(sqrt(abs(x1))), cos(x1))), exp(exp(cos(abs(x1))))), abs(sqrt(sin(sqrt(cos(abs(cos(abs(mul(exp(cos(abs(mul(mul(mul(exp(exp(cos(x1))), mul(exp(cos(x1)), add(sqrt(sqrt(abs(x1))), cos(x1)))), abs(sqrt(sin(exp(cos(x1)))))), mul(mul(mul(add(sqrt(sqrt(x1)), cos(x1)), add(sqrt(x1), cos(x1))), exp(exp(cos(abs(cos(x1)))))), abs(sqrt(sin(sqrt(cos(abs(cos(x1)))))))))))), mul(div(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), x1), mul(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), mul(exp(cos(x1)), abs(sqrt(x1))))))))))))))))))
+Fitness: 15.39310505615541
+
+Tree 75:
+log(abs(add(sqrt(sqrt(abs(x1))), cos(x1))))
+Fitness: 2320.9728452114464
+
+Tree 76:
+log(abs(cos(x1)))
+Fitness: 3292.010386053344
+
+Tree 77:
+log(abs(mul(abs(mul(exp(cos(x1)), mul(div(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), x1), mul(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), mul(exp(cos(x1)), abs(sqrt(abs(x1)))))))), mul(mul(exp(exp(cos(abs(x1)))), mul(exp(cos(x1)), add(sqrt(sqrt(abs(x1))), cos(x1)))), abs(sqrt(sin(sqrt(cos(abs(cos(mul(sqrt(cos(abs(cos(sqrt(sqrt(abs(x1))))))), abs(sqrt(x1))))))))))))))
+Fitness: 14.005258897043554
+
+Tree 78:
+x1
+Fitness: 3401.5548009976455
+
+Tree 79:
+log(abs(mul(abs(mul(exp(cos(x1)), mul(div(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), x1), mul(mul(exp(cos(x1)), abs(sqrt(x1))), exp(add(sqrt(sqrt(abs(x1))), cos(x1))))))), mul(mul(mul(exp(cos(x1)), add(sqrt(sqrt(abs(x1))), cos(x1))), exp(exp(cos(abs(x1))))), abs(sqrt(sin(sqrt(cos(abs(cos(abs(mul(exp(x1), mul(div(exp(add(sqrt(sqrt(abs(x1))), cos(sqrt(sub(2.71828, x1))))), x1), mul(abs(x1), mul(exp(cos(abs(x1))), abs(sqrt(x1))))))))))))))))))
+Fitness: 14.235274087212687
+
+Tree 80:
+log(abs(mul(abs(mul(exp(cos(x1)), mul(div(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), x1), mul(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), mul(exp(cos(x1)), abs(sqrt(x1))))))), mul(mul(mul(exp(cos(x1)), add(sqrt(sqrt(abs(x1))), cos(x1))), exp(exp(cos(abs(x1))))), abs(sqrt(sin(sqrt(cos(abs(cos(cos(sqrt(exp(exp(cos(x1))))))))))))))))
+Fitness: 13.956680555642912
+
+Tree 81:
+log(abs(mul(abs(mul(exp(cos(x1)), mul(div(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), x1), mul(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), mul(exp(cos(x1)), abs(sqrt(abs(x1)))))))), mul(mul(mul(exp(cos(x1)), add(sqrt(sqrt(abs(x1))), cos(x1))), exp(exp(cos(abs(x1))))), sqrt(sin(sqrt(cos(abs(cos(cos(sqrt(mul(exp(exp(cos(exp(cos(cos(abs(x1))))))), mul(mul(exp(abs(x1)), abs(sqrt(cos(sqrt(sqrt(abs(x1))))))), abs(x1)))))))))))))))
+Fitness: 15.142034096680508
+
+Tree 82:
+log(abs(mul(abs(mul(exp(cos(x1)), mul(div(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), x1), mul(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), mul(exp(cos(x1)), abs(sqrt(x1))))))), mul(mul(mul(exp(cos(x1)), add(sqrt(sqrt(abs(x1))), cos(x1))), exp(exp(cos(abs(x1))))), abs(sqrt(sin(sqrt(cos(abs(cos(cos(sqrt(exp(cos(mul(x1, abs(sqrt(x1))))))))))))))))))
+Fitness: 14.78650667608175
+
+Tree 83:
+log(abs(mul(abs(mul(exp(cos(x1)), mul(div(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), x1), mul(mul(exp(cos(x1)), abs(sqrt(x1))), exp(add(sqrt(sqrt(abs(x1))), cos(x1))))))), mul(mul(mul(exp(cos(x1)), add(sqrt(sqrt(abs(x1))), cos(x1))), exp(exp(cos(abs(x1))))), abs(sqrt(sin(sqrt(cos(abs(cos(abs(mul(exp(cos(abs(mul(abs(mul(exp(cos(x1)), mul(div(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), x1), mul(exp(exp(cos(abs(x1)))), mul(exp(cos(x1)), abs(sqrt(x1))))))), mul(mul(mul(add(sqrt(sqrt(x1)), cos(x1)), add(sqrt(sqrt(abs(x1))), sqrt(x1))), exp(exp(cos(abs(exp(cos(x1))))))), abs(sqrt(sin(sqrt(cos(abs(cos(sqrt(exp(cos(cos(x1)))))))))))))))), mul(div(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), x1), mul(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), mul(exp(cos(x1)), abs(sqrt(x1))))))))))))))))))
+Fitness: 16.305884035486038
+
+Tree 84:
+log(abs(mul(abs(mul(exp(cos(x1)), mul(div(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), x1), mul(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), mul(exp(cos(x1)), abs(sqrt(x1))))))), mul(mul(mul(exp(cos(x1)), add(sqrt(sqrt(abs(x1))), cos(x1))), exp(exp(cos(abs(x1))))), abs(sqrt(sin(sqrt(cos(abs(cos(sqrt(exp(cos(x1))))))))))))))
+Fitness: 12.68697894616103
+
+Tree 85:
+log(abs(mul(abs(mul(exp(cos(x1)), mul(div(exp(add(sqrt(sqrt(abs(sqrt(x1)))), cos(x1))), x1), mul(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), mul(exp(cos(x1)), abs(sqrt(x1))))))), mul(mul(mul(exp(cos(x1)), add(sqrt(sqrt(x1)), cos(x1))), exp(exp(cos(x1)))), abs(sqrt(sin(sqrt(abs(sqrt(x1))))))))))
+Fitness: 11.37975330839937
+
+Tree 86:
+log(abs(mul(abs(mul(exp(cos(x1)), mul(div(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), x1), mul(mul(exp(cos(x1)), abs(sqrt(x1))), exp(add(sqrt(sqrt(abs(x1))), cos(x1))))))), mul(mul(mul(exp(cos(x1)), add(sqrt(sqrt(abs(x1))), cos(x1))), exp(exp(cos(abs(x1))))), abs(sqrt(sin(sqrt(cos(abs(cos(abs(mul(exp(cos(abs(mul(abs(mul(exp(cos(x1)), mul(div(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), x1), mul(exp(exp(cos(abs(x1)))), mul(exp(cos(sqrt(abs(x1)))), abs(sqrt(x1))))))), mul(mul(mul(add(sqrt(sqrt(x1)), cos(x1)), add(sqrt(sqrt(abs(x1))), cos(x1))), exp(exp(cos(abs(exp(cos(x1))))))), abs(sqrt(sin(sqrt(cos(abs(x1))))))))))), mul(div(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), x1), mul(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), mul(exp(cos(x1)), abs(x1)))))))))))))))))
+Fitness: 15.699588371803292
+
+Tree 87:
+abs(abs(sqrt(sqrt(abs(x1)))))
+Fitness: 2554.4366290865314
+
+Tree 88:
+log(abs(mul(abs(mul(exp(cos(x1)), mul(div(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), x1), mul(mul(exp(cos(x1)), abs(sqrt(x1))), exp(add(sqrt(sqrt(abs(x1))), cos(x1))))))), mul(mul(mul(exp(cos(x1)), add(sqrt(sqrt(abs(x1))), cos(x1))), exp(exp(cos(abs(x1))))), abs(sqrt(sin(sqrt(cos(abs(cos(abs(mul(x1, mul(div(exp(add(sqrt(sqrt(x1)), cos(x1))), x1), mul(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), mul(exp(abs(x1)), abs(div(exp(add(sqrt(sqrt(abs(x1))), cos(mul(mul(exp(exp(cos(x1))), mul(exp(cos(abs(x1))), add(sqrt(sqrt(abs(abs(x1)))), cos(x1)))), abs(sqrt(sin(exp(cos(x1))))))))), x1))))))))))))))))))
+Fitness: 16.261936183582296
+
+Tree 89:
+log(abs(cos(sqrt(abs(x1)))))
+Fitness: 2865.52726688952
+
+Tree 90:
+log(abs(mul(abs(mul(exp(cos(x1)), mul(div(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), x1), mul(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), mul(exp(cos(x1)), abs(sqrt(x1))))))), mul(mul(mul(exp(cos(x1)), add(sqrt(sqrt(abs(x1))), cos(x1))), exp(exp(cos(abs(x1))))), abs(sqrt(sin(sqrt(cos(abs(cos(x1)))))))))))
+Fitness: 12.90638839117814
+
+Tree 91:
+log(abs(mul(abs(mul(exp(cos(x1)), mul(div(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), x1), mul(exp(add(1.2175, cos(x1))), mul(exp(cos(x1)), abs(sqrt(x1))))))), mul(mul(mul(add(sqrt(sqrt(abs(x1))), cos(x1)), exp(cos(x1))), exp(exp(cos(abs(x1))))), abs(sqrt(sin(sqrt(cos(abs(cos(sqrt(sqrt(abs(x1))))))))))))))
+Fitness: 13.044353678438185
+
+Tree 92:
+log(abs(mul(abs(mul(exp(cos(x1)), mul(div(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), x1), mul(mul(exp(cos(x1)), abs(sqrt(x1))), exp(add(sqrt(sqrt(abs(x1))), cos(x1))))))), mul(mul(mul(exp(cos(x1)), add(sqrt(sqrt(abs(x1))), cos(x1))), exp(exp(cos(abs(x1))))), abs(sqrt(sin(sqrt(cos(abs(cos(abs(mul(exp(cos(cos(x1))), mul(div(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), x1), mul(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), mul(exp(cos(x1)), abs(sqrt(x1))))))))))))))))))
+Fitness: 14.617969521392093
+
+Tree 93:
+log(abs(mul(abs(mul(exp(cos(x1)), mul(div(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), x1), mul(mul(exp(cos(x1)), abs(sqrt(x1))), exp(add(sqrt(sqrt(abs(x1))), cos(x1))))))), mul(mul(mul(exp(cos(x1)), add(sqrt(sqrt(abs(x1))), cos(x1))), exp(exp(cos(abs(x1))))), abs(sqrt(sin(sqrt(cos(abs(cos(abs(mul(exp(cos(abs(mul(abs(mul(exp(cos(x1)), mul(div(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), x1), mul(exp(exp(cos(abs(x1)))), mul(exp(cos(sqrt(abs(x1)))), abs(sqrt(x1))))))), mul(mul(mul(add(sqrt(sqrt(x1)), cos(x1)), add(sqrt(sqrt(abs(x1))), cos(x1))), exp(exp(cos(abs(exp(cos(x1))))))), abs(sqrt(sin(sqrt(cos(abs(sqrt(sqrt(abs(x1)))))))))))))), mul(div(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), x1), mul(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), mul(exp(cos(x1)), abs(sqrt(x1))))))))))))))))))
+Fitness: 15.82251922207719
+
+Tree 94:
+cos(abs(x1))
+Fitness: 2111.3739131457824
+
+Tree 95:
+log(abs(mul(abs(mul(exp(cos(x1)), mul(div(exp(add(sqrt(sqrt(x1)), cos(x1))), x1), mul(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), mul(exp(cos(x1)), abs(sqrt(x1))))))), mul(mul(mul(exp(cos(x1)), add(sqrt(sqrt(x1)), cos(x1))), exp(exp(cos(x1)))), abs(sqrt(sin(sqrt(abs(sqrt(x1))))))))))
+Fitness: 14.120217434058333
+
+Tree 96:
+log(abs(mul(abs(mul(exp(cos(x1)), mul(div(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), x1), mul(exp(add(sqrt(sqrt(x1)), cos(x1))), mul(exp(cos(x1)), abs(sqrt(x1))))))), mul(mul(mul(exp(cos(x1)), add(sqrt(sqrt(abs(x1))), cos(x1))), exp(exp(cos(abs(x1))))), abs(sqrt(sin(sqrt(cos(abs(cos(cos(exp(sqrt(x1))))))))))))))
+Fitness: 13.204717830134179
+
+Tree 97:
+log(abs(mul(abs(mul(exp(cos(x1)), mul(div(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), x1), mul(exp(add(sqrt(sqrt(abs(x1))), cos(abs(x1)))), mul(exp(cos(x1)), abs(sqrt(x1))))))), mul(mul(mul(exp(cos(x1)), add(sqrt(sqrt(abs(x1))), cos(x1))), exp(exp(cos(abs(x1))))), abs(sqrt(sin(sqrt(cos(abs(cos(cos(exp(sqrt(x1))))))))))))))
+Fitness: 13.204717830134179
+
+Tree 98:
+sqrt(cos(abs(cos(x1))))
+Fitness: 2381.004533216283
+
+Tree 99:
+log(abs(mul(abs(mul(exp(cos(x1)), mul(mul(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), mul(exp(cos(x1)), abs(sqrt(x1)))), div(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), x1)))), mul(mul(mul(add(sqrt(sqrt(abs(x1))), cos(x1)), exp(cos(x1))), exp(exp(cos(abs(x1))))), abs(sqrt(sin(sqrt(cos(abs(cos(sqrt(sin(mul(x0, 0.408082))))))))))))))
+Fitness: 13.433869577834509
+
+Tree 100:
+log(exp(cos(abs(x1))))
+Fitness: 2164.0789952364626
+
+Tree 101:
+log(abs(sqrt(sin(exp(cos(x1))))))
+Fitness: 2767.416672881333
+
+Tree 102:
+log(abs(mul(abs(mul(exp(cos(x1)), mul(mul(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), mul(exp(cos(x1)), abs(sqrt(x1)))), div(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), x1)))), mul(mul(mul(add(sqrt(sqrt(abs(x1))), cos(x1)), exp(cos(x1))), exp(exp(cos(abs(x1))))), abs(sqrt(sin(sqrt(cos(abs(cos(sqrt(sqrt(abs(x1))))))))))))))
+Fitness: 13.294813312170216
+
+Tree 103:
+log(abs(mul(abs(mul(exp(cos(x1)), mul(div(exp(add(sqrt(sqrt(abs(x1))), cos(abs(x1)))), x1), mul(exp(add(sqrt(sqrt(x1)), cos(x1))), mul(exp(cos(x1)), abs(sqrt(x1))))))), mul(mul(mul(exp(cos(x1)), add(sqrt(sqrt(x1)), cos(x1))), exp(exp(cos(abs(x1))))), abs(sqrt(sin(sqrt(sin(exp(cos(x1)))))))))))
+Fitness: 13.102886869165168
+
+Tree 104:
+log(abs(mul(abs(mul(exp(cos(abs(x1))), mul(mul(exp(add(sqrt(sqrt(abs(abs(x1)))), cos(x1))), mul(exp(cos(x1)), abs(sqrt(x1)))), div(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), x1)))), mul(mul(mul(exp(cos(x1)), add(sqrt(sqrt(abs(x1))), cos(x1))), exp(exp(cos(abs(x1))))), abs(sqrt(sin(sqrt(cos(cos(sqrt(sqrt(abs(x1)))))))))))))
+Fitness: 13.124128366988135
+
+Tree 105:
+log(abs(mul(abs(mul(exp(cos(x1)), mul(div(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), x1), mul(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), mul(exp(cos(x1)), abs(sqrt(x1))))))), mul(mul(mul(exp(cos(x1)), add(sqrt(sqrt(abs(x1))), cos(x1))), exp(exp(cos(abs(x1))))), abs(sqrt(sin(sqrt(cos(abs(cos(cos(x1))))))))))))
+Fitness: 13.456549656235989
+
+Tree 106:
+log(abs(mul(abs(mul(exp(cos(x1)), mul(mul(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), mul(exp(cos(x1)), abs(sqrt(x1)))), div(exp(add(sqrt(sqrt(abs(x1))), cos(x1))), x1)))), mul(mul(mul(exp(cos(x1)), add(sqrt(sqrt(abs(x1))), cos(x1))), exp(exp(cos(abs(x1))))), abs(sqrt(sin(sqrt(cos(cos(sqrt(sqrt(abs(x1)))))))))))))
+Fitness: 13.124128366988135
+

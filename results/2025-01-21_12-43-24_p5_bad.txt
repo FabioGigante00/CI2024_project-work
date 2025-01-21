@@ -1,0 +1,18 @@
+# Parameters
+crossover = recombination_crossover
+OFFSPRING_SIZE = 200
+POPULATION_SIZE = 100
+OUTSIDER_SIZE = math.ceil(OFFSPRING_SIZE*0.1)
+INITIAL_PM = 0.2
+FINAL_PM = 0.05                                          # CHANGE:: before we had 0.05 here
+x_elitism = 0.08
+MAX_GENERATIONS = 100
+HEIGHT = 5
+PC = 0.15                                           # CHANGE:: before we had 0.1 here
+P_PICK_CONSTANT = 0.4
+P_CUT_TREE = 0.05
+CONSTANTS = crammed_constants
+
+# Resulting function
+div(sub(sub(sub(sub(sub(sub(sub(sub(sub(sub(sub(add(x1, 96), exp(add(x1, x0))), exp(abs(add(x1, x0)))), exp(abs(add(x1, x0)))), exp(abs(add(x1, x0)))), exp(abs(add(x1, x0)))), exp(abs(add(x1, x0)))), exp(add(x1, x0))), exp(abs(add(x1, x0)))), exp(abs(add(x1, x0)))), exp(abs(abs(add(x1, x0))))), exp(abs(add(x1, x0)))), exp(pow(30, pow(exp(abs(add(x1, exp(x0)))), sub(x0, x0)))))# Resulting fitness
+4.165962787985903e-17

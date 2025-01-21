@@ -1,0 +1,21 @@
+# Configuration
+conf = {
+    'problem': 3,
+    'crossover': <function recombination_crossover at 0x000002992396E980>,
+    'OFFSPRING_SIZE': 200,
+    'POPULATION_SIZE': 100,
+    'OUTSIDER_SIZE': 20,
+    'INITIAL_PM': 0.2,
+    'FINAL_PM': 0.05,
+    'x_elitism': 0.08,
+    'MAX_GENERATIONS': 200,
+    'HEIGHT': 5,
+    'PC': 0.15,
+    'P_PICK_CONSTANT': 0.4,
+    'P_CUT_TREE': 0.05,
+    'CONSTANTS': [1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0, 15.0, 16.0, 17.0, 18.0, 19.0, 20.0],
+}
+
+# Resulting function
+np.subtract(np.multiply(np.multiply(my_sqrt(np.add(np.abs(np.divide(np.subtract(np.subtract(-3, np.multiply(np.subtract(np.divide(x[2], 1), 14), np.divide(x[1], x[1]))), np.multiply(my_sqrt(np.add(np.abs(np.divide(np.subtract(np.subtract(-3, np.multiply(np.subtract(np.divide(x[2], 1), 14), np.divide(x[1], x[1]))), np.multiply(np.subtract(np.abs(np.abs(x[0])), -0.333333), np.subtract(np.abs(x[0]), -0.333333))), my_sqrt(x[0]))), 14)), np.subtract(np.abs(np.abs(np.subtract(np.abs(np.abs(x[0])), -0.333333))), my_reciprocal(np.subtract(-3, np.divide(x[1], x[1])))))), my_sqrt(x[0]))), np.abs(np.divide(np.abs(np.subtract(np.divide(x[2], 1), 14)), np.divide(x[1], x[1]))))), np.subtract(np.abs(np.abs(x[0])), my_reciprocal(np.subtract(-3, my_sqrt(np.multiply(np.abs(np.add(np.add(np.abs(np.abs(np.divide(np.abs(x[0]), x[0]))), 3.4641), x[2])), 9)))))), my_sqrt(x[0])), np.subtract(np.add(np.add(np.abs(np.subtract(-3, np.add(x[2], 1))), np.subtract(np.add(np.add(np.divide(x[1], x[1]), np.multiply(np.multiply(x[1], np.multiply(np.abs(x[1]), np.subtract(np.abs(x[1]), np.divide(np.divide(np.abs(np.divide(2.66667, x[1])), 18), x[1])))), np.divide(x[1], x[1]))), x[2]), my_sqrt(my_sqrt(np.divide(np.subtract(np.subtract(-3, np.multiply(np.subtract(np.divide(np.subtract(np.divide(np.subtract(-3, my_sqrt(my_sqrt(x[0]))), 1), 14), 1), np.subtract(1, my_reciprocal(np.subtract(-3, my_sqrt(np.abs(np.abs(np.divide(4, x[0])))))))), np.divide(x[1], x[1]))), np.multiply(4, np.abs(np.subtract(np.subtract(-3, np.multiply(np.subtract(np.divide(np.subtract(my_sqrt(x[0]), x[2]), 1), 14), np.divide(x[1], x[1]))), np.multiply(4, np.abs(np.divide(np.subtract(np.subtract(-3, np.multiply(np.subtract(np.divide(x[2], 1), 14), np.divide(x[1], x[1]))), np.multiply(my_sqrt(np.add(np.abs(np.add(my_sqrt(x[0]), 1)), np.abs(np.divide(17, np.divide(x[1], x[1]))))), np.subtract(np.abs(np.abs(x[0])), -0.333333))), my_sqrt(x[0])))))))), my_sqrt(my_reciprocal(np.subtract(np.subtract(my_sqrt(x[0]), x[2]), -3)))))))), x[2]), 3.4641))# Resulting fitness
+29.953653091175187

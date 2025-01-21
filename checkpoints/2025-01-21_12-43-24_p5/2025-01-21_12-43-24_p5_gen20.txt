@@ -1,0 +1,443 @@
+# Configuration
+conf = {
+    'problem': 5,
+    'crossover': <function recombination_crossover at 0x000002992E23C5E0>,
+    'OFFSPRING_SIZE': 200,
+    'POPULATION_SIZE': 100,
+    'OUTSIDER_SIZE': 20,
+    'INITIAL_PM': 0.2,
+    'FINAL_PM': 0.05,
+    'x_elitism': 0.08,
+    'MAX_GENERATIONS': 100,
+    'HEIGHT': 5,
+    'PC': 0.15,
+    'P_PICK_CONSTANT': 0.4,
+    'P_CUT_TREE': 0.05,
+    'CONSTANTS': [1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0, 15.0, 16.0, 17.0, 18.0, 19.0, 20.0],
+}
+
+# Population
+Tree 0:
+div(sub(sub(sub(sub(sub(0.886989, exp(abs(add(x1, x1)))), exp(abs(add(x1, x0)))), exp(abs(add(x1, x0)))), exp(abs(abs(add(x1, x0))))), exp(abs(add(x1, x0)))), exp(pow(30, pow(x1, sub(x0, x0)))))
+Fitness: 2.1918277583440363e-16
+
+Tree 1:
+div(sub(sub(sub(sub(sub(0.886989, exp(abs(add(x1, x1)))), exp(abs(add(x1, x0)))), exp(abs(add(x1, x0)))), exp(abs(abs(add(x1, x0))))), exp(abs(add(x1, x0)))), exp(pow(30, pow(add(abs(add(x0, x0)), x0), sub(x0, x0)))))
+Fitness: 2.1918277583440363e-16
+
+Tree 2:
+div(sub(sub(sub(sub(sub(pow(sub(x0, x0), add(x1, x1)), exp(abs(add(x1, x1)))), exp(abs(add(x1, x0)))), exp(abs(add(x1, x0)))), exp(abs(abs(add(x1, x0))))), exp(abs(add(x1, x0)))), exp(pow(30, pow(add(pow(30, pow(pow(pow(sub(x0, x0), sub(x0, x0)), sub(x0, x0)), sub(x0, x0))), x0), sub(x0, x0)))))
+Fitness: 2.220607548244296e-16
+
+Tree 3:
+div(sub(sub(sub(sub(sub(0.886989, exp(abs(add(x1, x1)))), exp(abs(add(x1, x0)))), exp(abs(add(x1, x0)))), exp(abs(abs(add(x1, x0))))), exp(abs(add(x1, x0)))), exp(pow(30, pow(add(pow(30, pow(pow(pow(sub(x0, x0), sub(x0, x0)), sub(x0, x0)), sub(x0, x0))), x0), sub(x0, x0)))))
+Fitness: 2.2206161645058663e-16
+
+Tree 4:
+div(sub(sub(sub(sub(sub(0.886989, exp(abs(add(x1, x1)))), exp(abs(add(x1, x0)))), exp(abs(add(x1, x0)))), exp(abs(abs(add(x1, x0))))), exp(abs(add(x1, x0)))), exp(pow(30, pow(add(pow(30, pow(pow(pow(sub(x0, x0), x0), sub(x0, x0)), sub(x0, x0))), x0), sub(x0, x0)))))
+Fitness: 2.2206161645058663e-16
+
+Tree 5:
+div(sub(sub(sub(sub(sub(0.886989, exp(abs(add(x1, x1)))), exp(abs(add(x1, x0)))), exp(abs(add(x1, x0)))), exp(abs(abs(add(x1, x0))))), exp(abs(add(x1, x0)))), exp(pow(30, pow(add(pow(exp(abs(add(x1, x0))), pow(pow(pow(sub(x0, x0), sub(x0, x0)), sub(x0, x0)), sub(x0, x0))), x0), sub(x0, x0)))))
+Fitness: 2.2206161645058663e-16
+
+Tree 6:
+div(sub(sub(sub(sub(sub(sub(0.886989, exp(abs(add(x1, x1)))), exp(abs(add(x1, x0)))), exp(abs(add(x1, x1)))), exp(abs(add(x1, x0)))), exp(abs(add(x0, x0)))), exp(abs(add(x1, x0)))), exp(pow(30, pow(add(x0, exp(add(x1, x0))), sub(x0, x0)))))
+Fitness: 2.2452786303249335e-16
+
+Tree 7:
+div(sub(sub(sub(sub(sub(sub(0.886989, exp(abs(add(x1, x1)))), exp(abs(abs(add(x1, x0))))), exp(abs(add(x1, x1)))), exp(abs(add(x1, x0)))), exp(abs(add(x0, x0)))), exp(abs(add(x1, x0)))), exp(pow(30, pow(add(x0, exp(abs(add(x1, x0)))), sub(x0, x0)))))
+Fitness: 2.2452786303249335e-16
+
+Tree 8:
+div(sub(sub(sub(sub(sub(sub(0.886989, exp(abs(add(x1, x1)))), exp(abs(add(x0, x0)))), exp(abs(add(x1, x0)))), exp(abs(abs(add(x1, x0))))), exp(abs(add(x0, x0)))), exp(abs(add(x1, x0)))), exp(pow(30, pow(pow(30, pow(sub(0.886989, exp(abs(add(x1, x1)))), sub(x0, abs(x0)))), sub(x0, x0)))))
+Fitness: 2.4218013770455257e-16
+
+Tree 9:
+div(sub(sub(sub(sub(sub(pow(exp(abs(add(x1, x0))), sub(x0, x0)), exp(abs(add(x1, x0)))), exp(abs(add(x1, x1)))), exp(abs(add(x1, x0)))), exp(abs(add(x0, x0)))), exp(abs(add(x1, x0)))), exp(pow(30, pow(add(x0, exp(add(x1, x0))), sub(x0, x0)))))
+Fitness: 2.381862072100758e-16
+
+Tree 10:
+div(sub(sub(sub(sub(sub(abs(add(x1, x0)), exp(abs(add(x1, x1)))), exp(abs(add(x0, x0)))), exp(abs(add(x1, x0)))), exp(abs(abs(add(x1, x0))))), exp(abs(add(x1, x0)))), exp(pow(30, pow(add(add(x1, x0), x0), sub(x0, x0)))))
+Fitness: 2.35112478968575e-16
+
+Tree 11:
+div(sub(sub(sub(sub(sub(sub(0.886989, exp(abs(add(x1, x1)))), exp(abs(add(x1, x0)))), exp(abs(add(x1, x1)))), exp(abs(add(x1, x0)))), exp(abs(add(x0, x0)))), exp(abs(add(x1, x0)))), exp(pow(30, pow(add(x0, div(sub(sub(sub(sub(sub(sub(0.886989, exp(abs(add(x1, x1)))), exp(abs(x1))), exp(abs(add(x1, x1)))), exp(abs(add(x1, x0)))), exp(abs(add(x0, x0)))), exp(abs(add(x1, x0)))), x1)), sub(x0, x0)))))
+Fitness: 2.3955923787723465e-16
+
+Tree 12:
+div(sub(sub(sub(sub(sub(abs(add(x1, x0)), exp(abs(add(x1, x1)))), exp(abs(add(x0, x0)))), exp(abs(add(x1, x0)))), exp(abs(abs(add(x1, x0))))), exp(abs(add(x1, x0)))), exp(pow(30, pow(exp(abs(add(x1, x0))), sub(x0, x0)))))
+Fitness: 2.35112478968575e-16
+
+Tree 13:
+div(sub(sub(sub(sub(sub(0.886989, exp(abs(add(x1, x1)))), exp(abs(add(x1, x1)))), exp(abs(add(x1, x0)))), exp(abs(add(x0, x0)))), exp(abs(add(x1, x0)))), exp(pow(30, pow(add(pow(30, pow(pow(pow(add(x0, x0), sub(x0, x0)), x1), sub(x0, x0))), x0), sub(x0, x0)))))
+Fitness: 2.6870494490133145e-16
+
+Tree 14:
+div(sub(sub(sub(sub(sub(0.886989, exp(abs(add(x1, x1)))), exp(abs(add(x0, x0)))), exp(abs(add(x1, x0)))), exp(abs(abs(add(x1, x0))))), exp(abs(add(x1, x0)))), exp(pow(30, pow(add(pow(30, pow(pow(pow(sub(x0, x0), sub(x0, x0)), sub(x0, x0)), x0)), x0), sub(x0, x0)))))
+Fitness: 2.381863933553442e-16
+
+Tree 15:
+div(sub(sub(sub(sub(sub(sub(0.886989, exp(abs(add(x1, x1)))), exp(abs(add(x1, x0)))), exp(abs(add(x0, x1)))), exp(abs(add(x1, x0)))), exp(abs(add(x0, x0)))), exp(abs(add(x1, x0)))), exp(pow(30, pow(add(x0, exp(add(x1, x0))), sub(x0, x0)))))
+Fitness: 1.9085940491810072e-16
+
+Tree 16:
+div(sub(sub(sub(sub(sub(0.886989, exp(abs(add(x1, x1)))), exp(abs(add(x0, x0)))), exp(abs(add(x1, x0)))), exp(abs(abs(add(x1, x0))))), exp(abs(add(x1, x0)))), 1.06865e+13)
+Fitness: 2.3509850867552565e-16
+
+Tree 17:
+x0
+Fitness: 831.0770549574275
+
+Tree 18:
+div(sub(sub(sub(sub(sub(0.886989, exp(abs(add(x1, x1)))), exp(abs(add(x1, x0)))), exp(abs(add(x1, x0)))), exp(abs(abs(add(x1, x0))))), exp(abs(add(x1, x0)))), exp(pow(30, pow(add(pow(30, pow(pow(pow(sub(x0, x0), exp(abs(pow(sub(x0, x0), sub(x0, x0))))), sub(x0, x0)), sub(x0, x0))), x0), sub(x0, x0)))))
+Fitness: 2.3089620460673367e-16
+
+Tree 19:
+div(sub(sub(sub(sub(sub(x1, exp(abs(add(x1, x1)))), exp(abs(add(x0, x0)))), exp(abs(add(x1, x0)))), exp(abs(abs(add(x1, x0))))), exp(abs(add(x1, x0)))), exp(pow(30, pow(add(pow(x0, pow(pow(pow(sub(x0, x0), sub(x0, x0)), sub(x0, x0)), abs(add(x1, x1)))), x0), sub(x0, x0)))))
+Fitness: 2.381949553945727e-16
+
+Tree 20:
+div(sub(sub(sub(sub(sub(sub(0.886989, exp(abs(add(x1, x1)))), exp(abs(add(x1, x0)))), exp(abs(add(x1, x1)))), exp(abs(add(x1, x0)))), exp(abs(add(x0, x0)))), exp(abs(add(x1, x0)))), exp(pow(30, pow(add(x0, exp(add(x0, x0))), sub(x0, x0)))))
+Fitness: 2.2452786303249335e-16
+
+Tree 21:
+div(sub(sub(sub(sub(sub(0.886989, exp(abs(add(x1, x1)))), exp(abs(add(x1, x1)))), exp(abs(add(x1, x0)))), exp(abs(add(x0, x0)))), exp(abs(add(x1, x0)))), exp(pow(30, pow(add(pow(30, pow(pow(pow(x1, sub(x0, x0)), sub(x0, x0)), sub(x1, 30))), x0), sub(x0, x0)))))
+Fitness: 2.6870494490133145e-16
+
+Tree 22:
+div(sub(sub(sub(sub(sub(0.886989, exp(abs(add(x1, x1)))), exp(abs(add(x1, x0)))), exp(abs(add(x1, x0)))), exp(abs(abs(add(x1, x0))))), exp(abs(add(x1, x0)))), exp(pow(30, pow(abs(add(x0, x0)), sub(x0, x0)))))
+Fitness: 2.1918277583440363e-16
+
+Tree 23:
+div(sub(sub(sub(sub(sub(0.886989, exp(abs(add(x1, x1)))), exp(abs(add(x1, x0)))), exp(abs(add(x1, x0)))), exp(abs(abs(add(x1, x0))))), exp(abs(add(x1, x0)))), exp(pow(30, pow(x0, sub(x0, x0)))))
+Fitness: 2.1918277583440363e-16
+
+Tree 24:
+div(sub(sub(sub(sub(sub(x0, exp(abs(add(x1, x1)))), add(x0, exp(add(x1, x0)))), exp(abs(add(x1, x0)))), exp(abs(add(x0, x0)))), exp(abs(add(x1, x0)))), 1.06866e+13)
+Fitness: 2.351024336322814e-16
+
+Tree 25:
+div(sub(sub(sub(sub(sub(0.886989, exp(abs(add(x1, x1)))), exp(abs(add(x1, x1)))), exp(abs(add(x1, x0)))), exp(abs(add(x0, x0)))), exp(abs(add(x1, x0)))), exp(pow(30, pow(add(pow(30, add(x1, x0)), x0), sub(x0, x0)))))
+Fitness: 2.65221413071222e-16
+
+Tree 26:
+div(sub(sub(sub(sub(sub(sub(0.886989, exp(abs(add(x1, x1)))), exp(abs(add(x1, x0)))), exp(abs(x1))), exp(abs(add(x1, x0)))), exp(abs(add(x0, x0)))), exp(abs(add(x1, x0)))), exp(pow(30, pow(exp(abs(add(x0, x0))), sub(x0, x0)))))
+Fitness: 2.378853825732478e-16
+
+Tree 27:
+div(sub(sub(sub(sub(sub(0.886989, exp(abs(add(x1, x1)))), exp(abs(add(x0, x0)))), exp(abs(add(x1, x1)))), exp(abs(abs(add(x1, x0))))), exp(add(x1, x0))), exp(pow(30, pow(add(pow(30, pow(pow(pow(sub(x0, x0), sub(x0, x0)), sub(x0, x0)), sub(x0, x0))), x0), sub(x0, x0)))))
+Fitness: 2.6870494490133145e-16
+
+Tree 28:
+div(sub(sub(sub(sub(sub(0.886989, exp(abs(add(x1, x1)))), exp(abs(abs(add(x1, x0))))), exp(abs(add(x1, x0)))), exp(abs(add(x0, x0)))), exp(abs(add(x1, x0)))), exp(pow(30, pow(add(x0, exp(abs(add(x1, sub(sub(sub(sub(sub(0.886989, exp(abs(add(x1, x1)))), exp(abs(add(x1, x0)))), exp(abs(add(x1, x0)))), exp(abs(abs(add(x1, x0))))), exp(abs(add(x1, x0)))))))), sub(x0, x0)))))
+Fitness: 2.574069790533991e-16
+
+Tree 29:
+div(sub(sub(sub(sub(sub(abs(add(x1, x0)), exp(abs(add(x1, x1)))), exp(abs(add(x0, x0)))), exp(abs(add(x1, x0)))), exp(abs(abs(add(x1, x0))))), exp(abs(add(x1, x0)))), exp(pow(30, pow(add(pow(x0, pow(pow(pow(sub(x0, x0), sub(x0, x0)), sub(x0, x0)), abs(add(x1, x1)))), x0), sub(x0, x0)))))
+Fitness: 2.3820054714021627e-16
+
+Tree 30:
+div(sub(sub(sub(sub(sub(x1, exp(abs(add(x0, x0)))), exp(abs(add(x1, x1)))), exp(abs(add(x1, x0)))), exp(abs(add(x0, x1)))), exp(abs(add(x1, x0)))), exp(pow(30, pow(add(abs(add(x1, x1)), 0.886989), sub(x0, x0)))))
+Fitness: 2.351069597151737e-16
+
+Tree 31:
+div(sub(sub(sub(sub(sub(x1, exp(abs(add(x0, x0)))), exp(abs(add(x1, x1)))), exp(abs(add(x1, x0)))), exp(abs(add(x0, x1)))), exp(abs(add(x1, x0)))), exp(pow(30, pow(add(x0, 0.886989), sub(x0, x0)))))
+Fitness: 2.351069597151737e-16
+
+Tree 32:
+div(sub(sub(sub(sub(sub(abs(add(x1, x0)), exp(abs(add(x1, x1)))), exp(abs(add(x1, x0)))), exp(abs(add(x1, x0)))), exp(abs(abs(add(x1, x0))))), exp(abs(add(x1, x0)))), exp(pow(30, pow(add(pow(exp(abs(add(x1, x0))), pow(pow(pow(sub(x0, x0), sub(x0, x0)), sub(x0, x0)), sub(x0, x0))), x0), sub(x0, x0)))))
+Fitness: 2.220899743985967e-16
+
+Tree 33:
+div(sub(sub(sub(sub(sub(0.886989, exp(abs(add(x1, x1)))), exp(abs(add(x1, x1)))), exp(abs(add(x1, x0)))), exp(abs(add(x0, x0)))), exp(abs(add(x1, x0)))), exp(pow(30, pow(add(pow(30, pow(pow(pow(add(x0, x0), x0), sub(x0, x0)), sub(x0, x0))), x0), sub(x0, x0)))))
+Fitness: 2.6870494490133145e-16
+
+Tree 34:
+div(sub(sub(sub(sub(sub(sub(0.886989, exp(abs(add(x1, x1)))), exp(abs(add(x1, x0)))), exp(abs(add(x1, x1)))), exp(abs(add(x1, x0)))), exp(abs(add(x0, x0)))), exp(abs(add(x1, x0)))), exp(pow(30, pow(add(x0, div(sub(sub(sub(sub(sub(sub(0.886989, exp(abs(add(x1, x1)))), exp(abs(x1))), exp(abs(add(x1, x1)))), exp(abs(add(x1, x0)))), exp(abs(add(x0, x0)))), exp(abs(add(x1, x0)))), exp(pow(30, pow(add(x0, exp(add(x1, x0))), sub(x0, x0)))))), sub(x0, x0)))))
+Fitness: 2.3955923787723465e-16
+
+Tree 35:
+div(sub(sub(sub(sub(sub(sub(0.886989, exp(abs(add(x1, x1)))), exp(abs(add(x1, x0)))), exp(abs(add(x1, x1)))), exp(abs(add(x1, x0)))), exp(abs(add(x0, x0)))), exp(abs(add(x1, x0)))), exp(pow(30, pow(add(x0, x0), sub(x0, x0)))))
+Fitness: 2.2452786303249335e-16
+
+Tree 36:
+div(sub(sub(sub(sub(sub(sub(0.886989, exp(abs(add(x1, x1)))), exp(abs(add(x1, x0)))), exp(abs(add(x1, x1)))), exp(abs(add(x1, x0)))), exp(abs(add(x0, x0)))), exp(add(x1, x0))), exp(pow(30, pow(add(x0, exp(add(x1, x0))), sub(x0, x0)))))
+Fitness: 2.2452786303249335e-16
+
+Tree 37:
+div(sub(sub(sub(sub(sub(0.886989, exp(add(x1, x0))), exp(abs(add(x0, x0)))), exp(abs(abs(add(x1, x0))))), exp(abs(add(x1, x0)))), exp(abs(add(x1, x0)))), 1.06866e+13)
+Fitness: 2.337530424976568e-16
+
+Tree 38:
+div(sub(sub(sub(sub(sub(abs(add(x1, x0)), exp(abs(add(x1, x1)))), exp(abs(add(x0, x0)))), exp(abs(add(x1, x0)))), exp(abs(abs(add(x1, x0))))), exp(abs(add(x1, x0)))), exp(pow(30, pow(add(pow(x0, pow(pow(pow(abs(add(x1, x0)), sub(x0, x0)), sub(exp(abs(add(x1, x0))), x0)), sub(x0, x0))), x0), sub(x0, x0)))))
+Fitness: 2.4448568832228326e-16
+
+Tree 39:
+div(sub(sub(sub(sub(sub(0.886989, exp(abs(add(x1, x1)))), exp(abs(add(x1, x0)))), exp(abs(add(x1, x0)))), exp(abs(abs(add(x1, x0))))), exp(abs(abs(add(x1, x0))))), exp(pow(30, pow(add(pow(30, pow(pow(pow(sub(x0, x0), sub(x0, x0)), sub(x0, x0)), sub(x0, x0))), x0), sub(x0, x0)))))
+Fitness: 2.2206161645058663e-16
+
+Tree 40:
+div(sub(sub(sub(sub(sub(0.886989, exp(abs(add(x1, x1)))), exp(add(x1, x1))), exp(abs(add(x1, x0)))), exp(abs(add(x0, x0)))), exp(abs(add(x1, x0)))), exp(pow(30, pow(pow(30, pow(pow(exp(add(x1, x0)), sub(x0, x0)), sub(x0, abs(x0)))), sub(x0, x0)))))
+Fitness: 2.65221413071222e-16
+
+Tree 41:
+add(30, x0)
+Fitness: 106870.3101673166
+
+Tree 42:
+div(sub(sub(sub(sub(sub(sub(0.886989, exp(abs(add(x1, x1)))), exp(abs(add(x1, x0)))), exp(abs(add(x1, x1)))), exp(abs(add(x1, x0)))), exp(abs(add(x0, x0)))), exp(abs(add(x1, x0)))), exp(pow(30, pow(add(x0, div(sub(sub(sub(sub(sub(sub(0.886989, exp(abs(add(x1, x1)))), exp(abs(x1))), exp(abs(add(x1, x1)))), exp(abs(add(x1, x0)))), exp(abs(add(x0, x0)))), exp(abs(add(x1, x0)))), exp(pow(30, pow(add(sub(sub(0.886989, exp(abs(add(x1, x1)))), exp(abs(add(x1, x0)))), exp(add(x1, x0))), sub(x0, x0)))))), sub(x0, x0)))))
+Fitness: 2.3955923787723465e-16
+
+Tree 43:
+div(sub(sub(sub(sub(sub(x1, exp(abs(add(x0, x0)))), exp(abs(add(x1, x1)))), exp(abs(add(x1, x0)))), exp(abs(add(x0, x1)))), exp(abs(add(x1, x0)))), exp(pow(30, pow(add(x0, sub(div(inv(x0), 3.87298), sin(exp(x1)))), sub(x0, x0)))))
+Fitness: 2.351069597151737e-16
+
+Tree 44:
+div(sub(sub(sub(sub(sub(0.886989, exp(abs(add(x1, x1)))), exp(abs(add(x0, x0)))), exp(abs(abs(add(x1, x0))))), exp(abs(add(x1, x0)))), exp(abs(add(x1, x0)))), 1.06866e+13)
+Fitness: 2.3510099086753123e-16
+
+Tree 45:
+div(sub(sub(sub(sub(sub(sub(x0, exp(abs(add(x0, x1)))), exp(abs(add(x1, x1)))), exp(abs(add(x0, x0)))), exp(abs(add(x1, x0)))), exp(abs(pow(pow(abs(add(x1, x0)), x0), sub(x0, x0))))), exp(abs(add(x1, x0)))), exp(pow(30, pow(add(x0, x0), sub(x0, x0)))))
+Fitness: 2.3819791094421043e-16
+
+Tree 46:
+div(sub(sub(sub(sub(sub(sub(0.886989, exp(abs(abs(add(x1, x0))))), exp(abs(add(x1, x0)))), exp(abs(add(x1, x1)))), exp(abs(add(x1, x0)))), exp(abs(add(x0, x0)))), exp(abs(add(x1, x0)))), exp(pow(30, pow(add(x0, exp(add(x1, x0))), sub(x0, x0)))))
+Fitness: 1.9336365340196668e-16
+
+Tree 47:
+div(sub(sub(sub(sub(sub(sub(0.886989, exp(abs(add(x1, x1)))), exp(abs(add(x1, x0)))), exp(abs(add(x1, x1)))), exp(abs(add(x1, x0)))), exp(abs(add(x0, x0)))), exp(abs(add(x1, x0)))), exp(pow(30, pow(add(x0, div(sub(sub(sub(sub(sub(sub(0.886989, exp(abs(add(x1, x1)))), exp(abs(x1))), exp(abs(add(x1, x1)))), exp(abs(add(x1, x0)))), exp(abs(abs(add(x1, x1))))), exp(abs(add(x1, x0)))), exp(pow(30, pow(add(x0, exp(add(x1, x0))), sub(x0, x0)))))), sub(x0, x0)))))
+Fitness: 2.3955923787723465e-16
+
+Tree 48:
+div(sub(sub(sub(sub(sub(0.886989, exp(add(x1, x0))), exp(abs(add(x0, x0)))), exp(abs(add(x1, x0)))), exp(abs(add(x1, x0)))), exp(add(x1, x1))), 1.06866e+13)
+Fitness: 2.320540514983319e-16
+
+Tree 49:
+div(sub(sub(sub(sub(sub(0.886989, exp(abs(add(x1, x1)))), exp(abs(add(x1, x1)))), exp(abs(add(x1, x0)))), exp(abs(add(x0, x0)))), exp(abs(add(x1, x0)))), exp(pow(30, pow(0.886989, sub(x0, x0)))))
+Fitness: 2.65221413071222e-16
+
+Tree 50:
+div(sub(sub(sub(sub(sub(sub(x0, exp(abs(add(x0, x1)))), exp(abs(add(x1, x1)))), exp(abs(add(x0, x0)))), exp(abs(add(x1, x0)))), exp(abs(pow(pow(x0, x0), sub(x0, abs(add(x1, x0))))))), exp(abs(add(x1, x0)))), exp(pow(30, pow(add(x0, x0), sub(x0, x0)))))
+Fitness: 2.382726017192115e-16
+
+Tree 51:
+div(sub(sub(sub(sub(sub(sub(x0, exp(abs(add(x0, x1)))), exp(abs(add(x1, x1)))), exp(abs(add(x0, x0)))), exp(abs(add(x1, x0)))), exp(abs(pow(pow(x0, sub(add(6, mul(x1, 4)), exp(abs(x0)))), sub(x0, x0))))), exp(abs(add(x1, x0)))), exp(pow(30, pow(add(x0, x0), sub(x0, x0)))))
+Fitness: 2.3819791094421043e-16
+
+Tree 52:
+exp(abs(add(x0, x0)))
+Fitness: 2507800150.0910892
+
+Tree 53:
+abs(abs(add(x1, x0)))
+Fitness: 3009.1363120597825
+
+Tree 54:
+div(sub(sub(sub(sub(sub(sub(0.886989, exp(abs(add(x1, x1)))), exp(abs(add(x1, x0)))), exp(abs(x1))), exp(abs(add(x1, x0)))), exp(abs(add(x0, x0)))), exp(abs(add(x1, x0)))), exp(pow(30, pow(add(x0, exp(add(x1, x0))), sub(x0, x0)))))
+Fitness: 2.378853825732478e-16
+
+Tree 55:
+div(sub(sub(sub(sub(sub(sub(0.886989, exp(abs(add(x1, x1)))), exp(abs(add(x0, x0)))), exp(abs(add(x1, x0)))), exp(abs(abs(add(x1, x0))))), exp(abs(add(x0, x0)))), exp(abs(add(x1, x0)))), exp(pow(30, pow(pow(30, pow(pow(exp(abs(add(x1, x0))), sub(x0, x0)), sub(x0, abs(x0)))), sub(x0, x0)))))
+Fitness: 2.4218013770455257e-16
+
+Tree 56:
+div(sub(sub(sub(sub(sub(sub(0.886989, exp(abs(add(x1, x1)))), exp(abs(add(x0, x1)))), exp(abs(add(x1, x1)))), exp(abs(add(x1, x0)))), exp(abs(abs(sqrt(x0))))), exp(abs(add(x1, x0)))), exp(pow(30, pow(add(x0, exp(add(x1, x0))), sub(x0, x0)))))
+Fitness: 2.5891748306074805e-16
+
+Tree 57:
+div(sub(sub(sub(sub(sub(0.886989, exp(abs(add(x1, x0)))), exp(abs(add(x1, x0)))), exp(abs(add(x1, x0)))), exp(abs(abs(add(x1, x0))))), exp(abs(add(x1, x0)))), exp(pow(30, pow(add(abs(add(x0, x0)), x0), sub(x0, x0)))))
+Fitness: 2.146271943495845e-16
+
+Tree 58:
+div(sub(sub(sub(sub(sub(0.886989, exp(abs(add(x1, x1)))), exp(abs(add(x1, x0)))), exp(abs(add(x1, x0)))), exp(abs(abs(add(x1, x1))))), exp(abs(add(x1, x0)))), exp(pow(30, pow(add(pow(30, pow(pow(pow(sub(x0, x0), x0), sub(x0, x0)), sub(x0, x0))), x0), sub(x0, x0)))))
+Fitness: 2.589392129590031e-16
+
+Tree 59:
+div(sub(sub(sub(sub(sub(abs(add(x1, x0)), exp(abs(add(x1, x1)))), exp(abs(add(x0, x0)))), exp(abs(add(x1, x0)))), exp(abs(abs(add(x1, x0))))), exp(abs(add(x1, x0)))), exp(pow(30, pow(add(pow(x0, x0), x0), sub(x0, x0)))))
+Fitness: 2.35112478968575e-16
+
+Tree 60:
+div(sub(sub(sub(sub(sub(0.886989, exp(abs(add(x1, x1)))), exp(abs(add(x0, x0)))), exp(abs(add(x1, x0)))), exp(abs(abs(add(x1, x0))))), exp(abs(add(x1, x0)))), exp(pow(30, pow(add(pow(30, abs(add(x0, x0))), x0), sub(x0, x0)))))
+Fitness: 2.3509850867552565e-16
+
+Tree 61:
+div(sub(sub(sub(sub(sub(sub(0.886989, exp(abs(add(x1, x1)))), exp(abs(add(x0, x0)))), exp(abs(add(x1, x0)))), exp(abs(add(x1, x0)))), exp(abs(abs(add(x1, x0))))), exp(abs(add(x1, x0)))), exp(pow(30, pow(add(abs(add(x0, x0)), x0), sub(x0, x0)))))
+Fitness: 1.9085940491810072e-16
+
+Tree 62:
+add(x0, x0)
+Fitness: 3357.551300936193
+
+Tree 63:
+div(sub(sub(sub(sub(sub(0.886989, exp(abs(add(x1, x1)))), exp(abs(abs(add(x1, x0))))), exp(abs(add(x1, x0)))), exp(abs(add(x0, x0)))), exp(abs(add(x1, x0)))), exp(pow(30, pow(add(x0, exp(pow(30, pow(0.886989, sub(x0, x0))))), sub(x0, x0)))))
+Fitness: 2.3509850867552565e-16
+
+Tree 64:
+exp(abs(add(x1, x1)))
+Fitness: 2515986596.854291
+
+Tree 65:
+abs(add(x1, x0))
+Fitness: 2972.7877397241
+
+Tree 66:
+div(x0, 1.06866e+13)
+Fitness: 5.62904924153073e-16
+
+Tree 67:
+div(sub(sub(sub(sub(sub(abs(add(x1, div(div(add(19, x1), abs(x1)), sqrt(add(x0, x1))))), exp(abs(add(x1, x1)))), exp(abs(add(x0, x0)))), exp(abs(add(x1, x0)))), exp(abs(abs(add(x1, x0))))), exp(abs(add(x1, x0)))), exp(pow(30, pow(add(pow(x0, pow(pow(pow(sub(x0, x0), sub(x0, x0)), sub(x0, x0)), sub(x0, x0))), x0), sub(x0, x0)))))
+Fitness: 2.4124884900879503e-16
+
+Tree 68:
+x1
+Fitness: 828.7585667142502
+
+Tree 69:
+div(sub(sub(sub(sub(sub(0.886989, exp(abs(add(x1, x1)))), exp(abs(add(x1, x0)))), exp(abs(add(x1, x0)))), exp(abs(abs(add(x1, x0))))), exp(abs(add(x1, x0)))), exp(pow(30, pow(add(pow(exp(abs(add(x1, x0))), pow(pow(pow(sub(x0, x0), x0), sub(x0, x0)), sub(x0, x0))), x0), sub(x0, x0)))))
+Fitness: 2.2206161645058663e-16
+
+Tree 70:
+add(x1, x0)
+Fitness: 2938.6450564917523
+
+Tree 71:
+div(sub(sub(sub(sub(sub(sub(0.886989, exp(abs(add(x1, x1)))), exp(abs(abs(add(x1, x0))))), exp(abs(add(x1, x1)))), exp(abs(add(x1, x0)))), exp(abs(add(x0, x0)))), add(x0, x0)), exp(pow(30, pow(add(x0, exp(abs(x1))), sub(x0, x0)))))
+Fitness: 2.6870186057069843e-16
+
+Tree 72:
+div(sub(sub(sub(sub(sub(abs(add(x1, x0)), exp(abs(add(x1, x1)))), exp(abs(add(x0, x0)))), exp(abs(add(x1, x0)))), exp(abs(abs(add(x1, x0))))), exp(abs(add(x1, x0)))), exp(pow(30, pow(add(pow(x0, pow(pow(x0, sub(exp(abs(add(x1, x0))), x0)), sub(x0, x0))), x0), sub(x0, x0)))))
+Fitness: 2.4448568832228326e-16
+
+Tree 73:
+div(sub(sub(sub(sub(sub(sub(0.886989, exp(abs(add(x1, x1)))), exp(abs(add(x1, x0)))), exp(abs(add(x1, x1)))), exp(abs(add(x1, x0)))), exp(abs(add(x0, x0)))), exp(abs(add(x1, x0)))), exp(pow(30, pow(add(x0, div(sub(sub(sub(x0, exp(abs(add(x1, x0)))), exp(abs(add(x0, x0)))), exp(abs(add(x1, x0)))), exp(pow(30, pow(add(x0, exp(add(x1, x0))), sub(x0, x0)))))), sub(x0, x0)))))
+Fitness: 2.304522378309959e-16
+
+Tree 74:
+div(sub(sub(sub(sub(sub(sub(0.886989, exp(abs(add(x1, x1)))), exp(abs(add(x1, x0)))), exp(abs(add(x1, x1)))), exp(abs(add(x1, x0)))), exp(abs(add(x0, x0)))), exp(abs(add(x1, x0)))), exp(pow(30, pow(add(x0, div(sub(sub(sub(sub(sub(sub(0.886989, exp(abs(add(x1, x1)))), exp(abs(x1))), exp(abs(add(x1, x1)))), exp(abs(add(x1, x0)))), exp(abs(add(x0, x0)))), exp(abs(add(exp(abs(add(x1, x0))), x0)))), exp(pow(30, pow(add(x0, exp(add(x1, x0))), sub(x0, x0)))))), sub(x0, x0)))))
+Fitness: 2.3955923787723465e-16
+
+Tree 75:
+div(sub(sub(sub(sub(sub(0.886989, exp(abs(add(x1, x1)))), exp(abs(add(x1, x1)))), exp(abs(add(x1, x0)))), exp(abs(add(x0, x0)))), exp(abs(add(x1, x0)))), exp(pow(30, pow(add(pow(add(x1, x1), pow(pow(pow(x1, sub(x0, x0)), sub(x0, x0)), sub(x0, 30))), x0), sub(x0, x0)))))
+Fitness: 2.6870494490133145e-16
+
+Tree 76:
+div(sub(sub(sub(sub(sub(0.886989, exp(abs(add(x1, x1)))), exp(abs(add(x1, x0)))), exp(abs(add(x1, x0)))), exp(abs(abs(add(x1, x0))))), exp(abs(add(x1, x0)))), exp(pow(30, pow(add(pow(exp(abs(add(sub(sub(sub(sub(sub(0.886989, exp(abs(add(x1, x1)))), exp(abs(add(x1, x0)))), exp(abs(add(x1, x0)))), exp(abs(abs(add(x1, x0))))), exp(abs(add(x1, x0)))), x0))), pow(pow(pow(sub(x0, x0), sub(x0, x0)), sub(x0, x0)), sub(x0, x0))), x0), sub(x0, x0)))))
+Fitness: 2.430571224419992e-16
+
+Tree 77:
+div(sub(sub(sub(sub(sub(0.886989, exp(abs(add(x1, x1)))), exp(add(x1, x1))), exp(abs(add(x1, x0)))), exp(abs(abs(add(x1, x0))))), exp(abs(add(x1, x0)))), exp(pow(30, pow(pow(30, pow(pow(exp(abs(add(x1, x0))), sub(x0, x0)), sub(abs(x0), x0))), sub(x0, x0)))))
+Fitness: 2.589392129590031e-16
+
+Tree 78:
+div(sub(sub(sub(sub(sub(abs(add(x1, x0)), exp(abs(add(x1, x1)))), exp(abs(add(x0, x0)))), exp(abs(add(x1, x0)))), exp(abs(abs(add(x1, x0))))), exp(abs(add(x1, x0)))), exp(pow(30, pow(add(pow(x0, pow(pow(pow(sub(x0, x0), sub(x0, x0)), sub(x0, x0)), sub(x0, x0))), x0), sub(x0, x0)))))
+Fitness: 2.3820054714021627e-16
+
+Tree 79:
+abs(add(x1, x1))
+Fitness: 3387.0855318892545
+
+Tree 80:
+div(sub(sub(sub(sub(sub(0.886989, exp(abs(add(x1, x1)))), exp(abs(add(x0, x0)))), exp(abs(add(x1, x0)))), exp(abs(add(x1, x0)))), exp(abs(add(x1, x0)))), 1.06866e+13)
+Fitness: 2.3510099086753123e-16
+
+Tree 81:
+div(sub(sub(sub(sub(sub(0.886989, exp(abs(add(x1, x1)))), exp(abs(add(x1, x0)))), exp(abs(add(x1, x0)))), exp(abs(abs(add(x1, x0))))), exp(abs(add(x1, x0)))), exp(pow(30, pow(add(pow(30, pow(pow(pow(sub(x0, x0), sub(sub(sub(sub(sub(0.886989, exp(abs(add(x1, x1)))), exp(abs(add(x0, x0)))), exp(abs(add(x1, x1)))), exp(abs(add(x1, x0)))), exp(abs(add(x0, x0))))), sub(x0, x0)), sub(x0, x0))), x0), sub(x0, x0)))))
+Fitness: 2.430571224419992e-16
+
+Tree 82:
+div(sub(sub(sub(sub(sub(0.886989, exp(abs(add(x1, x1)))), exp(abs(add(x1, x1)))), exp(abs(add(x1, x0)))), exp(abs(add(x0, x0)))), exp(abs(add(x1, x0)))), exp(pow(30, pow(add(pow(30, pow(pow(pow(x1, sub(x0, x0)), sub(x0, x0)), 1.06866e+13)), x0), sub(x0, x0)))))
+Fitness: 2.6870494490133145e-16
+
+Tree 83:
+div(sub(sub(sub(sub(sub(sub(0.886989, exp(abs(add(x1, x1)))), exp(abs(add(x0, x0)))), exp(abs(add(x1, x1)))), exp(abs(add(x1, x0)))), exp(abs(add(sub(x0, x0), x0)))), exp(abs(add(x1, x0)))), exp(pow(30, pow(exp(abs(add(x0, x0))), sub(x0, x0)))))
+Fitness: 2.6851117997407387e-16
+
+Tree 84:
+div(sub(sub(sub(sub(sub(0.886989, exp(abs(add(x1, x1)))), exp(add(x1, x1))), exp(abs(add(x1, x0)))), exp(abs(add(x1, x0)))), exp(abs(add(x1, x0)))), exp(pow(30, pow(pow(30, pow(pow(sub(x0, abs(add(x1, x0))), sub(x0, x0)), sub(x0, abs(x0)))), sub(x0, x0)))))
+Fitness: 2.589392129590031e-16
+
+Tree 85:
+div(sub(sub(sub(sub(sub(0.886989, exp(abs(add(x1, x1)))), exp(add(x1, x1))), exp(abs(add(x1, x0)))), exp(abs(abs(add(x1, x0))))), exp(abs(add(x1, x0)))), exp(pow(30, pow(pow(30, pow(pow(exp(abs(add(x1, x0))), sub(x0, x0)), sub(x0, abs(x0)))), sub(x0, x0)))))
+Fitness: 2.589392129590031e-16
+
+Tree 86:
+div(sub(sub(sub(sub(sub(0.886989, exp(abs(add(x1, x1)))), exp(abs(add(x1, x0)))), exp(abs(add(x1, x0)))), exp(abs(abs(add(x1, x0))))), exp(abs(add(x1, x0)))), exp(pow(30, pow(add(pow(30, pow(pow(pow(sub(x0, x0), x0), sub(x0, x1)), sub(x0, x0))), x0), sub(x0, x0)))))
+Fitness: 2.2206161645058663e-16
+
+Tree 87:
+div(sub(sub(sub(sub(sub(0.886989, exp(abs(add(x0, x1)))), exp(abs(add(x1, x0)))), exp(abs(add(x1, x0)))), exp(abs(abs(add(x1, x0))))), exp(abs(add(x1, x0)))), exp(pow(30, pow(add(abs(add(x0, x0)), x0), sub(x0, x0)))))
+Fitness: 2.146271943495845e-16
+
+Tree 88:
+div(sub(sub(sub(sub(sub(x0, exp(abs(add(x1, x1)))), exp(abs(add(x0, x0)))), exp(abs(add(x1, x0)))), exp(abs(add(x1, x0)))), exp(abs(add(x1, x0)))), 1.06866e+13)
+Fitness: 2.351079411943927e-16
+
+Tree 89:
+div(sub(sub(sub(sub(sub(abs(add(x1, x1)), exp(abs(add(x1, x1)))), exp(abs(add(x0, x0)))), exp(abs(add(x1, x0)))), exp(abs(abs(add(x1, x0))))), exp(add(x1, x0))), exp(pow(30, pow(add(pow(30, pow(pow(pow(sub(x0, x0), sub(x0, x0)), sub(x0, x0)), sub(x0, x0))), x0), sub(x0, x0)))))
+Fitness: 2.382020719844626e-16
+
+Tree 90:
+div(sub(sub(sub(sub(sub(0.886989, exp(abs(add(x1, x1)))), exp(abs(abs(add(x1, x0))))), exp(abs(add(x1, x0)))), exp(abs(abs(add(x1, x0))))), exp(abs(add(x1, x0)))), exp(pow(30, pow(add(pow(30, abs(add(x0, x0))), x0), sub(x0, x0)))))
+Fitness: 2.1918277583440363e-16
+
+Tree 91:
+div(sub(sub(sub(sub(sub(sub(0.886989, exp(abs(add(x1, x1)))), exp(abs(abs(add(x1, x0))))), exp(x1)), exp(abs(add(x1, x0)))), exp(abs(add(x0, x0)))), exp(abs(add(x1, x0)))), exp(pow(30, pow(add(x0, add(x1, x0)), sub(x0, x0)))))
+Fitness: 2.378853825732478e-16
+
+Tree 92:
+div(sub(sub(sub(sub(sub(0.886989, exp(abs(add(x1, x1)))), exp(abs(add(x0, x0)))), exp(abs(add(x1, x0)))), exp(abs(abs(add(x1, x0))))), exp(add(x1, x0))), exp(pow(30, pow(add(pow(30, pow(pow(abs(abs(add(x1, x1))), sub(x0, x0)), sub(x0, x0))), x0), sub(x0, x0)))))
+Fitness: 2.4131161484858725e-16
+
+Tree 93:
+div(sub(sub(sub(sub(sub(0.886989, exp(abs(add(x1, x1)))), exp(abs(add(x0, x0)))), exp(abs(add(x1, x0)))), exp(abs(abs(add(x1, x0))))), exp(add(x1, x0))), exp(pow(30, pow(add(pow(30, pow(pow(pow(sub(sub(sub(sub(0.886989, exp(abs(add(x1, x1)))), exp(abs(add(x0, x0)))), exp(abs(add(x1, x0)))), x0), sub(x0, x0)), sub(x0, x0)), sub(x0, x0))), x0), sub(x0, x0)))))
+Fitness: 2.574069790533991e-16
+
+Tree 94:
+div(sub(sub(sub(sub(sub(sub(0.886989, exp(abs(add(x1, x1)))), exp(abs(abs(add(x1, x0))))), exp(abs(add(x1, x1)))), exp(abs(add(x1, x0)))), exp(abs(add(x0, x0)))), add(x0, x0)), exp(pow(30, pow(add(x0, exp(abs(add(x0, x0)))), sub(x0, x0)))))
+Fitness: 2.6870186057069843e-16
+
+Tree 95:
+div(sub(sub(sub(sub(sub(sub(0.886989, exp(abs(add(x1, x1)))), exp(abs(add(x1, x0)))), exp(abs(add(x1, x1)))), exp(abs(add(x1, x0)))), exp(abs(add(x0, x0)))), exp(abs(add(x1, x0)))), exp(pow(30, pow(add(x0, exp(abs(add(x1, x0)))), sub(x0, x0)))))
+Fitness: 2.2452786303249335e-16
+
+Tree 96:
+div(sub(sub(sub(sub(sub(sub(0.886989, exp(abs(add(x1, x1)))), exp(abs(add(x0, x0)))), exp(abs(add(x1, x1)))), exp(abs(add(x1, x0)))), exp(abs(abs(abs(add(x1, x0)))))), exp(abs(add(x1, x0)))), exp(pow(30, pow(add(x0, 0.886989), sub(x0, x0)))))
+Fitness: 2.2452786303249335e-16
+
+Tree 97:
+div(sub(sub(sub(sub(sub(0.886989, exp(abs(add(x1, x1)))), exp(abs(add(x0, x0)))), exp(abs(add(x1, x0)))), exp(abs(abs(add(x1, x0))))), exp(abs(add(x1, x0)))), exp(pow(30, pow(add(pow(30, x1), x0), sub(x0, x0)))))
+Fitness: 2.3509850867552565e-16
+
+Tree 98:
+div(sub(sub(sub(sub(sub(0.886989, exp(abs(add(x1, x1)))), exp(abs(add(x1, x0)))), exp(abs(add(x1, abs(x0))))), exp(abs(abs(add(x1, x0))))), exp(abs(add(x1, x0)))), exp(pow(30, pow(x1, sub(x0, x0)))))
+Fitness: 2.1918277583440363e-16
+
+Tree 99:
+div(sub(sub(sub(sub(sub(0.886989, exp(abs(add(x1, x1)))), exp(add(x1, x1))), exp(abs(add(x1, x0)))), exp(abs(abs(add(x1, x0))))), exp(abs(add(x1, x0)))), exp(pow(30, pow(pow(30, pow(pow(exp(abs(add(x1, x0))), sub(x0, x0)), sub(x0, x0))), sub(x0, x0)))))
+Fitness: 2.589392129590031e-16
+
+Tree 100:
+pow(x1, sub(x0, x0))
+Fitness: 102.17346984346857
+
+Tree 101:
+div(sub(sub(sub(sub(sub(0.886989, exp(abs(add(x1, x1)))), exp(abs(add(x1, x1)))), exp(abs(add(x1, x0)))), exp(abs(add(x0, x0)))), exp(abs(add(x1, x0)))), exp(pow(30, pow(add(pow(30, pow(pow(pow(x1, sub(x0, x0)), sub(x0, x0)), sub(x0, 30))), pow(add(x0, 0.886989), sub(x0, x0))), sub(x0, x0)))))
+Fitness: 2.6870494490133145e-16
+
+Tree 102:
+div(sub(sub(sub(sub(sub(abs(add(x1, x0)), exp(abs(add(x1, x1)))), exp(abs(add(x0, x0)))), exp(abs(add(x1, x0)))), exp(abs(abs(add(x1, x0))))), exp(abs(add(x1, x0)))), exp(pow(30, pow(add(pow(x0, pow(pow(x0, sub(x0, x0)), abs(add(x1, x1)))), x0), sub(x0, x0)))))
+Fitness: 2.35112478968575e-16
+
+Tree 103:
+div(sub(sub(sub(sub(sub(abs(add(x1, x0)), exp(abs(add(x1, x1)))), exp(abs(add(x0, x0)))), exp(abs(add(x1, x0)))), exp(abs(abs(add(x1, x0))))), exp(abs(add(x1, x0)))), exp(pow(30, pow(add(pow(x0, pow(pow(pow(sub(x0, x0), sub(x0, x0)), sub(exp(abs(add(abs(add(x1, x0)), x0))), x0)), sub(x0, x0))), x0), sub(x0, x0)))))
+Fitness: 2.50898361858998e-16
+
+Tree 104:
+div(sub(sub(sub(sub(sub(sub(0.886989, exp(abs(add(x1, x1)))), exp(abs(add(x1, x0)))), exp(abs(add(x1, x1)))), exp(abs(x0))), exp(abs(add(x0, x0)))), exp(abs(add(x1, x0)))), exp(pow(30, pow(add(x0, exp(add(x1, x0))), sub(x0, x0)))))
+Fitness: 2.685111799740738e-16
+
+Tree 105:
+div(sub(sub(sub(sub(sub(0.886989, exp(abs(add(x1, x1)))), exp(abs(add(x0, x0)))), exp(abs(add(x1, x0)))), exp(abs(abs(add(x1, x0))))), exp(abs(add(x1, x0)))), exp(pow(30, pow(add(2.05891e+44, x0), sub(x0, x0)))))
+Fitness: 2.3509850867552565e-16
+
