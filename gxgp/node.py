@@ -302,7 +302,7 @@ class Node:
             current_arg = []
             for char in args_str:
                 if char == ',' and depth == 0:
-                    args.append(''.join(current_arg))
+                    args.append(''.join(current_arg)) # Merge the characters found so far into a string, then reset (in the line below)
                     current_arg = []
                 else:
                     if char == '(':

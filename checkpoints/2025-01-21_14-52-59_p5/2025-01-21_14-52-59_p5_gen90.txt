@@ -1,0 +1,479 @@
+# Configuration
+conf = {
+    'problem': 5,
+    'crossover': <function recombination_crossover at 0x0000014D350F5940>,
+    'OFFSPRING_SIZE': 200,
+    'POPULATION_SIZE': 100,
+    'OUTSIDER_SIZE': 20,
+    'INITIAL_PM': 0.2,
+    'FINAL_PM': 0.05,
+    'x_elitism': 0.08,
+    'MAX_GENERATIONS': 100,
+    'HEIGHT': 5,
+    'PC': 0.15,
+    'P_PICK_CONSTANT': 0.4,
+    'P_CUT_TREE': 0.05,
+    'CONSTANTS': [1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0, 15.0, 16.0, 17.0, 18.0, 19.0, 20.0],
+}
+
+# Population
+Tree 0:
+mul(div(0.0169435, sub(sub(x1, sub(4, mul(sub(div(div(div(sub(sub(-0.000183915, sub(exp(sqrt(x0)), add(x1, exp(abs(x0))))), 96.127), mul(exp(div(x0, abs(x0))), x0)), add(div(sub(add(sub(abs(div(x1, 15)), 8.24621), sub(cos(add(x1, 14)), x0)), mul(x1, x1)), 17.0002), add(div(0.0277778, sub(mul(x1, mul(x1, x1)), div(x0, abs(x0)))), x0))), add(div(sub(abs(div(x0, 15)), add(x1, 14)), 17.0002), add(div(11, sub(x1, add(x1, 14))), x0))), sub(4, mul(x1, x1))), 1.82116))), 96.127)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 210.11926367397317
+
+Tree 1:
+mul(div(0.0169435, sub(sub(x1, sub(4, mul(sub(div(div(div(sub(sub(-0.000183915, sub(x0, add(x1, exp(abs(x0))))), 96.127), mul(exp(div(x0, abs(x0))), x0)), add(div(sub(add(sub(abs(div(x1, 15)), 8.24621), sub(cos(add(x1, 14)), x0)), mul(x1, x1)), 17.0002), add(div(0.0277778, sub(mul(x1, mul(mul(x0, 4), x1)), div(x0, abs(x0)))), x0))), add(div(sub(abs(div(x0, 15)), add(x1, 14)), 17.0002), add(div(11, sub(x1, add(x1, 14))), x0))), sub(4, mul(x1, x1))), 1.82116))), 96.127)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 210.2759478274329
+
+Tree 2:
+mul(div(0.0169435, sub(sub(x1, sub(4, mul(sub(div(div(div(sub(sub(-0.000183915, sub(x1, add(x1, exp(x0)))), 96.127), mul(exp(div(x0, abs(x0))), x0)), add(div(sub(add(sub(abs(div(x1, 15)), 8.24621), sub(cos(add(x1, 14)), x0)), mul(x1, x1)), 17.0002), add(div(add(0.0277778, x0), sub(mul(x1, mul(x1, x1)), div(x0, abs(x0)))), x0))), add(div(sub(abs(div(x0, 15)), add(x1, 14)), 17.0002), add(div(11, sub(x1, add(x1, 14))), x0))), sub(4, mul(x1, x1))), 1.82116))), 96.127)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 210.3192740112196
+
+Tree 3:
+mul(div(0.0169435, sub(sub(x1, sub(4, mul(sub(div(div(div(sub(sub(-0.000183915, sub(x0, add(x1, exp(abs(x0))))), 96.127), mul(exp(div(x0, abs(x0))), x0)), add(div(sub(add(sub(abs(div(x1, 15)), 8.24621), sub(cos(add(x1, 14)), x0)), mul(x1, x1)), 17.0002), add(div(cos(add(x1, 14)), sub(mul(x1, mul(mul(x0, 4), x1)), div(x0, abs(x0)))), x0))), add(div(sub(abs(div(x0, 15)), add(x1, 14)), 17.0002), add(div(11, sub(x1, add(x1, 14))), x0))), sub(4, mul(x1, x1))), 1.82116))), 96.127)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 210.3378074999126
+
+Tree 4:
+mul(div(0.0169435, sub(sub(x1, sub(4, mul(sub(div(div(div(sub(sub(-0.000183915, sub(x1, add(x1, exp(abs(x0))))), 96.127), mul(exp(div(x0, abs(x0))), x0)), add(div(sub(add(sub(abs(div(x1, 15)), 8.24621), sub(cos(add(x1, 14)), x0)), mul(x1, x1)), 17.0002), add(div(x0, sub(mul(x1, mul(x1, x1)), div(x0, abs(x0)))), x0))), add(div(sub(abs(div(x0, 15)), add(x1, 14)), 17.0002), add(div(11, sub(x1, add(x1, 14))), x0))), sub(4, mul(x1, x1))), 1.82116))), 96.127)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 210.34308443015732
+
+Tree 5:
+mul(div(0.0169435, sub(sub(x1, sub(4, mul(sub(div(div(div(sub(sub(-0.000183915, sub(x1, add(x1, exp(abs(x0))))), 96.127), mul(exp(div(x0, abs(x0))), x0)), add(div(sub(add(sub(abs(div(x1, 15)), 8.24621), sub(cos(add(x1, 14)), x0)), mul(x1, x1)), 17.0002), add(div(0.0277778, sub(mul(x1, mul(mul(x0, 4), x1)), div(x0, abs(x0)))), x0))), add(div(sub(abs(div(x0, 15)), add(x1, 14)), 17.0002), add(div(11, sub(x1, add(x1, 14))), x0))), sub(4, mul(x1, x1))), 1.82116))), 96.127)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 210.3554733677301
+
+Tree 6:
+mul(div(0.0169435, sub(sub(x1, sub(4, mul(sub(div(div(div(sub(sub(-0.000183915, sub(x1, add(x1, exp(abs(x0))))), 96.127), mul(exp(div(x0, abs(x0))), x0)), add(div(sub(add(sub(abs(div(x1, 15)), 8.24621), sub(cos(add(x1, 14)), x0)), mul(x1, x1)), 17.0002), add(div(0.0277778, sub(mul(x1, mul(mul(x0, 4), x1)), div(x0, x0))), x0))), add(div(sub(abs(div(x0, 15)), add(x1, 14)), 17.0002), add(div(11, sub(x1, add(x1, 14))), x0))), sub(4, mul(x1, x1))), 1.82116))), 96.127)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 210.3554733677301
+
+Tree 7:
+mul(div(0.0169435, sub(sub(x1, sub(4, mul(sub(div(div(div(sub(sub(-0.000183915, sub(x1, add(x1, exp(abs(x0))))), 96.127), mul(exp(div(x0, abs(x0))), x0)), add(div(sub(add(sub(abs(div(x1, 15)), 8.24621), sub(cos(add(x1, 14)), x0)), mul(x1, x1)), 17.0002), add(div(x0, sub(mul(x1, mul(x1, x1)), div(x0, 11))), x0))), add(div(sub(abs(div(x0, 15)), add(x1, 14)), 17.0002), add(div(11, sub(x1, add(x1, 14))), x0))), sub(4, mul(x1, x1))), 1.82116))), 96.127)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 210.36177188057954
+
+Tree 8:
+mul(div(0.0169435, sub(sub(x1, sub(4, mul(sub(div(div(div(sub(sub(4, sub(4, add(x0, exp(abs(x0))))), 96.127), mul(exp(div(x0, abs(x0))), x0)), add(div(sub(add(sub(abs(div(x0, 15)), sqrt(mul(x0, 17))), sub(cos(add(0.0169435, x0)), x0)), mul(x1, x1)), 17.0002), add(div(0.0277778, sub(mul(x0, 4), sub(abs(x1), add(x1, 14)))), x0))), add(div(sub(abs(x0), add(x1, 14)), 17.0002), add(div(11, sub(x1, add(x1, 14))), x0))), sub(4, mul(x1, x1))), 1.82116))), 96.127)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 212.765538107427
+
+Tree 9:
+mul(div(0.0169435, sub(sub(x1, sub(4, mul(sub(div(div(div(sub(sub(0.0169435, sub(x1, add(x1, exp(abs(x0))))), 96.127), mul(exp(div(x0, abs(x0))), x0)), add(div(sub(add(sub(x0, 8.24621), sub(cos(add(x1, 14)), x0)), mul(x1, x1)), 17.0002), add(div(0.0277778, sub(mul(x1, mul(x1, x1)), div(x0, abs(x0)))), x0))), add(div(sub(abs(div(x0, 15)), add(x1, 14)), 17.0002), add(div(11, sub(abs(div(11, exp(div(x0, abs(x1))))), add(x1, 14))), x0))), sub(4, mul(x1, x1))), 1.82116))), 96.127)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 211.9749353525926
+
+Tree 10:
+mul(div(0.0169435, sub(sub(x1, sub(x0, mul(1.82116, sub(div(div(div(sub(sub(-0.000183915, sub(x1, add(x1, exp(abs(x0))))), 96.127), mul(exp(div(x0, abs(x0))), x0)), add(div(sub(add(sub(abs(div(x1, 15)), 8.24621), sub(cos(add(x1, 4)), x0)), mul(x1, x1)), 17.0002), add(div(0.0277778, x1), x0))), add(div(sub(abs(div(x0, 15)), add(14, x1)), 17.0002), add(div(11, sub(abs(div(11, sub(abs(x0), add(x1, 14)))), add(x1, 14))), x0))), sub(4, mul(x1, x1)))))), 96.127)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 212.9151392746146
+
+Tree 11:
+mul(div(0.0169435, sub(sub(x1, sub(4, mul(sub(div(div(div(sub(sub(-0.000183915, sub(x1, add(x1, exp(x0)))), 96.127), mul(exp(div(x0, abs(x0))), x0)), add(div(sub(add(sub(abs(div(x1, 15)), 8.24621), sub(cos(add(x1, 14)), x0)), mul(x1, x1)), 17.0002), add(div(0.0277778, sub(mul(x1, mul(x1, exp(x0))), div(x0, 15))), x0))), add(div(sub(abs(div(x0, 15)), add(x1, 14)), 17.0002), add(div(11, sub(x1, add(x1, 14))), x0))), sub(4, mul(x1, x1))), 1.82116))), 96.127)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 210.39562735719022
+
+Tree 12:
+mul(div(0.0169435, sub(sub(x1, sub(4, mul(sub(div(div(div(sub(sub(-0.000183915, sub(x1, add(x1, exp(abs(x0))))), 96.127), mul(exp(div(x0, abs(x0))), x0)), add(div(sub(add(sub(abs(div(x1, 15)), 8.24621), sub(cos(add(x0, 14)), x0)), mul(x1, x1)), 17.0002), add(div(x0, sub(mul(x1, mul(x1, x1)), div(x0, abs(x0)))), x0))), add(div(sub(abs(div(x0, 15)), add(x1, 14)), 17.0002), add(div(11, sub(x1, add(x1, 14))), x0))), sub(4, mul(x1, x1))), 1.82116))), 96.127)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 211.33034123376063
+
+Tree 13:
+mul(div(0.0169435, sub(sub(x1, sub(4, mul(sub(div(div(div(sub(sub(-0.000183915, sub(x0, add(x1, exp(x0)))), 96.127), mul(exp(div(x0, abs(x0))), x0)), add(div(sub(add(sub(abs(div(x1, 15)), 8.24621), sub(cos(add(x1, 14)), x0)), mul(x1, x1)), 17.0002), add(div(0.0277778, sub(mul(x1, mul(x1, x1)), div(x0, abs(x0)))), x0))), add(div(sub(abs(div(x0, 15)), add(x1, 14)), 17.0002), add(div(11, sub(x1, add(x1, 14))), x0))), sub(4, mul(x1, x1))), 1.82116))), 96.127)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 210.2771308131498
+
+Tree 14:
+add(x1, exp(abs(x0)))
+Raw Fitness: 418792.51165930176
+
+Tree 15:
+x0
+Raw Fitness: 61964.198070454746
+
+Tree 16:
+mul(div(0.0169435, sub(div(x0, abs(x0)), 96.127)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 6950.91840970945
+
+Tree 17:
+mul(div(0.0169435, sub(sub(x1, sub(4, mul(sub(div(div(div(sub(sub(sub(cos(add(0.0169435, x1)), x0), sub(x1, add(x0, exp(abs(x0))))), 96.127), mul(exp(div(x0, abs(x0))), x0)), add(div(sub(add(sub(abs(div(x0, 4)), sqrt(mul(x0, 17))), sub(sqrt(x1), x1)), mul(x1, x1)), 17.0002), add(div(0.0277778, sub(mul(x1, 4), x1)), x0))), add(div(sub(abs(x0), add(x1, 14)), 17.0002), add(div(11, sub(x1, add(x1, 14))), x0))), sub(4, mul(x1, x1))), 1.82116))), 96.127)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 212.10305926353385
+
+Tree 18:
+mul(div(0.0169435, sub(sub(x1, sub(x0, mul(1.82116, sub(div(div(div(sub(sub(-0.000183915, sub(x1, add(x1, exp(abs(x0))))), 96.127), mul(exp(div(x0, abs(x0))), x0)), add(div(sub(add(sub(abs(div(x1, 15)), 8.24621), sub(cos(add(x1, 4)), x0)), mul(x1, x1)), 17.0002), add(div(0.0277778, sub(mul(x1, x0), x1)), x0))), add(div(sub(abs(div(x0, mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))), add(x1, 14)), 17.0002), add(div(11, sub(abs(div(11, sub(abs(x0), add(x1, 14)))), add(x1, 14))), x0))), sub(4, mul(x1, x1)))))), 96.127)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 215.99609841584953
+
+Tree 19:
+mul(div(0.0169435, sub(sub(x1, sub(x0, mul(1.82116, sub(div(div(div(sub(sub(-0.000183915, sub(x1, add(x1, exp(abs(x0))))), 96.127), mul(exp(div(x0, abs(x0))), x0)), add(div(sub(add(sub(abs(div(x1, 15)), 8.24621), sub(cos(add(x1, 4)), x0)), mul(x1, x1)), 17.0002), add(div(0.0277778, sub(mul(x1, mul(x1, x1)), x1)), x0))), add(div(sub(abs(div(x0, mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))), add(x1, 14)), 17.0002), add(div(11, sub(abs(div(11, sub(abs(x1), add(x1, 14)))), add(x1, 14))), x0))), sub(4, mul(x1, x1)))))), 96.127)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 215.38095150329997
+
+Tree 20:
+mul(div(0.0169435, exp(div(x0, abs(x0)))), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 35509214.90197446
+
+Tree 21:
+15
+Raw Fitness: 95612.71827549663
+
+Tree 22:
+mul(mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))), div(0.0169435, sub(sub(x1, sub(4, mul(sub(div(div(div(sub(sub(sub(cos(add(0.0169435, x1)), x0), sub(x1, add(x1, exp(abs(x0))))), 96.127), mul(exp(div(x0, abs(x0))), x0)), add(div(sub(add(sub(abs(div(x0, 4)), sqrt(mul(x0, 17))), sub(cos(add(0.0169435, x0)), x0)), mul(x1, x1)), 17.0002), add(div(0.0277778, sub(mul(x1, 4), x1)), x0))), add(div(sub(0.0169435, add(x1, 14)), 17.0002), add(div(11, sub(x1, add(x1, 14))), x0))), sub(4, mul(x1, x1))), 1.82116))), 96.127)))
+Raw Fitness: 210.78414295448337
+
+Tree 23:
+mul(div(0.0169435, sub(sub(x1, sub(4, mul(sub(div(div(div(sub(sub(sub(cos(add(0.0169435, x1)), x0), sub(x0, add(x0, exp(abs(x0))))), 96.127), mul(exp(div(x0, abs(x0))), x0)), add(div(sub(add(sub(abs(div(x0, 4)), sqrt(mul(x0, 17))), sub(cos(add(0.0169435, x0)), x1)), mul(x1, x1)), 17.0002), add(div(0.0277778, sub(mul(x1, 4), x1)), x0))), add(div(sub(abs(x0), add(x1, 14)), 17.0002), add(div(11, sub(x1, add(x1, 14))), x0))), sub(4, mul(x1, x1))), 1.82116))), 96.127)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 211.5252436700234
+
+Tree 24:
+mul(div(0.0169435, sub(sub(x1, sub(4, mul(sub(div(div(div(sub(sub(abs(x0), sub(x1, add(x1, exp(abs(x0))))), 96.127), mul(exp(div(x0, abs(x0))), x0)), add(div(sub(add(sub(abs(div(x1, 15)), 8.24621), sub(cos(add(x1, 14)), x0)), mul(x1, x1)), 17.0002), add(0.0152528, x0))), add(div(sub(abs(div(x0, pow(sqrt(x1), 11))), add(x1, 14)), 17.0002), add(div(11, sub(x1, add(x1, 14))), x0))), sub(4, mul(x1, x1))), 1.82116))), 96.127)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 210.8974188742418
+
+Tree 25:
+mul(div(0.0169435, sub(sub(x1, sub(4, mul(sub(div(div(div(sub(sub(-0.000183915, sub(x1, add(x1, exp(abs(x0))))), 96.127), mul(exp(div(x0, abs(x0))), x0)), add(div(sub(add(sub(abs(div(x1, 15)), 8.24621), sub(cos(add(x1, 14)), x0)), mul(x1, x1)), 17.0002), add(div(0.0277778, sub(mul(11, mul(x1, neg(x1))), div(x0, abs(x0)))), x0))), add(div(sub(abs(div(x0, x0)), add(x1, 14)), 17.0002), add(div(11, sub(x1, add(x1, 14))), x0))), sub(4, mul(x1, x1))), 1.82116))), 96.127)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 210.72315657007871
+
+Tree 26:
+mul(div(0.0169435, sub(sub(x1, sub(4, mul(sub(div(div(div(sub(sub(-0.000183915, sub(x1, add(x1, exp(abs(x0))))), 96.127), mul(exp(div(x0, abs(x0))), x0)), add(div(sub(add(sub(abs(div(add(0.0169435, x0), 15)), 8.24621), sub(0.0277778, x0)), mul(x1, x1)), 17.0002), add(div(x0, sub(mul(x1, mul(x1, x1)), div(x0, 11))), x0))), add(div(sub(abs(div(x0, 15)), add(x1, 14)), 17.0002), add(div(11, sub(x1, add(x1, 14))), x0))), sub(4, mul(x1, x1))), 1.82116))), 96.127)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 213.35123649432967
+
+Tree 27:
+mul(div(0.0169435, sub(sub(x1, sub(4, mul(sub(div(div(div(sub(sub(sub(cos(add(0.0169435, x1)), x0), sub(x1, add(x0, exp(abs(x0))))), 96.127), mul(exp(div(x0, abs(x0))), x0)), add(div(sub(add(sub(abs(div(x0, 4)), sqrt(mul(x0, 17))), sub(cos(x1), x1)), mul(x1, x1)), 17.0002), add(div(0.0277778, sub(mul(x1, 4), x1)), x0))), add(div(sub(abs(x0), 18), 17.0002), add(div(11, sub(x1, add(x1, 14))), x0))), sub(4, mul(x1, x1))), 1.82116))), 96.127)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 210.8315418188975
+
+Tree 28:
+mul(div(0.0169435, sub(sub(x1, sub(4, mul(sub(div(div(div(sub(exp(abs(x0)), 96.127), mul(exp(div(x0, abs(x0))), x0)), add(div(sub(add(sub(abs(div(x0, 15)), sqrt(mul(x0, 17))), sub(cos(add(0.0169435, x0)), x0)), mul(x1, x1)), 17.0002), add(div(div(sub(mul(x0, 17), add(14, x1)), 17.0002), mul(x1, x1)), x0))), add(div(sub(x1, add(14, x1)), 17.0002), add(div(11, sub(x1, add(x1, 14))), x0))), sub(4, mul(x1, x1))), 1.82116))), 96.127)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 215.67625547761264
+
+Tree 29:
+mul(div(0.0169435, sub(sub(x1, sub(4, mul(sub(div(div(div(sub(sub(-0.000183915, sub(x1, add(x1, exp(x0)))), 96.127), mul(exp(div(x0, abs(x0))), x0)), add(div(sub(add(sub(abs(div(x1, 15)), 8.24621), sub(cos(add(x1, 14)), x0)), mul(x1, x1)), 17.0002), add(div(x1, sub(mul(x1, mul(x1, x1)), div(x0, abs(x0)))), x0))), add(div(sub(abs(div(x0, 15)), add(x1, 14)), 17.0002), add(div(11, sub(x1, add(x1, 14))), x0))), sub(4, mul(x1, x1))), 1.82116))), 96.127)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 210.44682548431823
+
+Tree 30:
+mul(div(0.0169435, add(x0, x0)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 180369803.78431177
+
+Tree 31:
+mul(div(0.0169435, sub(sub(x1, sub(4, mul(sub(div(div(div(sub(sub(sub(cos(add(0.0169435, x1)), x0), sub(x1, add(x0, exp(abs(x0))))), 96.127), mul(exp(div(x0, abs(x0))), x0)), add(div(sub(add(sub(0.0169435, sqrt(mul(x0, 17))), sub(cos(x1), x0)), mul(x1, x1)), 17.0002), add(div(0.0277778, sub(mul(x1, exp(abs(x0))), x1)), x0))), add(div(sub(0.0169435, add(x1, 14)), 17.0002), add(div(11, sub(x1, add(x1, 14))), x0))), sub(4, mul(x1, x1))), 1.82116))), 96.127)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 211.11379419395496
+
+Tree 32:
+mul(mul(exp(div(x0, abs(x0))), x0), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 129022862859079.06
+
+Tree 33:
+mul(div(0.0169435, sub(sub(x1, sub(4, mul(sub(div(div(div(sub(sub(-0.000183915, sub(x1, add(x1, exp(abs(x0))))), 96.127), mul(exp(div(x0, abs(x0))), x0)), add(div(sub(add(sub(abs(div(x1, 15)), x1), sub(cos(add(x1, 14)), x1)), mul(x1, x1)), 17.0002), add(div(x0, sub(mul(x1, mul(x1, x1)), div(x0, abs(x0)))), x0))), add(div(sub(abs(div(x0, 15)), add(x1, 14)), 17.0002), add(div(11, sub(x1, add(x1, 14))), x0))), sub(4, mul(x1, x1))), 1.82116))), 96.127)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 210.92800610642269
+
+Tree 34:
+mul(div(0.0169435, sub(x0, 96.127)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 17.0002))))
+Raw Fitness: 285155241.9611895
+
+Tree 35:
+mul(div(0.0169435, sub(sub(x1, sub(4, mul(sub(div(div(div(sub(sub(-0.000183915, sub(x1, add(0.0169435, exp(abs(x0))))), 96.127), mul(exp(div(x0, abs(x0))), x0)), add(div(sub(add(sub(abs(div(x1, 15)), 8.24621), sub(cos(add(x1, 14)), x0)), mul(x1, x1)), 17.0002), add(div(0.0277778, sub(mul(x1, mul(x1, x1)), div(x0, add(sub(abs(div(x1, 15)), 8.24621), x1)))), x0))), add(div(sub(abs(div(x0, x1)), add(x1, 14)), 17.0002), add(div(11, sub(abs(div(11, exp(div(x0, abs(x0))))), add(x1, 14))), x0))), sub(4, mul(x1, x1))), 1.82116))), 96.127)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 215.44135826548668
+
+Tree 36:
+mul(div(0.0169435, sub(sub(x1, sub(4, mul(sub(div(div(div(sub(sub(-0.000183915, sub(x1, add(x1, exp(abs(x0))))), 96.127), mul(exp(div(x0, abs(x0))), x0)), add(div(sub(add(sub(abs(div(x1, 15)), 8.24621), sub(cos(add(x1, 14)), x0)), mul(x1, x1)), 17.0002), add(div(0.0277778, sub(mul(add(neg(x1), exp(x0)), mul(mul(x0, 4), x1)), div(x0, abs(x0)))), x0))), add(div(sub(abs(div(x0, 15)), add(x1, 14)), 17.0002), add(div(11, sub(x1, add(x1, 14))), x0))), sub(4, mul(x1, x1))), 1.82116))), 96.127)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 210.378075082103
+
+Tree 37:
+mul(div(0.0169435, sub(sub(x1, sub(4, mul(sub(div(div(div(sub(sub(sub(cos(add(x1, div(x0, 15))), x0), sub(x1, add(x0, exp(abs(x0))))), 96.127), mul(exp(div(x0, abs(x0))), x0)), add(div(sub(add(sub(abs(div(x0, 4)), sqrt(mul(x0, 17))), sub(cos(mul(x1, x1)), x0)), mul(x1, x1)), 17.0002), add(div(0.0277778, sub(add(4, exp(abs(x0))), x1)), x0))), add(div(sub(abs(x0), add(x1, 14)), 17.0002), add(div(11, sub(x1, add(x1, 14))), x0))), sub(4, mul(x1, x1))), 1.82116))), 96.127)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 212.34952861665678
+
+Tree 38:
+mul(div(0.0169435, sub(sub(x1, sub(4, mul(sub(div(div(div(sub(sub(-0.000183915, sub(exp(sqrt(x0)), add(x1, exp(abs(x0))))), 96.127), mul(exp(div(x0, abs(x0))), x0)), add(div(sub(add(sub(abs(div(x1, 15)), 8.24621), sub(cos(add(x1, 14)), x0)), mul(x1, x1)), 17.0002), add(div(0.0277778, sub(mul(x1, mul(x1, x1)), div(x0, abs(x0)))), x0))), add(div(sub(abs(x1), add(x1, 14)), 17.0002), add(div(11, sub(x1, add(x1, 14))), x0))), sub(4, mul(x1, x1))), 1.82116))), 96.127)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 213.40891446222344
+
+Tree 39:
+mul(div(0.0169435, sub(sub(x1, sub(4, mul(sub(div(div(div(sub(sub(-0.000183915, sub(x1, add(x1, exp(abs(x0))))), 96.127), mul(exp(div(x0, abs(x0))), x0)), add(div(sub(add(sub(abs(div(x1, 15)), 8.24621), sub(cos(add(x1, 14)), x0)), mul(x1, x1)), 17.0002), add(div(x0, sub(mul(x1, 4), div(x0, 11))), x0))), add(div(sub(abs(div(x0, 15)), add(x1, 14)), 17.0002), add(div(11, sub(x1, add(x1, 14))), x0))), sub(4, mul(x1, x1))), 1.82116))), 96.127)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 210.95589936647667
+
+Tree 40:
+mul(div(0.0169435, sub(div(x0, x1), 96.127)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 6958.058640230921
+
+Tree 41:
+mul(div(0.0169435, sub(sub(x1, sub(4, mul(sub(div(div(div(sub(sub(-0.000183915, sub(11, add(4, exp(abs(x0))))), 96.127), mul(exp(div(x0, abs(x0))), x0)), add(div(sub(add(sub(abs(div(x0, 15)), 11), sub(cos(add(0.0169435, x1)), x0)), mul(x1, x1)), 17.0002), add(div(0.0277778, sub(mul(x1, 4), 96.127)), x0))), add(div(sub(abs(x0), add(x1, 14)), 17.0002), add(div(11, sub(x1, add(x1, 14))), x0))), sub(4, mul(x1, x1))), 1.82116))), 96.127)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 214.88325447768457
+
+Tree 42:
+mul(div(0.0169435, sub(sub(x1, sub(4, mul(sub(div(div(div(sub(sub(sub(-0.303557, x0), sub(x1, add(x0, exp(abs(x0))))), 96.127), mul(exp(div(x0, abs(x0))), x0)), add(div(sub(add(sub(abs(div(x0, 96.127)), sqrt(mul(x0, 17))), sub(cos(add(0.0169435, x0)), x0)), mul(x1, x1)), 17.0002), add(div(0.0277778, sub(mul(x1, 4), x1)), x0))), add(div(sub(0.0169435, add(x1, 14)), 17.0002), add(div(11, sub(x1, add(x1, 14))), x0))), sub(4, mul(x1, x1))), 1.82116))), 96.127)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 211.85793862530085
+
+Tree 43:
+mul(div(0.0169435, sub(sub(x1, sub(x0, mul(1.82116, sub(div(div(div(sub(sub(-0.000183915, sub(x1, add(x1, exp(abs(x0))))), 96.127), mul(exp(div(x0, abs(x0))), x0)), add(div(sub(add(sub(abs(div(x1, 15)), 8.24621), sub(cos(add(x1, 4)), x0)), mul(x1, x1)), 17.0002), add(div(0.0277778, sub(mul(x1, -0.000183915), x1)), x0))), add(div(sub(abs(div(x0, 15)), add(14, x1)), 17.0002), add(div(11, sub(x0, add(x1, 14))), x0))), sub(4, mul(x1, x1)))))), 96.127)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 211.8034486100535
+
+Tree 44:
+mul(div(0.0169435, sub(sub(x1, sub(4, mul(sub(div(div(div(sub(sub(x1, sub(x1, add(x1, exp(abs(x0))))), 96.127), mul(exp(div(x0, abs(x0))), x0)), add(div(sub(add(sub(abs(div(x1, 15)), 8.24621), sub(cos(add(x1, 14)), x0)), mul(x1, x1)), 17.0002), add(div(0.0277778, sub(mul(x1, mul(x1, x1)), div(x1, div(x0, abs(x0))))), x0))), add(div(sub(abs(div(x0, 15)), add(x1, 14)), 17.0002), add(div(11, sub(x1, add(x1, 14))), x0))), sub(4, mul(x1, x1))), 1.82116))), 96.127)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 210.91617789669806
+
+Tree 45:
+mul(mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))), div(0.0169435, sub(sub(x1, sub(4, mul(sub(div(div(div(sub(sub(sub(cos(add(0.0169435, x1)), x0), sub(x1, add(x0, exp(abs(x0))))), 96.127), mul(exp(div(x0, abs(x0))), x0)), add(div(sub(add(sub(abs(div(x0, 4)), sqrt(mul(x0, 17))), sub(cos(add(0.0169435, x0)), x0)), mul(x1, x1)), 17.0002), add(div(0.0277778, sub(mul(x1, 4), x1)), x0))), add(div(sub(0.0169435, add(x1, 14)), 17.0002), add(div(11, sub(x1, add(x1, 14))), x0))), sub(4, mul(x1, x1))), 1.82116))), 96.127)))
+Raw Fitness: 211.15629760578474
+
+Tree 46:
+mul(div(0.0169435, sub(sub(x1, sub(4, mul(sub(div(div(div(sub(sub(-0.000183915, sub(x1, add(x1, exp(x0)))), 96.127), mul(exp(div(x0, abs(x0))), x0)), add(div(sub(add(sub(abs(div(x1, 15)), 8.24621), sub(cos(add(x1, 14)), x0)), mul(x1, x1)), 17.0002), add(div(0.0277778, sub(mul(x1, mul(x1, x1)), div(x0, abs(x0)))), x0))), add(div(sub(abs(div(x0, 15)), add(x1, 14)), 17.0002), add(div(11, sub(x1, add(x1, 14))), x0))), sub(4, mul(x1, x1))), 1.82116))), 96.127)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 210.39513027087918
+
+Tree 47:
+abs(div(mul(x1, neg(x1)), 15))
+Raw Fitness: 60182.95394136134
+
+Tree 48:
+mul(div(0.0169435, sub(sub(x1, sub(4, mul(sub(div(div(div(sub(sub(sub(cos(x0), x0), sub(x1, add(x0, exp(abs(x0))))), 96.127), mul(exp(div(x0, abs(x0))), x0)), add(div(sub(add(sub(abs(div(x0, 4)), sqrt(mul(x0, 17))), sub(cos(add(0.0169435, x0)), x1)), mul(x1, x1)), 17.0002), add(div(0.0277778, sub(mul(x1, 4), x1)), x0))), add(div(sub(abs(x0), 18), 17.0002), add(div(11, sub(x1, add(x1, 14))), x0))), sub(4, mul(x1, x1))), 1.82116))), 96.127)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 211.26877764470703
+
+Tree 49:
+mul(div(0.0169435, sub(sub(x1, sub(4, mul(sub(div(div(div(sub(sub(sub(cos(add(0.0169435, x1)), x0), sub(x1, add(x0, exp(abs(x0))))), 96.127), mul(exp(div(x0, abs(x0))), x0)), add(div(sub(add(sub(abs(div(x0, 96.127)), sqrt(mul(x0, 17))), sub(cos(add(15, x0)), x0)), mul(x1, x1)), 17.0002), add(div(0.0277778, sub(mul(x1, 4), x1)), x0))), add(div(sub(0.0169435, add(x1, 14)), 17.0002), add(div(11, sub(x1, add(x1, 14))), x0))), sub(4, mul(x1, x1))), 1.82116))), 96.127)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 211.18371767720924
+
+Tree 50:
+mul(div(0.0169435, sub(sub(x1, sub(4, mul(sub(div(div(div(sub(sub(-0.000183915, sub(x1, add(x0, exp(abs(x0))))), 96.127), mul(exp(div(x0, abs(x0))), x0)), add(div(sub(add(sub(abs(div(x0, x1)), sqrt(mul(x0, 17))), sub(cos(add(x1, x0)), x0)), mul(x1, x1)), 17.0002), add(0.0277778, x0))), add(div(sub(div(exp(div(x0, abs(x0))), 17.0002), add(x1, 14)), 17.0002), add(div(11, sub(x1, add(x1, 14))), x0))), sub(4, mul(x1, x1))), 1.82116))), 96.127)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 211.31186246570468
+
+Tree 51:
+mul(div(0.0169435, sub(sub(x1, sub(4, mul(sub(div(div(div(sub(sub(-0.000183915, sub(x1, add(x1, exp(abs(x0))))), 96.127), mul(exp(div(x0, abs(x0))), x0)), add(div(sub(add(sub(abs(div(x1, 15)), 8.24621), sub(cos(add(x1, 14)), x0)), mul(x1, x1)), 17.0002), add(div(0.0277778, sub(mul(x1, mul(x1, abs(x0))), div(x0, abs(x0)))), x0))), add(div(sub(abs(div(x0, 15)), add(x1, 11)), 17.0002), add(div(11, sub(x1, add(x1, 14))), x0))), sub(4, mul(x1, x1))), 1.82116))), 96.127)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 212.52679703697427
+
+Tree 52:
+mul(div(0.0169435, sub(sub(x1, sub(4, mul(sub(div(div(div(sub(sub(-0.000183915, sub(x1, add(x1, exp(abs(x0))))), 96.127), mul(exp(div(x0, abs(x0))), x0)), add(div(sub(add(sub(abs(div(x1, 15)), 8.24621), sub(cos(add(x1, 14)), x0)), mul(x1, x1)), 17.0002), add(div(0.0277778, sub(mul(x1, exp(x0)), div(x0, abs(x0)))), x0))), add(div(sub(abs(div(x0, x0)), add(x1, 14)), 17.0002), add(div(14, sub(x1, add(x1, 14))), x0))), sub(4, mul(x1, x1))), 1.82116))), 96.127)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 211.83325897456746
+
+Tree 53:
+div(sub(0.0169435, add(x1, 14)), 17.0002)
+Raw Fitness: 56410.17785634059
+
+Tree 54:
+mul(mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))), div(0.0169435, sub(sub(x1, sub(4, mul(sub(div(div(div(sub(sub(add(div(11, sub(x1, add(x1, 14))), x0), sub(x1, add(x0, exp(abs(x0))))), 96.127), mul(exp(div(x0, abs(x0))), x0)), add(div(sub(add(sub(abs(div(x0, 15)), sqrt(mul(x0, 17))), sub(cos(add(0.0169435, x0)), x0)), mul(x1, x1)), 17.0002), add(div(0.0277778, sub(mul(x0, x1), sub(x1, add(x1, 14)))), abs(x0)))), add(div(sub(abs(x0), add(14, x1)), 17.0002), add(div(11, sub(x1, add(x1, 14))), x0))), sub(4, mul(x1, x1))), 1.82116))), 96.127)))
+Raw Fitness: 212.50655975380738
+
+Tree 55:
+mul(div(0.0169435, sub(sub(x1, sub(4, mul(sub(div(div(div(sub(sub(sub(cos(add(0.0169435, x1)), x0), sub(x1, add(x0, exp(abs(x0))))), 96.127), mul(exp(div(x0, abs(x0))), x0)), add(div(sub(add(sub(abs(div(x0, 4)), sqrt(mul(x0, 17))), sub(cos(x1), x0)), mul(x1, x1)), 17.0002), add(div(0.0277778, sub(mul(x1, 17.0002), x1)), x0))), add(div(sub(0.0169435, add(x1, 14)), 17.0002), add(div(11, sub(x1, add(x1, 14))), x0))), sub(4, mul(x1, x1))), 1.82116))), 96.127)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 210.7813681272799
+
+Tree 56:
+mul(div(0.0169435, exp(x0)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 303662.51123561006
+
+Tree 57:
+mul(div(0.0169435, sub(sub(x1, sub(4, mul(sub(div(div(div(sub(sub(x1, sub(x1, add(x1, exp(x0)))), 96.127), mul(exp(div(x0, abs(x0))), x0)), add(div(sub(add(sub(abs(div(x1, 15)), 8.24621), sub(cos(add(x1, 14)), x0)), mul(x1, x1)), 17.0002), add(div(0.0277778, x0), x0))), add(div(sub(abs(div(x0, 15)), add(x1, 14)), 17.0002), add(div(11, sub(x1, add(x1, 14))), x0))), sub(4, mul(x1, x1))), 1.82116))), 96.127)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 211.25377820706981
+
+Tree 58:
+mul(div(0.0169435, sub(sub(x1, sub(4, mul(sub(div(div(div(sub(sub(-0.000183915, sub(x1, add(x1, exp(x0)))), 96.127), mul(exp(div(x0, abs(x0))), x0)), add(div(sub(add(sub(abs(div(x1, 15)), 8.24621), sub(cos(add(x1, 4)), x0)), mul(x1, x1)), 17.0002), add(div(0.0277778, sub(div(x0, abs(x0)), x1)), x0))), add(div(sub(abs(div(x0, 15)), add(x1, 14)), 17.0002), add(div(11, sub(abs(div(11, sub(x0, add(x1, 14)))), add(x1, 14))), x0))), sub(4, mul(x1, x1))), 1.82116))), 96.127)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 212.03714003062973
+
+Tree 59:
+mul(div(0.0169435, sub(sub(x1, sub(4, mul(sub(div(div(div(sub(sub(-0.000183915, sub(x1, add(x1, exp(abs(x0))))), 96.127), mul(exp(div(abs(x0), abs(x0))), x0)), add(div(sub(add(sub(x1, 8.24621), sub(cos(add(x1, 14)), x0)), mul(x1, x1)), 17.0002), add(div(0.0277778, x1), x0))), add(div(sub(abs(div(x0, 15)), add(x1, 14)), 17.0002), add(div(11, sub(abs(div(11, exp(div(x0, abs(x0))))), add(x1, 14))), x0))), sub(4, mul(x1, x1))), 1.82116))), 96.127)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 216.07347027374746
+
+Tree 60:
+mul(div(0.0169435, sub(sub(x1, sub(4, mul(sub(div(div(div(sub(sub(-0.000183915, sub(x0, add(x1, exp(abs(x0))))), 96.127), mul(exp(div(x0, abs(x0))), x0)), add(div(sub(add(sub(abs(div(x1, 15)), 8.24621), sub(cos(add(x1, 14)), x0)), mul(x1, x1)), 17.0002), add(div(cos(add(x1, 14)), sub(mul(x1, sqrt(x1)), div(x0, abs(x0)))), x0))), add(div(sub(abs(div(x0, 15)), add(x1, 14)), 17.0002), add(div(11, sub(x1, add(x1, 14))), x0))), sub(4, mul(x1, x1))), 1.82116))), 96.127)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 210.74820139309134
+
+Tree 61:
+mul(div(0.0169435, sub(sub(x1, sub(4, mul(sub(div(div(div(sub(sub(-0.000183915, sub(x1, add(x1, exp(abs(x0))))), 96.127), mul(exp(div(x0, abs(x0))), x0)), add(div(sub(add(sub(abs(div(x1, 15)), 8.24621), sub(cos(add(14, x1)), x0)), mul(x1, x1)), 17.0002), add(div(0.0277778, sub(mul(x1, mul(x1, x1)), div(x0, abs(x0)))), x0))), add(div(sub(abs(div(x1, 15)), add(x1, 14)), 17.0002), add(div(11, sub(x1, add(x1, 14))), x0))), sub(4, mul(x1, x1))), 1.82116))), 96.127)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 210.40413932002178
+
+Tree 62:
+mul(div(0.0169435, sub(sub(x1, sub(4, mul(sub(div(div(div(sub(sub(-0.000183915, sub(x1, add(x1, exp(abs(x0))))), 96.127), mul(exp(div(x0, abs(x0))), x0)), add(div(sub(add(sub(abs(div(x1, 15)), 8.24621), sub(cos(add(x1, 14)), x0)), mul(x1, x1)), 17.0002), add(div(0.0277778, sub(mul(14, mul(mul(x0, 4), x1)), div(x0, abs(x0)))), x0))), add(div(sub(abs(div(x0, 15)), add(x1, 14)), 17.0002), add(div(11, sub(x1, add(x1, 14))), x0))), sub(4, mul(x1, x1))), 1.82116))), 96.127)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 210.39107099332915
+
+Tree 63:
+mul(div(0.0169435, sub(sub(x1, sub(4, mul(sub(div(div(div(sub(sub(-0.000183915, sub(11, add(4, exp(abs(x0))))), 96.127), mul(exp(div(x0, abs(x0))), x0)), add(div(sub(add(sub(abs(div(x0, 15)), x1), sub(cos(add(0.0169435, x1)), x0)), mul(x1, x1)), 17.0002), add(div(0.0277778, sub(mul(x1, 4), 96.127)), x0))), add(div(sub(1.82116, add(x1, 14)), 17.0002), add(div(11, sub(x1, add(x1, 14))), x0))), sub(4, mul(x1, x1))), 1.82116))), 96.127)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 212.2103429303558
+
+Tree 64:
+mul(div(0.0169435, sub(sub(x1, sub(4, mul(sub(div(div(div(sub(sub(-0.000183915, sub(x1, add(x1, exp(abs(x0))))), 96.127), mul(exp(div(x0, abs(x0))), x0)), add(div(sub(add(sub(abs(div(x1, 15)), 8.24621), sub(cos(add(x1, 14)), x0)), mul(x1, x1)), 17.0002), add(div(0.0277778, sub(mul(x1, mul(x1, x1)), div(x0, abs(x0)))), x0))), add(div(sub(abs(div(x0, x0)), add(x1, 14)), 17.0002), add(div(11, sub(x1, add(x1, 14))), x0))), sub(4, mul(x1, x1))), 1.82116))), 96.127)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 210.72747907820585
+
+Tree 65:
+mul(div(0.0169435, sub(sub(x1, sub(4, mul(sub(div(div(div(sub(sub(-0.000183915, sub(x1, add(x1, exp(abs(x0))))), 96.127), mul(exp(div(x0, abs(x0))), x0)), add(div(sub(add(sub(abs(div(x1, 15)), 8.24621), sub(cos(add(sqrt(mul(x0, 17)), 14)), x0)), mul(x1, x1)), 17.0002), add(div(0.0277778, div(x0, abs(x0))), x0))), add(div(sub(abs(div(x0, 15)), add(x1, 14)), 17.0002), add(div(11, sub(x1, add(x1, 14))), x0))), sub(4, mul(x1, x1))), 1.82116))), 96.127)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 215.39157295112864
+
+Tree 66:
+mul(div(0.0169435, sub(sub(x1, sub(4, mul(sub(div(div(div(sub(sub(-0.000183915, sub(x0, add(x1, exp(abs(x0))))), 96.127), mul(exp(div(x0, abs(x0))), x0)), add(div(sub(add(sub(abs(div(x1, 15)), 8.24621), sub(cos(add(x1, 14)), x0)), mul(x1, x1)), 17.0002), add(div(cos(add(x1, 14)), sub(mul(x1, mul(mul(x0, 4), x1)), div(x0, abs(x0)))), x0))), add(div(sub(1.2261e-05, add(x1, 14)), 17.0002), add(div(11, sub(x1, add(x1, 14))), x0))), sub(4, mul(x1, x1))), 1.82116))), 96.127)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 210.2999344766023
+
+Tree 67:
+mul(div(0.0169435, sub(sub(x1, sub(4, mul(sub(div(div(div(sub(sub(x0, sub(x1, add(x1, exp(x0)))), 96.127), mul(exp(div(x0, abs(x0))), x0)), add(div(sub(add(sub(abs(div(x1, 15)), 8.24621), sub(cos(add(x1, 14)), x0)), mul(x1, x1)), 17.0002), add(div(0.0277778, sub(mul(x1, mul(x1, x1)), div(neg(x1), abs(x0)))), x0))), add(div(sub(abs(div(x0, 15)), add(x1, 14)), 17.0002), add(div(11, sub(x1, add(x1, 14))), x0))), sub(4, mul(x1, x1))), 1.82116))), 96.127)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 210.9337807092488
+
+Tree 68:
+mul(div(0.0169435, sub(sub(x1, sub(4, mul(sub(div(div(div(sub(sub(x1, sub(x1, add(x0, exp(abs(x0))))), 96.127), mul(exp(div(x0, abs(x0))), x0)), add(div(sub(add(sub(abs(div(x1, 15)), 8.24621), sub(cos(add(x1, 14)), x0)), mul(x1, x1)), 17.0002), add(0.0152528, x0))), add(div(sub(abs(div(x0, pow(sqrt(x1), 11))), add(x1, 14)), 17.0002), add(div(11, sub(x1, add(x1, 14))), x0))), sub(4, mul(x1, x1))), 1.82116))), 96.127)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 210.8974188742418
+
+Tree 69:
+x1
+Raw Fitness: 62101.28205523971
+
+Tree 70:
+mul(div(0.0169435, sub(sub(x1, sub(4, mul(sub(div(div(div(sub(sub(sub(cos(add(x1, x1)), x0), sub(x1, add(x0, exp(abs(x0))))), 96.127), mul(exp(div(x0, abs(x0))), x0)), add(div(sub(add(sub(abs(div(x0, 4)), sqrt(mul(x0, 17))), sub(cos(mul(x1, x1)), x0)), mul(x1, x1)), 17.0002), add(div(0.0277778, sub(add(4, exp(x0)), x1)), x0))), add(div(sub(abs(x0), add(x1, 14)), 17.0002), add(div(11, sub(x1, add(x1, 14))), x0))), sub(4, mul(x1, x1))), 1.82116))), 96.127)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 212.45393373895385
+
+Tree 71:
+mul(div(0.0169435, sub(sub(x1, sub(4, mul(sub(div(div(div(sub(sub(-0.000183915, sub(x1, add(x1, exp(x0)))), 96.127), mul(exp(div(x0, abs(x0))), x0)), add(div(sub(add(sub(abs(div(sqrt(x1), 15)), 8.24621), sub(cos(add(x1, x1)), x0)), mul(x1, x1)), 17.0002), add(div(0.0277778, sub(mul(x1, mul(x1, x1)), div(0.0169435, abs(x0)))), x0))), add(div(sub(abs(div(x1, 15)), add(x1, 14)), 17.0002), add(div(11, sub(x1, add(x1, 14))), x0))), sub(4, mul(x1, x1))), 1.82116))), 96.127)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 214.83871882323845
+
+Tree 72:
+mul(div(0.0169435, sub(sub(x1, sub(4, mul(sub(div(div(div(sub(sub(add(div(11, x1), x0), sub(x1, add(x0, exp(abs(x0))))), 96.127), mul(exp(div(x0, abs(x0))), x0)), add(div(sub(add(sub(abs(div(x0, 15)), sqrt(mul(x0, 17))), sub(cos(add(0.0169435, x0)), x0)), mul(x1, x1)), 17.0002), add(div(0.0277778, sub(mul(x0, x1), sub(x1, add(x1, 14)))), abs(x0)))), add(div(sub(abs(x0), add(14, x1)), 17.0002), add(div(11, sub(x1, add(x1, 14))), x0))), sub(4, mul(x1, x1))), 1.82116))), 96.127)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 213.42967304492427
+
+Tree 73:
+mul(div(0.0169435, sub(sub(x1, sub(4, mul(sub(div(div(div(sub(sub(-0.000183915, sub(x1, add(x0, exp(abs(x0))))), 96.127), mul(exp(div(x0, abs(x0))), x0)), add(div(sub(add(sub(abs(div(x0, x1)), sqrt(mul(x0, 17))), sub(cos(add(x1, x0)), x0)), mul(x1, x1)), 17.0002), add(0.0277778, x0))), add(div(sub(div(sub(abs(div(x0, 15)), add(x1, add(x1, 14))), 17.0002), add(x1, 14)), 17.0002), add(div(11, sub(x1, add(x1, 14))), x0))), sub(4, mul(x1, x1))), 1.82116))), 96.127)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 210.75198925863242
+
+Tree 74:
+mul(div(0.0169435, sub(sub(x1, sub(4, mul(sub(div(div(div(sub(sub(-0.000183915, sub(x1, add(x1, exp(abs(x0))))), 96.127), mul(exp(div(x0, abs(x0))), x0)), add(div(sub(add(sub(abs(div(x1, 15)), 8.24621), sub(cos(add(x1, 14)), x0)), mul(x1, x1)), 17.0002), add(div(0.0277778, sub(mul(add(neg(x1), exp(x0)), mul(mul(x0, 4), x1)), div(x0, abs(x0)))), x0))), add(div(sub(abs(x1), add(x1, 14)), 17.0002), add(div(11, sub(x1, add(x1, 14))), x0))), sub(4, mul(x1, x1))), 1.82116))), 96.127)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 213.91461063290959
+
+Tree 75:
+sub(4, mul(x1, x1))
+Raw Fitness: 43419.09244066512
+
+Tree 76:
+mul(div(0.0169435, sub(sub(x1, sub(4, mul(sub(div(div(div(sub(sub(-0.000183915, sub(x1, add(x1, exp(abs(x0))))), 96.127), mul(exp(div(x0, abs(x0))), x0)), add(div(sub(add(sub(abs(div(x1, 15)), 8.24621), sub(cos(x0), x0)), mul(x1, x1)), 17.0002), add(div(0.0277778, sub(abs(div(x0, 15)), x1)), x0))), add(div(sub(abs(x0), mul(x1, x1)), 17.0002), add(div(11, sub(abs(div(11, sub(abs(x0), add(x0, 4)))), add(x1, 14))), x0))), sub(4, mul(x1, x1))), 1.82116))), 96.127)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 214.63357970851786
+
+Tree 77:
+mul(div(0.0169435, sub(sub(x1, -16.0328), 96.127)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 2089.1202270341423
+
+Tree 78:
+mul(x1, mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 17891156849220.69
+
+Tree 79:
+mul(div(0.0169435, sub(sub(x1, sub(4, mul(sub(div(div(div(sub(sub(-0.000183915, sub(x1, add(x0, exp(abs(x0))))), 96.127), mul(exp(div(x0, x1)), x0)), add(div(sub(add(sub(abs(div(x0, mul(x1, x1))), sqrt(mul(x0, 17))), sub(cos(add(0.0169435, x0)), div(11, sub(6.04011, add(x1, 14))))), mul(x1, x1)), 17.0002), add(div(0.0277778, sub(mul(x0, 4), sub(abs(div(x0, 15)), sub(cos(add(x1, 4)), x0)))), x0))), add(div(sub(abs(x0), add(x1, 14)), 17.0002), add(div(11, sub(x1, add(x1, 14))), x0))), sub(4, mul(x1, x1))), 1.82116))), 96.127)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 214.61320180619433
+
+Tree 80:
+mul(div(0.0169435, sub(sub(x1, sub(4, mul(sub(div(div(div(sub(sub(-0.000183915, sub(x1, add(x0, exp(abs(x0))))), 96.127), mul(exp(div(x0, abs(x0))), x0)), add(div(sub(add(sub(abs(div(x0, 15)), sqrt(mul(x0, 17))), sub(cos(add(0.0169435, x0)), x0)), mul(x1, x1)), 17.0002), add(div(-0.044687, sub(mul(x1, 4), mul(exp(div(x0, abs(x0))), x0))), x0))), add(div(sub(abs(x0), add(x1, 14)), 17.0002), add(div(11, sub(x1, 18)), x0))), sub(4, mul(x1, x1))), 1.82116))), 96.127)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 214.78598969865112
+
+Tree 81:
+mul(div(0.0169435, sub(sub(x1, sub(x0, mul(1.82116, sub(div(div(div(sub(sub(-0.000183915, sub(x1, add(x1, exp(abs(x0))))), 96.127), mul(exp(div(x0, abs(x0))), x0)), add(div(sub(add(sub(abs(div(x1, 15)), 8.24621), sub(cos(add(x1, 4)), x0)), mul(x1, x1)), 17.0002), add(div(0.0277778, exp(x0)), x0))), add(div(sub(abs(div(x0, 15)), add(14, x1)), 17.0002), add(div(11, sub(abs(div(11, sub(abs(x0), 14))), add(x1, 14))), x0))), sub(4, mul(x1, x1)))))), 96.127)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 212.73366997265498
+
+Tree 82:
+mul(div(0.0169435, sub(sub(x1, sub(4, mul(sub(div(div(div(sub(sub(x1, sub(x1, add(x1, exp(abs(x0))))), 96.127), mul(exp(div(x0, abs(x0))), x0)), add(div(sub(add(sub(abs(div(x1, 15)), 8.24621), sub(cos(add(x1, 14)), x0)), mul(x1, x1)), 17.0002), add(div(0.0277778, sub(mul(x1, mul(x1, x1)), div(x0, abs(x0)))), x0))), add(div(sub(abs(div(x0, 15)), add(x1, 14)), 17.0002), add(div(11, sub(x1, add(x1, add(x1, 14)))), x0))), sub(4, mul(x1, x1))), 1.82116))), 96.127)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 213.92335508958814
+
+Tree 83:
+mul(div(0.0169435, sub(sub(x1, sub(4, mul(sub(div(div(div(sub(sub(-0.000183915, sub(x1, add(neg(x1), exp(abs(x0))))), 96.127), mul(exp(div(x0, abs(x0))), x0)), add(div(sub(add(sub(abs(div(x0, 15)), sqrt(mul(x0, 17))), sub(cos(add(0.0169435, x0)), x0)), mul(x1, x1)), 17.0002), add(div(div(abs(x0), 96.127), mul(x1, x1)), x0))), add(div(sub(abs(x0), add(14, x1)), 17.0002), add(div(11, sub(x1, add(x1, 14))), x0))), sub(4, mul(x1, x1))), 1.82116))), 96.127)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 212.12432695146853
+
+Tree 84:
+mul(div(0.0169435, sub(sub(x1, sub(4, mul(sub(div(div(div(sub(sub(inv(x0), sub(x0, add(x1, exp(abs(x0))))), 96.127), mul(exp(div(x0, abs(x0))), x0)), add(div(sub(add(sub(abs(div(x1, 15)), 8.24621), sub(cos(add(x1, 14)), x0)), mul(x1, x1)), 17.0002), add(div(cos(add(x1, 14)), sub(mul(x1, mul(mul(x0, 4), x1)), div(x0, abs(x0)))), x0))), add(div(sub(abs(div(x0, 15)), add(x1, 14)), 17.0002), add(div(11, sub(x1, add(x1, 14))), x0))), sub(4, mul(x1, x1))), 1.82116))), 96.127)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 210.27195907826703
+
+Tree 85:
+mul(pow(sqrt(x1), 11), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 2.063372058752199e+19
+
+Tree 86:
+sub(cos(add(x1, 14)), 96.127)
+Raw Fitness: 902710.3041224973
+
+Tree 87:
+mul(div(0.0169435, sub(sub(x1, sub(4, mul(sub(div(div(div(sub(sub(-0.000183915, sub(x1, add(x1, exp(abs(x0))))), 96.127), mul(exp(div(x0, abs(x0))), x0)), add(div(sub(add(sub(abs(cos(add(0.0169435, x0))), 8.24621), sub(cos(add(abs(x0), 14)), x0)), mul(x1, x1)), 17.0002), add(div(0.0277778, sub(mul(x1, x1), div(x0, abs(x0)))), x0))), add(div(sub(abs(div(x0, 15)), add(x1, 14)), 17.0002), add(div(11, sub(x1, add(x1, 14))), x0))), sub(4, mul(x1, x1))), 1.82116))), 96.127)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 214.41561521431964
+
+Tree 88:
+mul(div(0.0169435, sub(sub(x1, sub(4, mul(sub(div(div(div(sub(sub(-0.000183915, sub(x1, add(x0, exp(abs(x0))))), 96.127), mul(exp(div(x0, abs(x0))), x0)), add(div(sub(add(sub(abs(div(x0, 15)), sqrt(mul(x0, 17))), sub(cos(add(0.0169435, x0)), x0)), mul(x1, x1)), 17.0002), add(div(div(sub(mul(x0, 17), add(14, x1)), 17.0002), mul(x1, x1)), x0))), add(div(sub(x1, add(14, x1)), 17.0002), add(div(11, sub(x1, add(x1, 14))), x0))), sub(4, mul(x1, x1))), 1.82116))), 96.127)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 215.40149001590777
+
+Tree 89:
+mul(div(0.0169435, sub(sub(x1, sub(x0, mul(1.82116, sub(div(div(div(sub(sub(-0.000183915, sub(x1, add(x1, exp(abs(x0))))), 96.127), mul(exp(div(x0, abs(x0))), x0)), add(div(sub(add(sub(abs(div(x1, 15)), 8.24621), sub(cos(add(x1, 4)), x0)), mul(x1, x1)), 17.0002), add(div(0.0277778, add(neg(x1), exp(x0))), x0))), add(div(sub(abs(div(x0, 15)), add(14, x1)), 17.0002), add(div(11, sub(abs(div(11, sub(abs(x0), add(x1, 14)))), add(x1, 14))), x0))), sub(4, mul(x1, x1)))))), 96.127)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 212.65427269361032
+
+Tree 90:
+mul(div(0.0169435, sub(sub(x1, sub(4, mul(sub(div(div(div(sub(sub(sub(abs(x0), add(x1, 14)), sub(x1, add(x1, exp(abs(x0))))), 96.127), mul(exp(div(x0, abs(x0))), x0)), add(div(sub(add(sub(abs(div(x1, 15)), 8.24621), sub(cos(add(x1, 14)), x0)), mul(x1, x1)), 17.0002), add(0.00028897, x0))), add(div(sub(abs(div(x0, 15)), add(x1, 14)), 17.0002), add(div(11, sub(x1, add(x1, 14))), x0))), sub(4, mul(x1, x1))), 1.82116))), 96.127)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 213.15829524439948
+
+Tree 91:
+mul(div(0.0169435, sub(sub(x1, sub(4, mul(sub(div(div(div(sub(sub(x1, sub(x1, add(x1, exp(abs(x0))))), 96.127), mul(exp(div(x0, abs(x0))), x0)), add(div(sub(add(sub(abs(div(x1, 15)), 8.24621), sub(cos(add(x1, 14)), x0)), mul(x1, x1)), 17.0002), add(div(0.0277778, sub(mul(x1, mul(x1, x1)), div(x0, abs(x0)))), x0))), add(div(sub(abs(div(x0, 15)), add(x1, 14)), 17.0002), add(div(11, sub(x1, add(x1, 14))), x0))), sub(4, mul(x1, x1))), 1.82116))), 96.127)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 210.91805642637485
+
+Tree 92:
+mul(div(0.0169435, sub(sub(x1, sub(4, mul(sub(div(div(div(sub(sub(-0.000183915, sub(x1, add(x0, exp(abs(x0))))), 96.127), mul(exp(div(x0, abs(x0))), x0)), add(div(sub(add(sub(abs(div(x0, 15)), sqrt(mul(x0, 17))), sub(cos(add(0.0169435, x0)), x0)), mul(x1, x1)), 17.0002), add(div(div(abs(x0), 96.127), mul(x1, x1)), x0))), add(div(sub(abs(x0), add(14, x1)), 17.0002), add(div(11, sub(x1, add(x1, 14))), x0))), sub(4, mul(x1, x1))), 1.82116))), 96.127)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 211.97067772928716
+
+Tree 93:
+mul(div(0.0169435, sub(sub(x1, sub(4, mul(sub(div(div(div(sub(sub(-0.000183915, sub(x1, add(x1, exp(x0)))), 96.127), mul(exp(div(x0, abs(x0))), x0)), add(div(sub(add(-6.42505, sub(cos(add(x1, 14)), x0)), mul(x1, x1)), 17.0002), add(div(0.0277778, sub(mul(x1, mul(x1, x1)), div(0.0169435, abs(x0)))), x0))), add(div(sub(abs(div(x0, 15)), add(x1, 14)), 17.0002), add(div(11, sub(x1, add(x1, 14))), x0))), sub(4, mul(x1, x1))), 1.82116))), 96.127)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 210.66236873875673
+
+Tree 94:
+mul(div(0.0169435, sub(sub(x1, sub(4, mul(sub(div(div(div(sub(sub(-0.000183915, sub(x1, add(x1, exp(abs(x0))))), 96.127), mul(exp(div(x0, abs(x0))), x0)), add(div(sub(add(sub(abs(cos(add(0.0169435, x0))), 8.24621), sub(cos(add(abs(x0), 14)), x0)), mul(x1, x1)), 17.0002), add(div(0.0277778, sub(mul(x1, mul(x1, x1)), div(x0, abs(x0)))), x0))), add(div(sub(abs(div(x0, 15)), add(x1, 14)), 17.0002), add(div(11, sub(x1, add(x1, 14))), x0))), sub(4, mul(x1, x1))), 1.82116))), 96.127)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 214.46282247805993
+
+Tree 95:
+mul(div(0.0169435, sub(sub(x1, sub(4, mul(sub(div(div(div(sub(sub(-0.000183915, sub(x1, add(x1, exp(abs(x0))))), 96.127), mul(exp(div(x0, abs(x0))), x0)), add(div(sub(add(sub(abs(div(x1, 15)), 8.24621), sub(cos(add(x1, 14)), x0)), mul(x1, x1)), 17.0002), add(div(x0, sub(14, div(x0, 11))), x0))), add(div(sub(abs(div(x0, 15)), add(x1, 14)), 17.0002), add(div(11, sub(x1, add(x1, 14))), x0))), sub(4, mul(x1, x1))), 1.82116))), 96.127)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 211.6347687972722
+
+Tree 96:
+mul(div(0.0169435, sub(sub(x1, sub(4, mul(sub(div(div(div(sub(sub(8.24621, sub(x1, add(x1, exp(x0)))), 96.127), mul(exp(div(x0, abs(x0))), x0)), add(div(sub(add(sub(abs(div(x1, 15)), 8.24621), sub(cos(add(x1, 14)), x0)), mul(x1, x1)), 17.0002), add(div(add(0.0277778, x0), sub(mul(x1, mul(x1, x1)), div(x0, abs(x0)))), x0))), add(div(sub(abs(div(x0, 15)), add(x1, 14)), 17.0002), add(div(11, sub(x1, add(x1, 14))), x0))), sub(4, mul(x1, x1))), 1.82116))), 96.127)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 214.80088053632147
+
+Tree 97:
+mul(div(0.0169435, sub(sub(x1, sub(4, mul(sub(div(div(div(sub(sub(-0.000183915, sub(x1, add(x1, exp(abs(x0))))), 96.127), mul(exp(div(x0, abs(x0))), x0)), add(div(sub(add(sub(x1, 8.24621), sub(cos(sqrt(x1)), x0)), mul(x1, x1)), 17.0002), add(div(0.0277778, sub(abs(div(x0, 15)), x1)), x0))), add(div(sub(abs(x0), mul(x1, x1)), 17.0002), add(div(11, sub(abs(x1), add(x1, 14))), x0))), sub(4, mul(x1, x1))), 1.82116))), 96.127)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 215.37742915132313
+
+Tree 98:
+mul(div(0.0169435, sub(sub(x1, sub(4, mul(sub(div(div(div(sub(sub(-0.000183915, sub(14, add(x0, exp(abs(x0))))), 96.127), mul(exp(div(abs(x0), abs(x0))), x0)), add(div(sub(add(sub(abs(div(x0, 15)), sqrt(mul(x0, 17))), sub(cos(add(0.0169435, x0)), x0)), mul(x1, x1)), 17.0002), add(div(0.0277778, sub(mul(mul(x1, x1), 4), sub(abs(x1), add(x1, 14)))), x0))), add(div(sub(abs(x0), add(x1, 14)), 17.0002), add(div(11, sub(x1, add(x1, 14))), x0))), sub(4, mul(x1, x1))), 1.82116))), 96.127)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 211.8732103922817
+
+Tree 99:
+mul(div(0.0169435, sub(sub(x1, sub(4, mul(sub(div(div(div(sub(sub(sub(cos(add(0.0169435, x1)), x0), sub(x1, add(x0, exp(abs(x0))))), 96.127), mul(exp(div(x0, abs(x0))), x0)), add(div(sub(add(sub(abs(div(x0, 4)), sqrt(mul(x0, 17))), sub(cos(add(0.0169435, x0)), x1)), mul(x1, x1)), 17.0002), add(div(0.0277778, sub(mul(x1, 4), x1)), x0))), add(div(sub(abs(x0), 18), 17.0002), add(div(11, sub(x1, add(x1, 14))), x0))), sub(4, mul(x1, x1))), 1.82116))), 96.127)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 211.18242298417186
+
+Tree 100:
+mul(div(0.0169435, sub(sub(x1, sub(4, mul(sub(div(div(div(sub(sub(-0.000183915, sub(x1, add(x1, exp(abs(x0))))), 96.127), mul(exp(div(x0, abs(x0))), x0)), add(div(sub(add(sub(abs(div(x1, 15)), 8.24621), sub(cos(add(x1, 14)), x0)), mul(x1, x1)), 17.0002), add(div(0.0277778, sub(mul(x1, mul(x1, abs(x0))), div(x0, abs(x0)))), x0))), add(div(sub(abs(div(x0, 15)), add(x1, 14)), 17.0002), add(div(11, sub(x1, add(x1, 14))), x0))), sub(4, mul(x1, x1))), 1.82116))), 96.127)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 210.42293731092295
+
+Tree 101:
+mul(div(0.0169435, sub(sub(x1, sub(x0, mul(1.82116, sub(div(div(div(sub(sub(-0.000183915, sub(x1, add(x1, exp(abs(x0))))), 96.127), mul(exp(div(x0, abs(x0))), x0)), add(div(sub(add(sub(abs(div(x1, 15)), 8.24621), sub(cos(mul(x1, x1)), x0)), mul(x1, x1)), 17.0002), add(div(0.0277778, sub(mul(x1, mul(x1, x1)), 11)), x0))), add(div(sub(abs(div(x0, 15)), add(x1, 14)), 17.0002), add(div(11, sub(abs(div(11, sub(abs(x0), add(x1, 14)))), add(x1, 14))), x0))), sub(4, mul(x1, add(0.0169435, x1))))))), 96.127)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 210.99816120822447
+
+Tree 102:
+mul(div(0.0169435, sub(sub(x1, sub(4, mul(sub(div(div(div(sub(sub(-0.000183915, sub(x1, add(x1, exp(abs(x0))))), 96.127), mul(exp(div(x0, abs(x0))), x0)), add(div(sub(add(sub(abs(div(x1, 15)), 8.24621), sub(cos(add(x1, 14)), x0)), mul(x1, x1)), 17.0002), add(div(0.0277778, sub(mul(11, add(x1, 4)), div(x0, abs(x0)))), x0))), add(div(sub(abs(div(x0, x0)), add(x1, 14)), 17.0002), add(div(11, sub(x1, add(x1, 14))), x0))), sub(4, mul(x1, x1))), 1.82116))), 96.127)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 210.7244631064076
+
+Tree 103:
+mul(div(0.0169435, sub(sub(x1, sub(4, mul(sub(div(div(div(sub(sub(-0.000183915, sub(x1, add(x1, exp(abs(x0))))), 96.127), mul(exp(div(x0, abs(x0))), x0)), add(div(sub(add(sub(abs(div(x1, 15)), 8.24621), sub(cos(add(x1, 4)), x0)), mul(x1, x1)), 17.0002), add(div(0.0277778, sub(div(x0, abs(x0)), x1)), x0))), add(div(sub(abs(div(x0, 15)), add(x1, 14)), 17.0002), add(div(11, sub(x1, add(x1, 14))), x0))), sub(4, mul(x1, x1))), 1.82116))), 96.127)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 211.934469091974
+
+Tree 104:
+mul(div(0.0169435, sub(sub(x1, sub(x0, mul(1.82116, sub(div(div(div(sub(exp(abs(x0)), 96.127), mul(exp(div(x0, abs(x0))), x0)), add(div(sub(add(sub(abs(div(x1, 15)), 8.24621), sub(cos(add(x1, 4)), x0)), mul(x1, x1)), 17.0002), add(div(0.0277778, sub(mul(x1, mul(x1, x1)), x1)), x0))), add(div(sub(abs(div(x0, mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))), add(x1, 14)), 17.0002), add(div(11, sub(abs(div(11, sub(abs(x0), add(x1, 14)))), add(x1, 14))), x0))), sub(4, mul(x1, x1)))))), 96.127)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 215.43470661457673
+
+Tree 105:
+mul(div(0.0169435, sub(sub(x1, sub(4, mul(sub(div(div(div(sub(sub(-0.000183915, sub(x1, add(x1, exp(abs(x0))))), 96.127), mul(exp(div(x0, abs(x0))), x0)), add(div(sub(add(sub(abs(div(x1, 15)), 8.24621), sub(cos(add(x1, 14)), x0)), mul(x1, x1)), 17.0002), add(div(0.0277778, sub(mul(x1, mul(x1, x1)), div(x0, abs(x0)))), x0))), add(div(sub(abs(div(x1, 15)), add(x1, 14)), 17.0002), add(div(11, sub(x1, add(x1, 14))), x0))), sub(4, mul(x1, x1))), 1.82116))), 96.127)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 210.40413932002178
+
+Tree 106:
+mul(div(0.0169435, sub(sub(x1, sub(4, mul(sub(div(div(div(sub(sub(-0.000183915, sub(x0, add(4, exp(abs(x0))))), 96.127), mul(exp(div(x0, abs(x0))), x0)), add(div(sub(add(sub(abs(div(x0, 11)), sqrt(mul(x0, 17))), sub(cos(add(0.0169435, x1)), x0)), mul(x1, x1)), 17.0002), add(div(0.0277778, sub(mul(x1, x1), 96.127)), x0))), add(div(sub(abs(x0), add(x1, 14)), 17.0002), add(div(11, sub(x1, add(x1, 14))), x0))), sub(4, mul(x1, x1))), 1.82116))), 96.127)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 212.5402761305768
+
+Tree 107:
+mul(div(0.0169435, sub(exp(x0), 96.127)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 27678737.30941818
+
+Tree 108:
+mul(div(0.0169435, sub(sub(x1, sub(4, mul(sub(div(div(div(sub(sub(-0.000183915, sub(exp(sqrt(x0)), add(x1, exp(abs(x0))))), 96.127), mul(exp(div(x0, abs(x0))), x0)), add(div(sub(add(sub(abs(x1), 8.24621), sub(cos(add(x1, 14)), x0)), mul(x1, x1)), 17.0002), add(div(0.0277778, sub(mul(x1, mul(x1, x1)), div(x0, abs(x0)))), x0))), add(div(sub(abs(div(x0, 15)), add(x1, 14)), 17.0002), add(div(11, sub(x1, add(x1, 14))), x0))), sub(4, mul(x1, x1))), 1.82116))), 96.127)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 212.57594743036697
+
+Tree 109:
+mul(div(0.0169435, sub(sub(x1, sub(4, mul(sub(div(div(div(sub(sub(sub(cos(add(0.0169435, x1)), x0), sub(x1, add(x0, exp(abs(x0))))), 96.127), mul(exp(div(x0, abs(x0))), x0)), add(div(sub(add(sub(abs(div(x0, 4)), sqrt(mul(x0, 17))), sub(cos(x1), x0)), mul(x1, x1)), 17.0002), add(div(0.0277778, sub(mul(x1, exp(abs(x0))), x1)), x0))), add(div(sub(abs(x0), add(x1, 14)), 17.0002), add(div(11, sub(x1, add(x1, 14))), x0))), sub(4, mul(x1, x1))), 1.82116))), 96.127)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 212.09148753566217
+
+Tree 110:
+mul(div(0.0169435, sub(sub(x1, sub(4, mul(sub(div(div(div(sub(sub(x1, sub(x1, add(x1, exp(abs(x0))))), 96.127), mul(exp(div(x0, abs(x0))), x0)), add(div(sub(add(sub(abs(div(x1, 15)), 8.24621), sub(cos(add(x1, 14)), x0)), mul(x1, x1)), 17.0002), add(div(0.0277778, sub(mul(x1, mul(x1, x1)), div(x0, 0.0169435))), x0))), add(div(sub(abs(div(x0, 15)), add(x1, 14)), 17.0002), add(div(11, sub(x1, add(x1, 14))), x0))), sub(4, mul(x1, x1))), 1.82116))), 96.127)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 210.947352336102
+
+Tree 111:
+mul(div(0.0169435, sub(sub(x1, sub(4, mul(sub(div(div(div(sub(sub(sub(cos(add(0.0169435, x0)), x0), sub(x1, add(x0, exp(abs(x0))))), 96.127), mul(exp(div(x0, abs(x0))), x0)), add(div(sub(add(sub(abs(div(x0, 4)), sqrt(mul(x0, 17))), sub(div(x1, 15), x0)), mul(x1, x1)), 17.0002), add(div(0.0277778, sub(mul(x1, 4), x1)), x0))), add(div(sub(0.0169435, add(x1, 14)), 17.0002), add(div(11, sub(x1, add(x1, 14))), x0))), sub(4, mul(x1, x1))), 1.82116))), 96.127)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 211.12741830078537
+
+Tree 112:
+mul(div(0.0169435, sub(sub(x1, sub(4, mul(sub(div(div(div(sub(sub(-0.000183915, sub(x1, add(x1, exp(x0)))), 96.127), mul(exp(div(x0, abs(x0))), x0)), add(div(sub(add(sub(abs(div(x1, 15)), 8.24621), sub(cos(add(x1, 14)), x0)), mul(x1, x1)), 17.0002), add(div(0.0277778, sub(mul(x1, mul(sub(abs(div(x1, 15)), 8.24621), x1)), div(x0, 15))), x0))), add(div(sub(abs(div(x0, 15)), add(x1, 14)), 17.0002), add(div(11, sub(x1, add(x1, 14))), x0))), sub(4, mul(x1, x1))), 1.82116))), 96.127)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 215.8067354218541
+
+Tree 113:
+mul(div(0.0169435, sub(sub(x1, sub(4, mul(sub(div(div(div(sub(sub(-0.000183915, sub(x1, add(x1, exp(x0)))), 96.127), mul(exp(div(x0, abs(x0))), x0)), add(div(sub(add(sub(abs(div(x1, 15)), 8.24621), sub(cos(add(x1, 14)), x0)), mul(x1, x1)), 17.0002), add(div(add(0.0277778, div(x1, 15)), sub(mul(x1, mul(x1, x1)), div(x0, abs(x0)))), x0))), add(div(sub(abs(div(x0, 15)), add(x1, 14)), 17.0002), add(div(11, sub(x1, add(x1, 14))), x0))), sub(4, mul(x1, x1))), 1.82116))), 96.127)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 210.3921829525077
+
+Tree 114:
+mul(div(0.0169435, sub(sub(x1, sub(4, mul(sub(div(div(div(sub(sub(-0.000183915, sub(x1, add(x1, exp(abs(x0))))), 96.127), mul(exp(div(x0, abs(x0))), x0)), add(div(sub(add(sub(abs(x0), 8.24621), sub(cos(add(x1, 14)), x0)), mul(x1, x1)), 17.0002), add(div(0.0277778, div(x0, abs(x0))), x0))), add(div(sub(abs(div(x0, 15)), add(x1, 14)), 17.0002), add(div(11, sub(x1, add(x1, 14))), x0))), sub(4, mul(x1, x1))), 1.82116))), 96.127)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))
+Raw Fitness: 211.29610346868634
+

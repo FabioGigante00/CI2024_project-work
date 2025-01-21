@@ -1,0 +1,22 @@
+# Configuration
+conf = {
+    'problem': 5,
+    'crossover': <function recombination_crossover at 0x0000014D350F5940>,
+    'OFFSPRING_SIZE': 200,
+    'POPULATION_SIZE': 100,
+    'OUTSIDER_SIZE': 20,
+    'INITIAL_PM': 0.2,
+    'FINAL_PM': 0.05,
+    'x_elitism': 0.08,
+    'MAX_GENERATIONS': 100,
+    'HEIGHT': 5,
+    'PC': 0.15,
+    'P_PICK_CONSTANT': 0.4,
+    'P_CUT_TREE': 0.05,
+    'CONSTANTS': [1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0, 15.0, 16.0, 17.0, 18.0, 19.0, 20.0],
+    'SCALE': 1e10
+}
+
+# Resulting function
+np.multiply(np.multiply(np.divide(0.0169435, np.subtract(np.subtract(x[1], np.subtract(4, np.multiply(np.subtract(np.divide(np.divide(np.divide(np.subtract(np.subtract(x[1], np.multiply(np.divide(0.0169435, np.subtract(x[1], 96.127)), np.multiply(np.add(np.negative(x[1]), np.exp(x[0])), np.abs(np.power(my_sqrt(x[1]), 11))))), 96.127), np.multiply(np.exp(np.divide(x[0], np.abs(x[0]))), x[0])), np.add(np.divide(np.subtract(np.add(np.subtract(np.abs(np.divide(x[0], 15)), x[1]), np.subtract(np.cos(x[1]), x[0])), np.multiply(x[1], x[1])), 17.0002), np.add(np.divide(0.0277778, np.subtract(np.multiply(x[1], np.multiply(x[1], x[1])), np.divide(x[0], 14))), x[0]))), np.add(np.divide(np.subtract(np.abs(np.divide(x[0], 15)), np.add(x[1], 14)), 17.0002), np.add(np.divide(11, np.subtract(x[1], np.add(x[1], 14))), x[0]))), np.subtract(4, np.multiply(x[1], x[1]))), 1.82116))), 96.127)), np.multiply(np.add(np.negative(x[1]), np.exp(x[0])), np.abs(np.power(my_sqrt(x[1]), 11)))), 1e-10)# Resulting fitness
+1.587608348642145e-18

@@ -1,0 +1,22 @@
+# Configuration
+conf = {
+    'problem': 5,
+    'crossover': <function recombination_crossover at 0x0000014D350F5940>,
+    'OFFSPRING_SIZE': 200,
+    'POPULATION_SIZE': 100,
+    'OUTSIDER_SIZE': 20,
+    'INITIAL_PM': 0.2,
+    'FINAL_PM': 0.05,
+    'x_elitism': 0.08,
+    'MAX_GENERATIONS': 100,
+    'HEIGHT': 5,
+    'PC': 0.15,
+    'P_PICK_CONSTANT': 0.4,
+    'P_CUT_TREE': 0.05,
+    'CONSTANTS': [1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0, 15.0, 16.0, 17.0, 18.0, 19.0, 20.0],
+    'SCALE': 1e10
+}
+
+# Resulting function
+mul(div(0.0169435, sub(sub(x1, sub(4, mul(sub(div(div(div(sub(sub(x1, mul(div(0.0169435, sub(x1, 96.127)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))), 96.127), mul(exp(div(x0, abs(x0))), x0)), add(div(sub(add(sub(abs(div(x0, 15)), x1), sub(cos(x1), x0)), mul(x1, x1)), 17.0002), add(div(0.0277778, sub(mul(x1, mul(x1, x1)), div(x0, 14))), x0))), add(div(sub(abs(div(x0, 15)), add(x1, 14)), 17.0002), add(div(11, sub(x1, add(x1, 14))), x0))), sub(4, mul(x1, x1))), 1.82116))), 96.127)), mul(add(neg(x1), exp(x0)), abs(pow(sqrt(x1), 11))))# Resulting fitness
+1.587608348642145e-18

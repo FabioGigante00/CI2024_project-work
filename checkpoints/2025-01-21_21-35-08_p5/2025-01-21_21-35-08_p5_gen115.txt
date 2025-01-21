@@ -1,0 +1,476 @@
+# Configuration
+conf = {
+    'problem': 5,
+    'crossover': <function recombination_crossover at 0x0000014D55C93380>,
+    'OFFSPRING_SIZE': 200,
+    'POPULATION_SIZE': 100,
+    'OUTSIDER_SIZE': 20,
+    'INITIAL_PM': 0.25,
+    'FINAL_PM': 0.15,
+    'x_elitism': 0.08,
+    'MAX_GENERATIONS': 150,
+    'HEIGHT': 5,
+    'PC': 0.5,
+    'P_PICK_CONSTANT': 0.4,
+    'P_CUT_TREE': 0.05,
+    'CONSTANTS': [1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0, 15.0, 16.0, 17.0, 18.0, 19.0, 20.0],
+    'SCALE': 10000000000.0,
+}
+
+# Population
+Tree 0:
+sub(div(sub(pow(x0, x1), add(add(19.9129, sin(sin(sub(x1, sub(pow(sin(div(sqrt(abs(pow(x1, x0))), 4.3589)), 19), 19.9129))))), sin(div(x0, add(sqrt(mul(x0, x1)), pow(sin(abs(sin(x0))), x1)))))), add(sqrt(mul(-19.4744, x1)), sub(sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x1), 20), x0)))))), 19))), sqrt(div(div(sub(pow(x1, x0), 0.149877), add(add(sin(cos(sqrt(abs(mul(mul(19, x1), x1))))), sub(x1, 19)), sqrt(mul(x0, -19.4744)))), add(19, sin(x0)))))
+Raw Fitness: 3.062941918362068
+
+Tree 1:
+sub(div(sub(pow(x0, x1), add(add(19.9129, sin(sin(sub(x1, sub(pow(sin(div(sqrt(abs(pow(x1, x0))), 4.3589)), 19), 19.9129))))), sin(div(x0, add(sqrt(mul(x0, x1)), pow(x0, x1)))))), add(sqrt(mul(-19.4744, x1)), sub(sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x1), 20), x0)))))), 19))), sqrt(div(div(sub(pow(x1, x0), 0.149877), add(add(sin(cos(sqrt(abs(mul(mul(19, x1), x1))))), sub(x1, 19)), sqrt(mul(-19.4744, x0)))), add(19, sin(sqrt(mul(add(neg(x1), 20), x0)))))))
+Raw Fitness: 3.1098031809601046
+
+Tree 2:
+sub(div(sub(pow(x0, x1), add(add(19.9129, sin(sin(sub(x1, sub(pow(sin(x1), 19), 19.9129))))), sin(div(x0, add(sqrt(mul(x0, x1)), pow(x0, x1)))))), add(sqrt(mul(-19.4744, x1)), sub(sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x1), 20), x0)))))), 19))), sqrt(div(div(sub(pow(x1, x0), 0.149877), add(add(sin(cos(sqrt(abs(mul(mul(19, x1), x1))))), sub(x1, 19)), sqrt(mul(-19.4744, x0)))), add(19, sin(sqrt(mul(add(neg(x1), 20), x0)))))))
+Raw Fitness: 3.156311952496903
+
+Tree 3:
+sub(div(sub(pow(x0, x1), add(add(19.9129, sin(sin(sub(x1, sub(pow(sin(div(sqrt(abs(pow(x1, mul(-19.4744, x1)))), 4.3589)), 19), 19.9129))))), sin(div(x0, add(sqrt(mul(x0, x1)), pow(x0, x1)))))), add(sqrt(mul(-19.4744, x1)), sub(sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x1), 20), x0)))))), 19))), sqrt(div(div(sub(pow(x1, x0), 0.149877), add(add(sin(cos(sqrt(abs(mul(mul(19, x1), x1))))), sub(x1, 19)), sqrt(mul(-19.4744, x0)))), add(19, sin(sqrt(mul(add(neg(x1), 20), x0)))))))
+Raw Fitness: 3.1939175077613537
+
+Tree 4:
+sub(div(sub(pow(x0, x1), add(add(19.9129, sin(div(x0, add(sqrt(mul(x0, x1)), pow(x1, x1))))), sin(div(x0, add(sqrt(mul(x0, x1)), pow(x0, x1)))))), add(sqrt(mul(-19.4744, x1)), sub(sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x1), 20), x0)))))), 19))), sqrt(div(div(sub(pow(x1, x0), 0.149877), add(add(sin(cos(sqrt(abs(mul(mul(19, x1), x1))))), sub(x1, 19)), sqrt(mul(-19.4744, x0)))), add(19, sin(div(mul(x0, 4.3589), x1))))))
+Raw Fitness: 3.2314804240976436
+
+Tree 5:
+sub(div(sub(pow(x0, x1), add(add(19.9129, sin(div(x0, add(sqrt(mul(x0, x1)), pow(x1, x1))))), sin(div(x0, add(sqrt(mul(7, x1)), pow(x0, x1)))))), add(sqrt(mul(-19.4744, x1)), sub(sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x1), 20), x0)))))), 19))), sqrt(div(div(sub(pow(x1, x0), 0.149877), add(add(sin(cos(sqrt(abs(mul(mul(19, x1), x1))))), sub(x1, 19)), sqrt(mul(-19.4744, x0)))), add(19, sin(div(mul(x0, 4.3589), x1))))))
+Raw Fitness: 3.2314994875673806
+
+Tree 6:
+sub(div(sub(pow(x0, x1), add(19.9129, sin(sub(x1, sub(pow(sin(div(x0, 4.3589)), 19.9129), 19.9129))))), add(sqrt(mul(-19.4744, x1)), sub(sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x0), 20), neg(x0))))))), 19))), sqrt(div(div(sub(pow(x1, x0), x1), add(add(sin(cos(sqrt(abs(mul(mul(19, x1), x1))))), add(sin(cos(sqrt(abs(mul(mul(19, x1), x1))))), sub(x1, 19))), sqrt(mul(19, x0)))), sub(pow(sin(div(x0, sqrt(mul(-19.4744, x0)))), x1), 19.9129))))
+Raw Fitness: 3.2387675656631507
+
+Tree 7:
+sub(div(sub(pow(x0, x1), add(add(19.9129, sin(sin(sub(x1, sub(pow(sin(div(mul(19, x0), 4.3589)), 19), 19.9129))))), sin(div(x0, add(sqrt(mul(x0, x1)), pow(x0, x1)))))), add(sqrt(mul(-19.4744, x1)), sub(sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x1), 20), x0)))))), 19))), sqrt(div(div(sub(pow(x1, x0), 0.149877), add(add(sin(cos(sqrt(abs(mul(mul(19, x1), x1))))), sub(x1, 19)), sqrt(mul(-19.4744, x0)))), add(19, sin(x0)))))
+Raw Fitness: 3.2586676907211345
+
+Tree 8:
+sub(div(sub(pow(x0, x1), add(19.9129, sin(sub(x1, sub(pow(sin(div(abs(mul(mul(19, x1), x1)), 19)), 19), 19.9129))))), add(sqrt(mul(-19.4744, x1)), sub(sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x0), 20), neg(x0))))))), 19))), sqrt(div(div(sub(pow(x1, x0), x1), add(add(cos(sqrt(abs(mul(mul(19, x1), x1)))), sub(x1, 19)), sqrt(mul(19, x0)))), add(sin(div(x0, div(mul(19, x0), sqrt(mul(add(-19.4744, sin(add(sqrt(mul(x0, x1)), pow(x0, x1)))), 18))))), 19))))
+Raw Fitness: 3.4247037139242686
+
+Tree 9:
+sub(div(sub(pow(x0, x1), add(add(19.9129, sin(sin(sub(x1, sub(pow(sin(div(sqrt(abs(pow(x1, x0))), 4.3589)), 19), 19.9129))))), sin(div(x0, x1)))), add(sqrt(mul(-19.4744, x1)), sub(sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x1), 20), x0)))))), 19))), sqrt(div(div(sub(pow(x1, x0), 0.149877), add(add(sin(cos(sqrt(abs(mul(mul(19, x1), x1))))), sub(x1, 19)), sqrt(mul(-19.4744, x0)))), add(19, sin(sqrt(mul(add(neg(x1), 20), x0)))))))
+Raw Fitness: 3.6348712130785614
+
+Tree 10:
+sub(div(sub(pow(x0, x1), add(add(19.9129, sin(div(x0, add(sqrt(mul(x0, 19)), pow(x1, x1))))), sin(div(x0, add(sqrt(mul(x0, x1)), pow(x0, x1)))))), add(sqrt(mul(-19.4744, x1)), sub(sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x1), 20), x0)))))), 19))), sqrt(div(div(sub(pow(x1, x0), 0.149877), add(add(sin(cos(sqrt(abs(mul(mul(19, x1), x1))))), sub(x1, 19)), sqrt(mul(-19.4744, x0)))), add(19, sin(x1)))))
+Raw Fitness: 3.579164401909381
+
+Tree 11:
+sub(div(sub(pow(x0, x1), add(19.9129, sin(sub(x1, sub(pow(sin(div(x0, 4.3589)), 19.9129), 19.9129))))), add(sqrt(mul(-19.4744, x1)), sub(sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x0), 20), -4.3589)))))), 19))), sqrt(div(div(sub(pow(x1, x0), x1), add(add(sin(cos(sqrt(abs(mul(mul(19, x1), x1))))), add(sin(cos(sqrt(abs(mul(mul(19, x1), x1))))), sub(x1, 19))), sqrt(mul(19, x0)))), add(sin(div(mul(-19.4744, x0), x1)), 19))))
+Raw Fitness: 3.3855878025237907
+
+Tree 12:
+sub(div(sub(pow(x0, x1), add(add(19.9129, sin(div(x0, add(sqrt(mul(x0, x1)), pow(x1, x1))))), sin(div(x0, add(sqrt(mul(x0, x1)), mul(mul(abs(x0), x0), add(sqrt(mul(x0, x1)), pow(x1, x1)))))))), add(sqrt(mul(-19.4744, x1)), sub(sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x1), 20), x0)))))), 19))), sqrt(div(div(sub(pow(x1, x0), 0.149877), add(add(sin(cos(sqrt(abs(mul(mul(19, x1), x1))))), sub(x1, 19)), sqrt(mul(-19.4744, x0)))), add(19, sin(div(mul(mul(-19.4744, add(19.9129, sin(sin(sub(x1, sub(pow(sin(div(mul(19, x0), 4.3589)), 19), 19.9129)))))), 4.3589), add(sub(sqrt(x0), 19), 19)))))))
+Raw Fitness: 3.6971016456079595
+
+Tree 13:
+sub(div(sub(pow(x0, x1), add(19.9129, sin(sub(x1, sub(pow(sin(div(x0, 19)), 19), 19.9129))))), add(sqrt(mul(-19.4744, x1)), sub(sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x1), 20), neg(x0))))))), 19))), sqrt(div(div(sub(pow(x1, x0), x1), add(add(sin(cos(sqrt(abs(mul(mul(19, x1), x1))))), sub(x1, 19)), sqrt(mul(19, x0)))), add(sin(div(mul(sqrt(mul(19, x0)), sqrt(abs(pow(x1, x0)))), div(mul(19, x0), sqrt(mul(div(x0, add(sqrt(mul(x0, x1)), pow(x0, x1))), x1))))), 19))))
+Raw Fitness: 3.441077803851212
+
+Tree 14:
+sin(div(x0, sqrt(mul(add(neg(x1), 20), x0))))
+Raw Fitness: 60551.05153753728
+
+Tree 15:
+sub(div(sub(pow(x0, x1), add(19.9129, sin(sub(x1, sub(pow(sin(div(sub(pow(x1, x0), x1), x0)), 19), 19.9129))))), add(sqrt(mul(-19.4744, x1)), sub(sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x1), 20), x0)))))), 19))), sqrt(div(div(sub(pow(x1, x0), sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x1), 19), x0))))))), add(add(sin(cos(sqrt(abs(mul(mul(19, x1), x1))))), sub(x1, 19)), sqrt(mul(19, x0)))), add(19, x1))))
+Raw Fitness: 3.9582269336919436
+
+Tree 16:
+sub(div(sub(pow(x0, x1), add(19.9129, sin(sub(x1, sub(pow(sin(div(x0, -19.4744)), 19), 19.9129))))), add(sqrt(mul(-19.4744, x1)), sub(sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x0), 20), neg(x0))))))), 19))), sqrt(div(div(sub(pow(x1, x0), x1), add(add(sin(cos(sqrt(abs(mul(mul(19, x1), x1))))), sub(x1, 19)), sqrt(mul(19, x0)))), add(19, sin(div(mul(sin(cos(sqrt(abs(mul(mul(19, x1), x1))))), sqrt(abs(x0))), div(mul(19, x0), add(0.772879, sub(x1, 19)))))))))
+Raw Fitness: 3.447755139687905
+
+Tree 17:
+sub(div(sub(pow(x0, x1), add(add(19.9129, sin(sin(sub(x1, sub(pow(sin(div(sqrt(abs(pow(x1, x0))), 4.3589)), 19), 19.9129))))), sin(div(x0, add(sqrt(mul(19, x1)), pow(x0, x1)))))), add(sqrt(mul(-19.4744, x1)), sub(sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x1), 20), x0)))))), 19))), sqrt(div(div(sub(pow(x1, x0), 0.149877), add(add(sin(cos(sqrt(abs(mul(mul(19, x1), x1))))), sub(x1, 19)), sqrt(mul(x0, -19.4744)))), add(19, sin(x0)))))
+Raw Fitness: 3.3738892596244345
+
+Tree 18:
+sub(div(sub(pow(x0, x1), add(19.9129, sin(sub(x1, sub(pow(sin(div(19, x0)), 19), 19.9129))))), add(sqrt(mul(-19.4744, x1)), sub(sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x1), 20), x0)))))), 19))), sqrt(div(div(sub(pow(x1, x0), sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x1), 19.9129), x0))))))), add(add(sin(cos(sqrt(abs(mul(mul(19, x1), x1))))), sub(x1, 19)), sqrt(mul(19, x0)))), add(19, sin(div(-86.9023, x1))))))
+Raw Fitness: 3.4586330137499943
+
+Tree 19:
+sub(div(sub(pow(x0, x1), add(20, sin(sub(x1, sub(pow(sin(div(x0, 4.3589)), 19), 19.9129))))), add(sub(sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x1), 20), neg(x0))))))), 19), sqrt(mul(-19.4744, x1)))), sqrt(div(div(sub(pow(x1, x0), x1), add(add(sin(cos(sqrt(abs(mul(mul(19, x1), x1))))), sub(x1, 19)), sqrt(mul(19, x0)))), add(sin(div(mul(-19.4744, sqrt(sub(pow(x1, x0), x1))), div(mul(x0, x0), sqrt(x1)))), 19))))
+Raw Fitness: 3.358834971062723
+
+Tree 20:
+sub(div(sub(pow(x0, x1), add(19.9129, sin(sub(x1, sub(pow(sin(div(x0, -19.4744)), 19), 19.9129))))), add(sqrt(mul(-19.4744, x1)), sub(sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x0), 20), neg(x0))))))), 19))), sqrt(div(div(sub(pow(x1, x0), x1), add(add(sin(cos(sqrt(abs(mul(mul(19, x1), x1))))), sub(x1, 19)), sqrt(mul(19, x0)))), add(19, sin(div(mul(-19.4744, sqrt(abs(x0))), div(mul(x1, x0), add(0.772879, sub(x1, 19)))))))))
+Raw Fitness: 3.5547220104906727
+
+Tree 21:
+sub(div(sub(pow(x0, x1), add(add(19.9129, sin(sin(sub(x1, sub(pow(sin(div(sqrt(abs(pow(4.3589, x0))), 4.3589)), 19), 19.9129))))), sin(x1))), add(sqrt(mul(-19.4744, x1)), sub(sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x1), 20), x0)))))), 19))), sqrt(div(div(sub(pow(x1, x0), 0.149877), add(add(sin(cos(sqrt(abs(mul(mul(19, x1), x1))))), sub(x1, 19)), sqrt(mul(x0, -19.4744)))), add(19, sin(x0)))))
+Raw Fitness: 3.964635630167637
+
+Tree 22:
+mul(x0, x1)
+Raw Fitness: 88281.95669291646
+
+Tree 23:
+pow(-0.237948, add(neg(x1), x0))
+Raw Fitness: nan
+
+Tree 24:
+div(mul(19, x0), neg(x1))
+Raw Fitness: 257920571.39578387
+
+Tree 25:
+sub(div(sub(pow(x0, x1), add(19.9129, sin(sub(x1, sub(pow(sin(div(x0, 4.3589)), 19.9129), 19.9129))))), add(sqrt(mul(-19.4744, x1)), sub(sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x0), 20), neg(x0))))))), 19))), sqrt(div(div(sub(pow(x1, x0), x1), add(add(sin(cos(sqrt(mul(-19.4744, x1)))), add(sin(cos(sqrt(abs(mul(mul(19, x1), x1))))), sub(x1, 19))), sqrt(mul(19, x0)))), sub(pow(sin(div(x0, sqrt(mul(-19.4744, x0)))), x1), 19.9129))))
+Raw Fitness: 4.106349384729127
+
+Tree 26:
+div(20, x0)
+Raw Fitness: 85941743.74990976
+
+Tree 27:
+sub(div(sub(pow(x0, x1), add(add(19.9129, sin(div(x0, add(sqrt(mul(x0, x1)), pow(x1, x1))))), sin(x1))), add(sqrt(mul(-19.4744, x1)), sub(sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x1), 20), x0)))))), 19))), sqrt(div(div(sub(pow(x1, x0), 0.149877), add(add(sin(cos(sqrt(abs(mul(mul(19, x1), x1))))), sub(x1, 19)), sqrt(mul(-19.4744, x0)))), add(19, sin(div(mul(19, x0), sqrt(abs(mul(mul(x1, x1), x1)))))))))
+Raw Fitness: 3.4298359265901217
+
+Tree 28:
+sub(div(sub(pow(x0, x1), add(add(19.9129, sin(div(x0, add(sqrt(mul(x0, div(x0, add(sqrt(sqrt(mul(1, neg(x0)))), pow(x1, x1))))), pow(x1, x1))))), sin(div(x0, add(sqrt(mul(x0, x1)), pow(x0, x1)))))), add(sqrt(mul(-19.4744, x1)), sub(sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x1), 20), x0)))))), 19))), sqrt(div(div(sub(pow(x1, x0), 0.149877), add(add(sin(cos(sqrt(abs(mul(mul(19, x1), x1))))), sub(x1, 19)), sqrt(mul(-19.4744, x0)))), add(19, sin(div(mul(x0, 4.3589), add(sub(sqrt(x0), 19), 19)))))))
+Raw Fitness: 3.486515479890923
+
+Tree 29:
+sub(div(sub(pow(x0, x1), add(add(19.9129, sin(div(x0, add(sqrt(mul(x0, x1)), pow(x1, x1))))), sin(div(x0, add(sqrt(mul(sin(div(x0, sqrt(mul(add(neg(x1), 20), x0)))), x1)), pow(x0, x1)))))), add(sqrt(mul(-19.4744, x1)), sub(sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x1), 20), x0)))))), 19))), sqrt(div(div(sub(pow(x1, x0), 0.149877), add(add(sin(cos(sqrt(abs(mul(mul(19, x1), x1))))), sub(x1, 19)), sqrt(mul(-19.4744, x0)))), add(19, sin(div(mul(x0, 4.3589), 19))))))
+Raw Fitness: 3.54040713593696
+
+Tree 30:
+sub(div(sub(pow(x0, x1), add(add(19.9129, sin(sin(sub(x1, sub(pow(sin(div(sqrt(abs(pow(x1, mul(-19.4744, x1)))), 4.3589)), 19), 19.9129))))), sin(div(x0, add(sqrt(mul(x0, x1)), pow(x0, x1)))))), add(sqrt(mul(-19.4744, x1)), sub(sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x1), 20), x0)))))), 19))), sqrt(div(div(sub(pow(x1, x0), 0.149877), add(add(sin(cos(sqrt(abs(mul(mul(19, sub(x1, sin(div(x0, sqrt(mul(add(neg(x1), 20), x0)))))), x1))))), sub(x1, 19)), sqrt(mul(-19.4744, x0)))), add(19, sin(sqrt(mul(add(neg(x1), 20), x0)))))))
+Raw Fitness: 3.9118978335198955
+
+Tree 31:
+pow(-0.237948, pow(mul(x1, sqrt(abs(pow(x1, x0)))), -19.4744))
+Raw Fitness: nan
+
+Tree 32:
+sub(div(sub(pow(x0, x1), add(add(19.9129, sin(sin(sub(x1, sub(pow(sin(div(sqrt(abs(pow(x1, x0))), 4.3589)), 19), 19.9129))))), div(x0, sqrt(mul(add(neg(x1), 20), 19.4744))))), add(sqrt(mul(-19.4744, x1)), sub(sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x1), 20), x0)))))), 19))), sqrt(div(div(sub(pow(x1, x0), 0.149877), add(add(sin(cos(sqrt(abs(mul(mul(19, x1), x1))))), sub(x1, 19)), sqrt(mul(x0, -19.4744)))), add(19, sin(x0)))))
+Raw Fitness: 3.5988346876030235
+
+Tree 33:
+pow(x0, x1)
+Raw Fitness: 7046314.699330671
+
+Tree 34:
+sub(div(sub(pow(x0, x1), add(19.9129, sin(sub(x1, sub(pow(sin(mul(add(neg(x1), 20), neg(x0))), 19), 19.9129))))), add(sqrt(mul(-19.4744, x1)), sub(sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x1), 20), neg(x0))))))), 19))), sqrt(div(div(sub(pow(x1, x0), x1), add(add(sin(cos(sqrt(abs(mul(mul(19, x1), x1))))), sub(x1, 19)), sqrt(mul(19, x0)))), add(sin(div(mul(-19.4744, sqrt(sub(pow(mul(mul(19, x1), x1), x0), x1))), div(cos(sqrt(abs(mul(mul(19, x1), x1)))), sqrt(x1)))), 19))))
+Raw Fitness: 3.5302661185520128
+
+Tree 35:
+sub(div(sub(pow(x0, x1), add(add(19.9129, sin(div(x0, add(sqrt(mul(x0, x1)), pow(x1, x1))))), sin(div(x0, add(sub(x1, sin(div(x0, sqrt(mul(add(neg(x1), 20), x0))))), pow(x0, x1)))))), add(sqrt(mul(-19.4744, x1)), sub(sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x1), add(sqrt(mul(-19.4744, x1)), sub(sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x1), 20), x0)))))), 19))), x0)))))), 19))), sqrt(div(div(sub(pow(x1, x0), 0.149877), add(add(sin(cos(sqrt(abs(mul(mul(19, x1), x1))))), sub(x1, 19)), sqrt(mul(-19.4744, x0)))), add(19, sin(div(mul(x0, 4.3589), add(sub(sqrt(x0), 19), 19)))))))
+Raw Fitness: 3.78940646525403
+
+Tree 36:
+sub(div(sub(pow(x0, x1), add(19.9129, sin(sub(x1, sub(pow(sin(div(x0, 4.3589)), 19.9129), 19.9129))))), add(sqrt(mul(-19.4744, x1)), sub(sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x0), 20), neg(x0))))))), 19))), sqrt(div(div(sub(pow(x1, x0), x1), add(add(sin(cos(sqrt(abs(mul(mul(19, x1), x1))))), add(sin(cos(sqrt(abs(mul(mul(19, x1), x1))))), sub(x1, 19))), sqrt(mul(19, x1)))), sub(pow(sin(div(x0, sqrt(mul(-19.4744, x0)))), x1), 19.9129))))
+Raw Fitness: 3.184878904146857
+
+Tree 37:
+sub(div(sub(pow(x0, x1), add(add(19.9129, sin(sin(sub(x1, sub(pow(sin(div(sqrt(abs(pow(x1, x0))), 4.3589)), 19), 19.9129))))), sin(div(x0, add(sqrt(mul(x0, x1)), pow(x0, sqrt(abs(pow(x1, x0))))))))), add(sqrt(mul(-19.4744, x1)), sub(sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x1), 20), x0)))))), 19))), sqrt(div(div(sub(pow(x1, x0), 0.149877), add(add(sin(cos(sqrt(abs(mul(mul(19, x1), x1))))), sub(x1, 19)), sqrt(mul(-19.4744, x0)))), add(19, sin(x0)))))
+Raw Fitness: 3.2814578293354737
+
+Tree 38:
+sub(div(sub(pow(x0, x1), add(add(19.9129, sin(sin(sub(x1, sub(pow(sin(div(x1, 4.3589)), 19), 19.9129))))), sin(div(x0, add(sqrt(mul(x0, x1)), pow(x0, x1)))))), add(sqrt(mul(-19.4744, x1)), sub(sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x1), 20), x0)))))), 19))), sqrt(div(div(sub(pow(x1, x0), 0.149877), add(add(sin(cos(sqrt(abs(mul(mul(19, x1), x1))))), sub(x1, 19)), sqrt(mul(-19.4744, x0)))), add(19, sin(sqrt(mul(add(neg(x1), 20), x0)))))))
+Raw Fitness: 2.995095911353674
+
+Tree 39:
+sub(div(sub(pow(x0, x1), add(19.9129, sin(sub(x1, sub(pow(sin(div(x0, 4.3589)), x1), 19.9129))))), add(sqrt(mul(-19.4744, x1)), sub(sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x1), 20), neg(x0))))))), 19))), sqrt(div(div(sub(pow(x1, x0), x1), add(add(sin(cos(sqrt(abs(mul(mul(19, x1), x1))))), sub(x1, 19)), sqrt(mul(19, x0)))), add(sin(div(mul(-19.4744, x1), div(mul(18, x0), neg(x1)))), 19))))
+Raw Fitness: 3.5428513042910574
+
+Tree 40:
+sub(div(sub(pow(x0, x1), add(add(19.9129, sin(div(x0, add(sqrt(mul(x0, x1)), pow(x1, x1))))), sin(div(x0, add(sqrt(mul(7, x1)), pow(x0, x1)))))), add(sqrt(mul(-19.4744, x1)), sub(sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x1), 20), x0)))))), 19))), sqrt(div(div(sub(pow(x1, x0), 0.149877), add(add(sin(cos(sqrt(abs(mul(mul(19, x1), x0))))), sub(x1, 19)), sqrt(mul(-19.4744, x0)))), add(19, sin(div(mul(x0, 4.3589), x1))))))
+Raw Fitness: 3.99922240667952
+
+Tree 41:
+sub(div(sub(pow(x0, x1), add(add(19.9129, sin(div(x0, add(sqrt(mul(x0, x1)), pow(x1, x1))))), sin(div(x0, add(abs(mul(mul(19, x1), x1)), pow(x0, x1)))))), add(sqrt(mul(-19.4744, x1)), sub(sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x1), 20), x0)))))), 19))), sqrt(div(div(sub(pow(x1, x0), 0.149877), add(add(sin(cos(sqrt(abs(mul(mul(19, x1), x1))))), sub(x1, 19)), sqrt(mul(-19.4744, x0)))), add(19, sin(div(mul(x0, 4.3589), x1))))))
+Raw Fitness: 3.327758539685383
+
+Tree 42:
+sub(div(sub(pow(x0, x1), add(add(19.9129, sin(div(x0, add(sqrt(mul(x0, x1)), pow(x1, x1))))), sin(div(x0, add(sqrt(mul(x0, x1)), pow(x0, x1)))))), add(sqrt(mul(-19.4744, x1)), sub(sin(sub(x1, sin(div(x0, sqrt(mul(x0, add(neg(x1), 20))))))), 19))), sqrt(div(div(sub(pow(x1, x0), 0.149877), add(add(sin(cos(sqrt(sqrt(mul(x0, x1))))), sub(x1, 19)), sqrt(mul(-19.4744, x0)))), add(19, sin(x0)))))
+Raw Fitness: 4.151648060234204
+
+Tree 43:
+sub(div(sub(pow(x0, x1), add(19.9129, sin(sub(x1, sub(pow(sin(div(neg(x0), 4.41298)), 19), 19.9129))))), add(sqrt(mul(-19.4744, x1)), sub(sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x1), 20), x0)))))), 19))), sqrt(div(div(sub(pow(x1, x0), x1), add(add(sin(cos(sqrt(abs(mul(mul(19, x1), x1))))), sub(x1, 19)), sqrt(mul(19, x0)))), add(19, sin(neg(x1))))))
+Raw Fitness: 3.4933855750499077
+
+Tree 44:
+sub(div(sub(pow(x0, x1), add(add(19.9129, sin(sin(sub(x1, sub(pow(sin(div(mul(19, x0), 4.3589)), 19), 19.9129))))), sin(div(x0, add(sqrt(mul(x0, x1)), pow(x0, x1)))))), add(sqrt(mul(-19.4744, x1)), sub(sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x1), 20), x0)))))), 19))), sqrt(div(div(sub(pow(x1, x0), 0.149877), add(add(sin(cos(sqrt(abs(mul(mul(19, x1), x1))))), sub(x1, 19)), sqrt(mul(-19.4744, x0)))), add(19, sin(sqrt(mul(add(neg(x1), 20), x0)))))))
+Raw Fitness: 3.0822917512721206
+
+Tree 45:
+sub(div(sub(pow(x0, x1), add(add(19.9129, sin(div(x0, add(sqrt(mul(x0, x1)), pow(add(sqrt(mul(x0, x1)), pow(x0, x1)), x1))))), sin(div(x0, add(sqrt(mul(x0, x1)), pow(x0, x1)))))), add(sqrt(mul(-19.4744, x1)), sub(sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x1), 20), x0)))))), 19))), sqrt(div(div(sub(pow(x1, x0), 0.149877), add(add(sin(cos(sqrt(abs(mul(mul(19, x1), x1))))), sub(x1, 19)), sqrt(mul(-19.4744, x0)))), add(19, sin(div(mul(mul(-19.4744, sqrt(abs(pow(x1, x0)))), mul(add(19.9129, sin(div(x0, add(sqrt(mul(x0, x1)), pow(x1, x1))))), 18)), add(sub(sqrt(x0), 19), 19)))))))
+Raw Fitness: 3.47413749475144
+
+Tree 46:
+sub(div(sub(pow(x0, x1), add(19.9129, sin(sub(x1, sub(pow(sin(div(x0, 19)), 19), 19.9129))))), add(sqrt(mul(-19.4744, x1)), sub(sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x0), 20), neg(x0))))))), 19))), sqrt(div(div(sub(pow(x1, x0), x1), add(add(sin(cos(sqrt(abs(mul(mul(19, x1), x1))))), sub(x1, 19)), sqrt(mul(19, x0)))), 19.1499)))
+Raw Fitness: 3.430707322600352
+
+Tree 47:
+sub(div(sub(pow(x0, x1), add(add(19.9129, sin(div(x0, add(sqrt(mul(x0, x1)), pow(x1, x1))))), sin(div(x0, add(sqrt(mul(x0, x1)), pow(x0, x1)))))), add(sqrt(mul(-19.4744, x1)), sub(sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x1), 18), x0)))))), 19))), sqrt(div(div(sub(pow(x1, x0), 0.149877), add(add(sin(cos(sqrt(abs(mul(mul(19, x1), x1))))), sub(x1, 19)), sqrt(mul(-19.4744, x0)))), add(19, sin(div(mul(19, x0), sqrt(abs(mul(mul(x1, x1), x1)))))))))
+Raw Fitness: 3.3254558714867573
+
+Tree 48:
+sub(div(sub(pow(x0, x1), add(add(19.9129, sin(div(x0, add(sqrt(mul(x0, x1)), pow(x1, x1))))), sin(div(x0, add(sqrt(mul(x0, x1)), pow(x0, x1)))))), add(sqrt(mul(-19.4744, x1)), sub(sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x1), 20), x0)))))), 19))), sqrt(div(div(sub(pow(x1, x0), 0.149877), add(add(sin(cos(sqrt(abs(mul(mul(19, x1), x1))))), sub(x1, 19)), sqrt(mul(-19.4744, x0)))), add(19, sin(div(mul(x0, mul(mul(20, div(20, x0)), 20)), add(sub(sub(x1, -19.7357), 19), 19)))))))
+Raw Fitness: 3.4064520902696644
+
+Tree 49:
+sub(div(sub(pow(x0, x1), add(add(19.9129, sin(div(x0, add(sqrt(mul(x0, x1)), pow(x1, x1))))), sin(div(x0, sub(pow(x1, x0), sin(sub(x1, sin(div(x0, sqrt(mul(-19.4744, x0))))))))))), add(sqrt(mul(-19.4744, x1)), sub(sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x1), 20), x0)))))), 19))), sqrt(div(div(sub(pow(x1, x0), 0.149877), add(add(sin(cos(sqrt(abs(mul(mul(19, x1), x1))))), sub(x1, 19)), sqrt(mul(-19.4744, x0)))), add(19, sin(x1)))))
+Raw Fitness: 3.8882069202102976
+
+Tree 50:
+sub(div(sub(pow(x0, x1), add(add(19.9129, sin(div(x0, add(sqrt(mul(x0, x1)), pow(x1, x1))))), sin(div(x0, add(sqrt(mul(x0, x1)), pow(x0, x1)))))), add(sqrt(mul(-19.4744, x1)), sub(sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x1), 20), x0)))))), 19))), sqrt(div(div(sub(pow(x1, x0), 0.149877), add(add(sin(cos(sqrt(abs(mul(mul(19, x1), x1))))), sub(x1, 19)), sqrt(mul(-19.4744, x0)))), add(19, sin(div(mul(x0, cos(sqrt(abs(mul(mul(19, x1), x1))))), add(sub(sub(x1, -19.7357), 19), 19)))))))
+Raw Fitness: 3.3114385202337657
+
+Tree 51:
+sub(div(sub(pow(x0, x1), add(add(19.9129, sin(div(x0, add(x1, pow(x1, x1))))), sin(div(x0, add(sqrt(mul(x0, x1)), pow(x0, x1)))))), add(sqrt(mul(-19.4744, x1)), sub(sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x1), 20), x0)))))), 19))), sqrt(div(div(sub(pow(x1, x0), 0.149877), add(add(sin(cos(sqrt(abs(mul(mul(19, x1), x1))))), sub(x1, 19)), sqrt(mul(-19.4744, x0)))), add(19, sin(mul(mul(19, x1), x1))))))
+Raw Fitness: 3.6129446215822902
+
+Tree 52:
+sub(div(sub(pow(x0, x1), add(19.9129, sin(sub(x1, sub(pow(sin(div(abs(mul(mul(19, x1), sqrt(mul(x0, x1)))), 19)), 19), 19.9129))))), add(sqrt(mul(-19.4744, x1)), sub(sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x0), 20), neg(x0))))))), 19))), sqrt(div(div(sub(pow(x1, x0), x1), add(add(cos(sqrt(abs(mul(mul(19, x1), x1)))), sub(x1, 19)), sqrt(mul(19, x0)))), add(sin(div(x0, div(mul(19, x0), sqrt(mul(add(-19.4744, sin(x1)), 18))))), 19))))
+Raw Fitness: 3.4464617130677757
+
+Tree 53:
+sub(div(sub(pow(x0, x1), add(add(19.9129, sin(sin(sub(x1, sub(pow(sin(x1), 19), 19.9129))))), sin(div(x0, add(sqrt(mul(x0, x1)), pow(x0, x1)))))), add(sqrt(mul(-19.4744, x1)), sub(sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x1), 20), x0)))))), 19))), sqrt(div(div(sub(pow(x1, x0), 0.149877), add(add(sin(cos(sqrt(abs(mul(mul(19, x1), x1))))), sub(x1, 19)), sqrt(mul(-19.4744, x0)))), add(19, sin(sqrt(mul(sqrt(mul(19, x0)), x0)))))))
+Raw Fitness: 3.191138071440619
+
+Tree 54:
+sub(div(sub(pow(x0, x1), add(add(19.9129, sin(div(x0, add(sqrt(mul(x0, x1)), pow(x1, x1))))), sin(div(x0, add(sqrt(mul(sub(pow(x1, x0), x1), x1)), pow(x0, x1)))))), add(sqrt(mul(-19.4744, x1)), sub(sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x1), 20), x0)))))), 19))), sqrt(div(div(sub(pow(x1, x0), 0.149877), add(add(sin(cos(sqrt(abs(mul(mul(19, x1), x1))))), sub(x1, 19)), sqrt(mul(-19.4744, x0)))), add(19, sin(div(mul(mul(-19.4744, sqrt(abs(pow(19.9129, x0)))), 4.3589), add(sub(sqrt(x0), 19), 19)))))))
+Raw Fitness: 3.3026214987966496
+
+Tree 55:
+sub(div(sub(pow(x0, x1), add(add(19.9129, sin(div(x0, add(sqrt(mul(x0, x1)), pow(x1, x1))))), sin(div(x0, add(sqrt(mul(x0, -1.42285e-12)), pow(x0, x1)))))), add(sqrt(mul(-19.4744, x1)), sub(sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x1), 20), x0)))))), 19))), sqrt(div(div(sub(pow(x1, x0), 0.149877), add(add(sin(cos(sqrt(abs(mul(mul(19, x1), x1))))), sub(x1, 19)), sqrt(mul(-19.4744, x0)))), add(19, sin(x1)))))
+Raw Fitness: 3.347052650718776
+
+Tree 56:
+add(neg(x1), 20)
+Raw Fitness: 106498.58369391355
+
+Tree 57:
+sub(div(sub(pow(x0, x1), add(add(19.9129, sin(div(x0, add(sqrt(mul(x0, x1)), pow(x1, x1))))), sin(div(x0, add(sqrt(mul(sin(div(x0, sqrt(mul(add(neg(x0), 20), neg(x0))))), x1)), pow(x0, x1)))))), add(sqrt(mul(-19.4744, x1)), sub(sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x1), 20), x0)))))), 19))), sqrt(div(div(sub(pow(x1, x0), 0.149877), add(add(sin(cos(sqrt(abs(mul(mul(19, x1), x1))))), sub(x1, 19)), sqrt(mul(-19.4744, x0)))), add(19, sin(div(mul(mul(-19.4744, x1), mul(mul(20, div(20, x0)), 18)), add(sub(sub(x1, -19.7357), 19), 19)))))))
+Raw Fitness: 3.530576160650962
+
+Tree 58:
+sub(div(sub(pow(x0, x1), add(19.9129, sin(sub(x1, sub(pow(sin(div(x0, abs(mul(mul(19, x1), x1)))), 19), 19.9129))))), add(sqrt(mul(-19.4744, x1)), sub(sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x1), 20), neg(x0))))))), 19))), sqrt(div(div(sub(pow(x1, x0), x1), add(sqrt(mul(19, x0)), add(sin(cos(sqrt(abs(mul(mul(19, x1), x1))))), sub(x1, 19)))), add(sin(div(mul(-19.4744, x1), div(mul(19, x0), neg(sqrt(abs(pow(x1, x0))))))), 19))))
+Raw Fitness: 3.54779442246193
+
+Tree 59:
+sin(div(sqrt(abs(pow(x1, x0))), 4.3589))
+Raw Fitness: 59096.61620459518
+
+Tree 60:
+sub(div(sub(pow(x0, x1), add(add(19.9129, sin(div(x0, add(sqrt(mul(x0, x1)), pow(x1, x1))))), sin(div(x0, add(sqrt(mul(x0, neg(x1))), 19))))), add(sqrt(mul(-19.4744, x1)), sub(sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x1), 20), x0)))))), 19))), sqrt(div(div(sub(pow(x1, x0), 0.149877), add(add(sin(cos(sqrt(abs(mul(mul(19, x1), x1))))), sub(x1, 19)), sqrt(mul(-19.4744, x0)))), add(19, sin(div(mul(x0, 4.3589), add(sub(sqrt(x0), 19), 19)))))))
+Raw Fitness: 3.6423331769493683
+
+Tree 61:
+mul(x0, -19.4744)
+Raw Fitness: 268313.0181540191
+
+Tree 62:
+sub(div(sub(pow(x0, x1), add(19.9129, sin(sub(x1, -19.9129)))), add(sqrt(mul(-19.4744, x1)), sub(sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x0), 20), x0)))))), 19))), sqrt(div(div(sub(x1, pow(x1, x0)), add(add(sin(cos(sqrt(abs(mul(mul(19, x1), x1))))), sub(x1, 19)), sqrt(mul(19, x0)))), sub(sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x0), 20), neg(x0))))))), 19))))
+Raw Fitness: 3.5205837428319398
+
+Tree 63:
+sub(div(sub(pow(x0, x1), add(add(19.9129, sin(div(x0, add(sqrt(mul(x0, x1)), pow(x1, x1))))), sin(div(x0, add(sqrt(mul(x0, x1)), pow(x0, x1)))))), add(sqrt(mul(-19.4744, x1)), sub(sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x1), 20), x0)))))), 19))), sqrt(div(div(sub(pow(x1, x0), 0.149877), add(add(sin(cos(sqrt(abs(mul(mul(19, x1), x1))))), sub(x1, 19)), sqrt(mul(-19.4744, x0)))), add(19, sin(div(mul(mul(-19.4744, sqrt(abs(pow(x1, x0)))), mul(mul(20, div(20, x0)), 18)), sin(div(x0, add(sqrt(x1), pow(x1, x1))))))))))
+Raw Fitness: 3.316187648815766
+
+Tree 64:
+x1
+Raw Fitness: 62101.28205523971
+
+Tree 65:
+pow(-0.237948, pow(mul(mul(19, x0), sqrt(abs(pow(x1, x0)))), -19.4744))
+Raw Fitness: nan
+
+Tree 66:
+sub(div(sub(pow(x0, x1), add(19.9129, sin(sub(x1, sub(pow(sin(div(x0, log(abs(exp(x1))))), 19), 19.9129))))), add(sqrt(mul(-19.4744, x1)), sub(sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x1), 20), x0)))))), 19))), sqrt(div(div(sub(pow(x1, x0), div(div(sub(pow(x1, x0), x1), add(add(sin(cos(sqrt(abs(mul(mul(x0, x1), x1))))), sub(x1, 19)), sqrt(mul(19, x0)))), add(19.9129, sin(mul(add(neg(x1), 19.1499), neg(x0)))))), add(add(sin(cos(sqrt(abs(mul(mul(19, x1), x1))))), sub(x1, 19)), sqrt(mul(19, x0)))), add(19, sin(div(-86.9023, x1))))))
+Raw Fitness: 3.3899406330039894
+
+Tree 67:
+sub(div(sub(pow(x0, x1), add(19.9129, sin(sub(x1, sub(pow(sin(div(x0, 4.3589)), 19), 19.9129))))), add(sqrt(mul(-19.4744, x1)), sub(sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x1), 20), neg(x0))))))), 19))), sqrt(div(div(sub(pow(x1, x0), x1), add(add(sin(cos(sqrt(abs(mul(mul(19, x1), x1))))), sub(x1, 19)), sqrt(mul(19, x0)))), add(sin(div(mul(-19.4744, sqrt(sub(pow(x1, x0), x1))), div(361, mul(19, x0)))), 19))))
+Raw Fitness: 3.453746633865179
+
+Tree 68:
+sub(div(sub(pow(x0, x1), add(19.9129, sin(sub(x1, sub(pow(sin(div(x0, 4.41298)), sqrt(abs(mul(mul(19, x1), x1)))), 19.9129))))), add(sqrt(mul(-19.4744, x1)), sub(sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x1), 20), x0)))))), 19))), sqrt(div(div(sub(pow(x1, x0), x1), add(add(sin(cos(sqrt(abs(mul(mul(19, x1), x1))))), sub(x1, 19)), sqrt(mul(x0, 19)))), add(19, sin(div(-86.9023, sub(pow(x1, x0), 0.149877)))))))
+Raw Fitness: 3.6263590757592787
+
+Tree 69:
+sub(div(sub(pow(x0, x1), add(add(19.9129, sin(sin(sub(x1, sub(pow(sin(div(sqrt(abs(pow(x1, mul(-19.4744, x1)))), 4.3589)), 19), 19.9129))))), sin(div(x0, add(sqrt(mul(x0, x1)), pow(x0, x1)))))), add(sqrt(mul(-19.4744, x1)), sub(sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x1), 20), x0)))))), 19))), sqrt(div(div(sub(pow(x1, x0), 0.149877), add(add(sin(cos(sqrt(abs(mul(mul(19, sin(cos(sqrt(abs(mul(mul(19, x1), x1)))))), x1))))), sub(x1, 19)), sqrt(mul(-19.4744, x0)))), add(19, sin(sqrt(mul(add(neg(x1), 20), x0)))))))
+Raw Fitness: 4.145345748049473
+
+Tree 70:
+sub(div(sub(pow(x0, x1), add(add(19.9129, sin(sin(sub(x1, sub(pow(sin(div(sqrt(abs(pow(x1, x0))), div(x0, sqrt(mul(add(neg(x0), 20), neg(x0)))))), 19), 19.9129))))), sin(div(x0, add(sqrt(mul(x0, x1)), pow(sin(abs(sin(x0))), x1)))))), add(sqrt(mul(-19.4744, x1)), sub(sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x1), 20), x0)))))), 19))), sqrt(div(div(sub(pow(x1, x0), 0.149877), add(add(sin(cos(sqrt(abs(mul(mul(19, x1), x1))))), sub(x1, 19)), sqrt(mul(x0, -19.4744)))), add(19, sin(x0)))))
+Raw Fitness: 3.2216190297068437
+
+Tree 71:
+sub(div(sub(pow(x0, x1), add(add(19.9129, sin(div(x0, add(sqrt(mul(x0, x1)), pow(x1, x1))))), sin(div(x0, add(sqrt(mul(x0, x1)), pow(x0, x1)))))), add(sqrt(mul(-19.4744, x1)), sub(sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x1), 20), x0)))))), 19))), sqrt(div(div(sub(pow(x1, x0), 0.149877), add(add(sin(cos(sqrt(abs(mul(mul(19, x1), x1))))), sub(x1, 19)), sqrt(mul(-19.4744, x0)))), add(19, sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x1), 20), x0))))))))))
+Raw Fitness: 3.2679793376754587
+
+Tree 72:
+sub(div(sub(pow(x0, x1), add(19.9129, sin(sub(x1, sub(pow(sin(div(x0, sqrt(mul(-19.4744, x0)))), 19), 19.9129))))), add(sqrt(mul(-19.4744, x1)), sub(sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x0), 20), neg(x0))))))), 19))), sqrt(div(div(sub(pow(x1, x0), x1), add(add(sin(cos(sqrt(abs(mul(mul(19, x1), x1))))), sub(x1, 19)), sqrt(mul(19, x0)))), add(19.9129, sin(add(sin(cos(sqrt(abs(mul(mul(pow(x0, x1), x1), x1))))), sub(x1, 19)))))))
+Raw Fitness: 3.3943861365608297
+
+Tree 73:
+sub(div(sub(pow(x0, x1), add(19.9129, sin(sub(x1, sub(pow(sin(div(abs(mul(mul(19, x1), x1)), 19)), 19), 19.9129))))), add(sqrt(mul(-19.4744, x1)), sub(sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x0), 20), neg(x0))))))), 19))), sqrt(div(div(sub(pow(x1, x0), x1), add(add(cos(sqrt(abs(mul(mul(19, x1), x1)))), sub(x1, 19)), sqrt(mul(19, x0)))), add(sin(div(x0, div(sub(pow(x1, x0), sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x1), 19), x0))))))), sqrt(mul(add(-19.4744, sin(x1)), 18))))), 19))))
+Raw Fitness: 3.496535325502545
+
+Tree 74:
+sub(div(sub(pow(x0, x1), add(add(19.9129, sin(sin(sub(x1, sub(pow(sin(div(sqrt(abs(pow(4.3589, x0))), 4.3589)), 19), 19.9129))))), sin(div(x0, add(sqrt(mul(x0, x1)), pow(x0, x1)))))), add(sqrt(mul(-19.4744, x1)), sub(sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x1), 20), x0)))))), 19))), sqrt(div(div(sub(pow(x1, x0), 0.149877), add(add(sin(cos(sqrt(mul(add(neg(x1), 20), x0)))), sub(x1, 19)), sqrt(mul(x0, -19.4744)))), add(19, sin(x0)))))
+Raw Fitness: 4.129054595784075
+
+Tree 75:
+sub(x1, sin(div(x0, sqrt(mul(add(neg(x1), 20), x0)))))
+Raw Fitness: 66742.07900693924
+
+Tree 76:
+sub(div(sub(pow(x0, x1), add(add(19.9129, sin(div(x0, add(sqrt(mul(x0, x1)), pow(x1, x1))))), sin(div(x0, add(sqrt(mul(x0, x1)), pow(x0, x1)))))), add(sqrt(mul(-19.4744, x1)), sub(sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x1), 20), x0)))))), 19))), sqrt(div(div(sub(pow(x1, x0), 0.149877), add(add(sin(cos(sqrt(abs(mul(mul(19, x1), x1))))), sub(x1, 19)), sqrt(mul(-19.4744, x0)))), add(19, sin(div(mul(mul(-19.4744, sqrt(abs(pow(x1, x0)))), mul(mul(20, div(20, x0)), x1)), sin(div(x0, add(sqrt(mul(x0, x1)), pow(x1, x1))))))))))
+Raw Fitness: 3.3135356567206395
+
+Tree 77:
+sub(div(sub(pow(x0, x1), add(add(19.9129, sin(sin(sub(div(sub(pow(x0, x1), add(add(19.9129, sin(div(x0, add(sqrt(mul(x0, x1)), pow(x1, x1))))), sin(div(x0, add(sqrt(sin(x0)), pow(x0, x1)))))), add(sqrt(mul(-19.4744, x1)), sub(sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x1), 20), x0)))))), 19))), sub(pow(sin(div(sqrt(abs(pow(x1, x0))), 4.3589)), 19), 19.9129))))), sin(div(x0, add(sqrt(mul(x0, x1)), pow(x0, x1)))))), add(sqrt(mul(-19.4744, x1)), sub(sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x1), 20), x0)))))), 19))), sqrt(div(div(sub(pow(x1, x0), 0.149877), add(add(sin(cos(sqrt(abs(mul(mul(19, x1), x1))))), sub(x1, 19)), sqrt(mul(-19.4744, x0)))), add(19, sin(x0)))))
+Raw Fitness: 4.101989677789618
+
+Tree 78:
+sub(div(sub(pow(x0, x1), add(add(19.9129, sin(div(x0, add(sqrt(mul(x0, x1)), pow(x1, x1))))), sin(div(x0, add(sqrt(mul(x0, x1)), pow(mul(mul(19, x1), x1), x1)))))), add(sqrt(mul(-19.4744, x1)), sub(sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x1), 20), x0)))))), 19))), sqrt(div(div(sub(pow(x1, x0), 0.149877), add(add(sin(cos(sqrt(abs(mul(mul(19, x1), x1))))), sub(x1, 19)), sqrt(mul(-19.4744, x0)))), add(19, sin(x1)))))
+Raw Fitness: 3.258404028643144
+
+Tree 79:
+sub(div(sub(pow(x0, x1), add(19.9129, sin(sub(x1, sub(pow(sin(div(abs(x0), 19)), 19), 19.9129))))), add(sqrt(mul(-19.4744, x1)), sub(sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x0), 20), neg(x0))))))), 19))), sqrt(div(div(sub(pow(x1, x0), x1), add(add(cos(sqrt(abs(mul(mul(19, x1), x1)))), sub(x1, 19)), sqrt(mul(19, x0)))), add(sin(div(x0, div(mul(19, x0), sqrt(mul(add(-19.4744, sin(x1)), 18))))), 19))))
+Raw Fitness: 3.346312375082604
+
+Tree 80:
+sub(div(sub(pow(x0, x1), add(add(19.9129, sin(div(x0, add(sqrt(mul(x0, div(x0, add(sqrt(sqrt(mul(add(neg(x0), 20), neg(x0)))), pow(x1, x1))))), pow(x1, x1))))), sin(div(add(sqrt(mul(x0, x1)), pow(x0, x1)), x0)))), add(sqrt(mul(-19.4744, x1)), sub(sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x1), 20), x0)))))), 19))), sqrt(div(div(sub(pow(x1, x0), 0.149877), add(add(sin(cos(sqrt(abs(mul(mul(19, x1), x1))))), sub(x1, 19)), sqrt(mul(-19.4744, x0)))), add(19, sin(div(mul(x0, 4.3589), add(sub(sqrt(x0), 19), 19)))))))
+Raw Fitness: 3.501800493848423
+
+Tree 81:
+add(19.9129, sin(div(x0, add(sqrt(mul(x0, x1)), pow(x1, x1)))))
+Raw Fitness: 128571.83826259812
+
+Tree 82:
+20
+Raw Fitness: 118907.59025860441
+
+Tree 83:
+sub(div(sub(pow(x0, x1), add(19.9129, sin(sub(x1, sub(pow(x1, 19), 19.9129))))), add(sqrt(mul(-19.4744, x1)), sub(sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x1), 20), neg(x0))))))), 19))), sqrt(div(div(sub(pow(x1, x0), x1), add(sqrt(mul(19, x0)), add(sin(cos(sqrt(abs(mul(mul(19, x1), x1))))), sub(x1, 19)))), add(sin(div(mul(-19.4744, x1), div(mul(19, x0), neg(x1)))), 19))))
+Raw Fitness: 3.952345314520122
+
+Tree 84:
+-19.4744
+Raw Fitness: 71082.99687260654
+
+Tree 85:
+sub(div(sub(pow(x0, x1), add(19.9129, sin(sub(x1, sub(pow(sin(div(x0, 4.3589)), 19), 19))))), add(sqrt(mul(-19.4744, x1)), sub(sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x0), 20), neg(x0))))))), 19))), sqrt(div(div(sub(pow(x1, x0), x1), add(add(sin(cos(sqrt(mul(mul(19, x1), x1)))), sub(x1, 19)), sqrt(mul(19, x0)))), 20)))
+Raw Fitness: 3.909665219018802
+
+Tree 86:
+sub(div(sub(pow(x0, x1), add(add(19.9129, sin(div(x0, add(sqrt(mul(x0, x1)), pow(x1, x1))))), sin(div(x0, add(sqrt(mul(7, x1)), pow(x0, sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x1), 20), x0)))))))))))), add(sqrt(mul(-19.4744, x1)), sub(sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x1), 20), x0)))))), 19))), sqrt(div(div(sub(pow(x1, x0), 0.149877), add(add(sin(cos(sqrt(abs(mul(mul(19, x1), x1))))), sub(x1, 19)), sqrt(mul(-19.4744, x0)))), add(19, sin(div(mul(add(sin(cos(sqrt(abs(mul(mul(19, x1), x1))))), sub(x1, 19)), 4.3589), x1))))))
+Raw Fitness: 3.5122595173513953
+
+Tree 87:
+sub(div(sub(pow(x0, x1), add(add(19.9129, sin(div(x0, add(sqrt(mul(x0, x1)), pow(x1, x0))))), sin(div(x0, add(sqrt(mul(x0, x1)), pow(x0, x1)))))), add(sqrt(mul(-19.4744, x1)), sub(sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x1), 20), x0)))))), 19))), sqrt(div(div(sub(pow(x1, x0), 0.149877), add(add(sin(cos(sqrt(abs(mul(mul(19, x1), x1))))), sub(x1, 19)), sqrt(mul(-19.4744, x0)))), add(19, sin(div(mul(19, x0), sqrt(abs(mul(mul(x1, x1), x1)))))))))
+Raw Fitness: 3.6379097754860967
+
+Tree 88:
+sub(div(sub(pow(x0, x1), add(add(19.9129, sin(sin(sub(x1, sub(pow(sin(div(mul(neg(x1), x0), 4.3589)), 19), 19.9129))))), sin(div(x0, add(sqrt(mul(x0, x1)), pow(x0, x1)))))), add(sqrt(mul(-19.4744, x1)), sub(sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x1), 20), x0)))))), 19))), sqrt(div(div(sub(pow(x1, x0), 0.149877), add(add(sin(cos(sqrt(abs(mul(mul(19, x1), x1))))), sub(x1, 19)), sqrt(mul(-19.4744, x0)))), add(19, sin(x0)))))
+Raw Fitness: 3.3274512989932274
+
+Tree 89:
+sub(div(sub(pow(x0, x1), add(19.9129, sin(sub(x1, -19.7357)))), add(sqrt(mul(-19.4744, x1)), sub(sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x0), 20), x0)))))), 19))), sqrt(div(div(sub(pow(x1, x0), x1), add(add(sin(cos(sqrt(abs(mul(mul(19, x1), x1))))), sub(x1, 19)), sqrt(mul(19, x0)))), add(19, sin(sub(pow(sin(div(x0, x0)), 19), 19.9129))))))
+Raw Fitness: 3.578958368035254
+
+Tree 90:
+sub(div(sub(pow(x0, x1), add(19.9129, sin(sub(x1, sub(pow(sin(div(x0, 4.3589)), 19), 19.9129))))), add(sqrt(mul(-19.4744, x1)), sub(sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x1), 20), neg(x1))))))), 19))), sqrt(div(div(sub(pow(x1, x0), x1), add(add(sin(cos(sqrt(abs(mul(mul(19, x1), x1))))), sub(x1, 19)), sqrt(mul(19, x0)))), add(sin(div(mul(-19.4744, sqrt(sub(pow(x1, x0), x1))), div(mul(19, x0), mul(x0, x0)))), 19))))
+Raw Fitness: 3.868798495178808
+
+Tree 91:
+sub(div(sub(pow(x0, x1), add(add(19.9129, sin(div(x0, add(sqrt(mul(sqrt(mul(add(neg(x1), 20), x0)), x1)), pow(x1, x1))))), sin(div(x0, add(sqrt(mul(x0, x1)), pow(x0, x1)))))), add(sqrt(mul(-19.4744, x1)), sub(sin(sub(x1, sin(div(x0, sqrt(mul(-19.4744, x0)))))), 19))), sqrt(div(div(sub(pow(x1, x0), 0.149877), add(add(sin(cos(sqrt(abs(mul(mul(19, x1), x1))))), sub(x1, 19)), sqrt(mul(-19.4744, x0)))), add(sin(x0), 19))))
+Raw Fitness: 3.7812617343828885
+
+Tree 92:
+sub(div(sub(pow(x0, x1), add(add(19.9129, sin(div(x0, add(sqrt(mul(x0, x1)), pow(x1, mul(add(neg(x1), 20), x0)))))), sin(div(x0, add(sqrt(mul(x0, x1)), pow(x0, x1)))))), add(sqrt(mul(-19.4744, x1)), sub(sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x1), 20), x0)))))), 19))), sqrt(div(div(sub(pow(x1, x0), 0.149877), add(add(sin(cos(sqrt(abs(mul(mul(19, x1), x1))))), sub(x1, 19)), sqrt(mul(-19.4744, x0)))), add(19, sin(div(mul(x0, 4.3589), add(sub(sqrt(x0), 19), 19)))))))
+Raw Fitness: 3.602626652451444
+
+Tree 93:
+sub(div(sub(pow(x0, x1), add(add(19.9129, sin(div(x0, add(sqrt(mul(x0, x1)), pow(x1, x1))))), sin(div(x0, add(sqrt(mul(x0, x1)), pow(x0, x1)))))), add(sqrt(mul(-19.4744, x1)), sub(sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x1), 20), x0)))))), 19))), sqrt(div(div(sub(pow(x1, x0), 0.149877), add(add(sin(cos(sqrt(abs(mul(mul(19, x1), x1))))), sub(x1, 19)), sqrt(mul(-19.4744, x0)))), add(19, sin(x1)))))
+Raw Fitness: 3.261123934552851
+
+Tree 94:
+sub(div(sub(pow(x0, x1), add(add(19.9129, sin(div(x0, add(sqrt(mul(x0, x1)), pow(x1, x1))))), sin(div(x0, add(sqrt(mul(x0, x1)), pow(x0, x1)))))), add(sqrt(mul(-19.4744, x1)), sub(sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x1), 20), x0)))))), 19))), sqrt(div(div(sub(pow(x1, x0), 0.149877), add(add(sin(cos(sqrt(abs(mul(mul(19, x1), x1))))), sub(x1, 19)), sqrt(mul(-19.4744, x0)))), add(19, sin(div(mul(mul(-19.4744, sqrt(abs(pow(x1, x0)))), mul(mul(20, div(20, x0)), 18)), sin(div(x0, add(sqrt(mul(x0, x1)), pow(x1, x1))))))))))
+Raw Fitness: 3.308188082723527
+
+Tree 95:
+sub(div(sub(pow(x0, x1), add(19.9129, sin(sub(x1, sub(pow(sin(div(x0, 4.41298)), sqrt(abs(mul(mul(19, x1), x1)))), 19.9129))))), add(sqrt(mul(-19.4744, x1)), sub(sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x1), 20), x0)))))), 19))), sqrt(div(div(sub(pow(x1, x0), x1), add(add(-0.244889, sub(x1, 19)), sqrt(mul(x0, 19)))), add(19, sin(div(-86.9023, x1))))))
+Raw Fitness: 4.080606107764645
+
+Tree 96:
+sub(div(sub(pow(x0, x1), add(19.9129, sin(sub(x1, sub(pow(sin(div(x0, 19)), sqrt(mul(add(neg(x0), 20), neg(x0)))), 19.9129))))), add(sqrt(mul(-19.4744, x1)), sub(sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x0), 20), neg(x0))))))), 19))), sqrt(div(div(sub(pow(x1, x0), x1), add(add(cos(sqrt(abs(mul(mul(19, x1), x1)))), sub(x1, 19)), sqrt(mul(19, x0)))), add(sin(div(cos(inv(x0)), x1)), 19))))
+Raw Fitness: 3.357652579752151
+
+Tree 97:
+sub(div(sub(pow(x0, x1), add(add(19.9129, sin(div(x0, add(sqrt(mul(x0, div(x0, add(sqrt(sqrt(mul(add(neg(x0), 20), neg(x0)))), pow(x1, x1))))), pow(x1, x1))))), sin(div(sin(div(x0, add(sqrt(mul(x0, x1)), pow(x1, x1)))), add(sqrt(mul(x0, x1)), pow(x0, x1)))))), add(sqrt(mul(-19.4744, x1)), sub(sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x1), 20), x0)))))), 19))), sqrt(div(div(sub(pow(x1, x0), 0.149877), add(add(sin(cos(sqrt(abs(mul(mul(19, x1), x1))))), sub(x1, 19)), sqrt(mul(-19.4744, x0)))), add(19, sin(div(mul(x0, 4.3589), add(sub(sqrt(x0), 19), 19)))))))
+Raw Fitness: 3.574751590895078
+
+Tree 98:
+sub(div(sub(pow(x0, x1), add(19.9129, sin(sub(x1, -19.9129)))), add(sqrt(mul(-19.4744, x1)), sub(sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x0), 20), neg(x0))))))), 19))), sqrt(div(div(sub(pow(x1, x0), x1), add(add(sin(cos(sqrt(abs(mul(mul(19, x1), x1))))), sub(x1, 19)), sqrt(mul(19, x0)))), add(sin(div(mul(pow(sqrt(abs(mul(mul(19, x1), x1))), -0.237948), sqrt(abs(sub(sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x0), 20), -4.3589)))))), 19)))), div(mul(19, x0), 2.92219))), 19))))
+Raw Fitness: 3.710550381054958
+
+Tree 99:
+sub(div(sub(pow(x0, x1), add(19.9129, sin(sub(x1, sub(pow(sin(div(x0, 19)), 19), 19.9129))))), add(sqrt(mul(-19.4744, x1)), sub(sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x0), 20), neg(x0))))))), 19))), sqrt(div(div(sub(pow(x1, x0), x1), add(add(cos(sqrt(abs(mul(mul(19, x1), x1)))), sub(x1, 19)), sqrt(mul(19, x0)))), add(sin(div(x0, div(mul(19, x0), sqrt(mul(add(x0, sin(mul(add(neg(x1), 20), neg(x0)))), 18))))), 19))))
+Raw Fitness: 3.4426993203189307
+
+Tree 100:
+sub(div(sub(pow(x0, x1), add(add(19.9129, sin(div(x0, add(sqrt(mul(x0, x1)), pow(x1, x1))))), sin(div(x0, add(sqrt(mul(x0, sin(cos(sqrt(abs(mul(mul(19, x1), x1))))))), pow(x0, x1)))))), add(sqrt(mul(-19.4744, x1)), sub(sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x1), 20), x0)))))), 19))), sqrt(div(div(sub(pow(x1, x0), 0.149877), add(add(sin(cos(sqrt(abs(mul(mul(19, x1), x1))))), sub(x1, 19)), sqrt(mul(-19.4744, x0)))), add(19, sin(div(mul(x0, 4.3589), add(sub(sqrt(x0), 19), 19)))))))
+Raw Fitness: 3.556805150966426
+
+Tree 101:
+add(19.9129, sin(sub(x1, -19.8355)))
+Raw Fitness: 121303.22664640241
+
+Tree 102:
+sub(div(sub(pow(x0, x1), add(19.9129, sin(sub(x1, sub(pow(sin(div(x0, 19)), 19), 19.9129))))), add(sqrt(mul(-19.4744, x1)), sub(sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x0), 20), neg(x0))))))), 19))), sqrt(div(div(sub(pow(x1, x0), x1), add(add(cos(sqrt(abs(mul(mul(19, x1), x1)))), sub(x1, 19)), sqrt(mul(19, x0)))), add(sin(sqrt(abs(pow(x1, x0)))), 19))))
+Raw Fitness: 3.4359821522667793
+
+Tree 103:
+sub(div(sub(pow(x0, x1), add(19.9129, sin(sub(x1, sub(pow(sin(div(x0, 4.3589)), 19.9129), 19.9129))))), add(sqrt(mul(-19.4744, x1)), sub(sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x0), 20), neg(x0))))))), 19))), sqrt(div(div(sub(pow(x1, x0), x1), add(add(sin(cos(sqrt(abs(mul(mul(19, x1), x1))))), add(sin(cos(sqrt(abs(mul(mul(19, x1), x1))))), sub(x1, 19))), sqrt(mul(19, x0)))), sub(pow(sin(div(x0, sqrt(mul(-19.4744, x0)))), x0), 19.9129))))
+Raw Fitness: 3.227165491279258
+
+Tree 104:
+sub(div(sub(pow(x0, x1), add(19.9129, sin(sub(x1, sub(pow(sin(div(x0, 4.41298)), 19), 19.9129))))), add(sqrt(mul(-19.4744, x1)), sub(sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x1), 20), x0)))))), 19))), sqrt(div(div(sub(pow(x1, x0), x1), add(add(sin(cos(sqrt(abs(mul(mul(19, x1), x1))))), sub(x1, 19)), sqrt(mul(19, x0)))), 19.9129)))
+Raw Fitness: 3.37482788831113
+
+Tree 105:
+sub(div(sub(pow(x0, x1), add(19.9129, sin(sub(x1, sub(pow(sin(div(x0, 4.41298)), sqrt(abs(mul(mul(19, x1), x1)))), 19.9129))))), add(sqrt(mul(-19.4744, x1)), sub(sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x1), 20), x0)))))), 19))), sqrt(div(div(sub(pow(x1, x0), x1), add(add(sin(cos(sqrt(abs(mul(mul(19, x1), x1))))), sub(x1, 19)), sqrt(mul(x0, 19)))), add(19, sin(div(-86.9023, x1))))))
+Raw Fitness: 3.467403569569412
+
+Tree 106:
+sub(div(sub(pow(x0, x1), add(add(19.9129, sin(div(x0, add(sqrt(mul(x0, x1)), pow(x1, x1))))), sin(div(x0, add(sqrt(mul(7, x1)), pow(x0, x1)))))), add(sqrt(mul(-19.4744, x1)), sub(sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x1), 20), x0)))))), 19))), sqrt(div(div(sub(pow(x1, x0), 0.149877), add(add(sin(cos(sqrt(abs(x1)))), sub(x1, 19)), sqrt(mul(-19.4744, x0)))), add(19, sin(div(mul(x0, 4.3589), x1))))))
+Raw Fitness: 4.082353748326568
+
+Tree 107:
+sub(div(sub(pow(x0, x1), add(add(19.9129, sin(sin(sub(x1, sub(pow(sin(div(sqrt(abs(pow(x1, mul(-19.4744, x1)))), 4.3589)), 19), 19.9129))))), sin(div(x0, add(sqrt(mul(x0, x1)), pow(x0, x0)))))), add(sqrt(mul(-19.4744, x1)), sub(sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x1), 20), x0)))))), 19))), sqrt(div(div(sub(pow(x1, x0), 0.149877), add(add(sin(cos(sqrt(abs(mul(mul(19, x1), x1))))), sub(x1, 19)), sqrt(mul(-19.4744, x0)))), add(19, sin(sqrt(mul(add(neg(x1), 20), x0)))))))
+Raw Fitness: 3.5503571896598727
+
+Tree 108:
+sub(div(sub(pow(x0, x1), add(19.9129, sin(sub(x1, sub(pow(sin(div(x0, sqrt(abs(mul(mul(19, x1), x1))))), 19), 19.9129))))), add(sqrt(mul(-19.4744, x1)), sub(sin(sub(x1, sin(div(x1, sqrt(mul(add(neg(x0), 20), neg(x0))))))), 19))), sqrt(div(div(sub(pow(x1, x0), x1), add(add(cos(sqrt(abs(mul(mul(19, x1), x1)))), sub(x1, 19)), sqrt(mul(19, x0)))), add(sin(div(x0, div(mul(19, x0), sqrt(mul(add(-19.4744, sin(x1)), 18))))), 19))))
+Raw Fitness: 4.000490023014559
+
+Tree 109:
+sub(div(sub(pow(x0, x1), add(add(19.9129, sin(div(x0, add(sqrt(mul(x0, x1)), pow(add(add(19.9129, sin(div(x0, add(sqrt(mul(x0, x1)), pow(x1, x1))))), sin(div(x0, add(sqrt(mul(x0, x1)), pow(x0, x1))))), x1))))), sin(div(x0, add(sqrt(mul(x0, x1)), pow(x0, x1)))))), add(sqrt(mul(-19.4744, x1)), sub(sin(sub(x1, sin(div(x0, sqrt(mul(x0, add(neg(x1), 20))))))), 19))), sqrt(div(div(sub(pow(x1, x0), 0.149877), add(add(sin(cos(sqrt(abs(mul(mul(19, x1), x1))))), sub(x1, 19)), sqrt(mul(-19.4744, x0)))), add(19, sin(x0)))))
+Raw Fitness: 3.7558325458050503
+
+Tree 110:
+sub(div(sub(pow(x0, x1), add(19.9129, sin(sub(x1, -19.9129)))), add(sqrt(mul(-19.4744, x1)), sub(sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x0), 20), neg(x0))))))), 19))), sqrt(div(div(sub(pow(x1, x0), x1), add(add(sin(cos(sqrt(abs(mul(mul(19, x1), x1))))), sub(x1, 19)), sqrt(mul(19, x0)))), add(sin(div(mul(pow(sqrt(abs(mul(mul(19, x1), x1))), -0.237948), sqrt(abs(pow(x1, x0)))), div(mul(19, x0), x0))), 19))))
+Raw Fitness: 3.4417292255901764
+
+Tree 111:
+sub(div(sub(pow(x0, x1), add(add(19.9129, sin(div(x1, add(sqrt(mul(x0, x1)), pow(x1, x1))))), sin(div(x0, add(sqrt(mul(x0, x1)), pow(x0, x1)))))), add(sqrt(mul(-19.4744, x1)), sub(sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x1), 20), x0)))))), 19))), sqrt(div(div(sub(pow(x1, x0), 0.149877), add(add(sin(cos(sqrt(abs(mul(mul(19, x1), x1))))), sub(x1, 19)), sqrt(mul(-19.4744, x0)))), add(19, sin(x1)))))
+Raw Fitness: 3.628263412567841
+
+Tree 112:
+sub(div(sub(pow(x0, x1), add(add(19.9129, sin(div(x0, add(sqrt(mul(x0, x0)), pow(x1, x1))))), sin(div(x0, add(sqrt(mul(x0, x1)), pow(x0, x1)))))), add(sqrt(mul(-19.4744, x1)), sub(sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x1), 20), x0)))))), 19))), sqrt(div(div(sub(pow(x1, x0), 0.149877), add(add(sin(cos(sqrt(abs(mul(mul(19, x1), x1))))), sub(x1, 19)), sqrt(mul(-19.4744, x0)))), add(19, sin(div(mul(x0, 4.3589), add(sub(sqrt(x0), div(x0, x1)), 19)))))))
+Raw Fitness: 3.3894500954337388
+
+Tree 113:
+sub(div(sub(pow(x0, x1), add(add(19.9129, sin(sin(sub(x1, sub(pow(sin(div(sqrt(abs(pow(x1, mul(-19.4744, x1)))), 4.3589)), 19), 19.9129))))), sin(div(x0, add(sqrt(mul(x0, x1)), pow(x1, x1)))))), add(sqrt(mul(-19.4744, x1)), sub(sin(sub(x1, sin(div(x0, sqrt(mul(add(neg(x1), 20), x0)))))), 19))), sqrt(div(div(sub(pow(x1, x0), 0.149877), add(add(sin(cos(sqrt(abs(mul(mul(19, x1), x1))))), sub(x1, 19)), sqrt(mul(-19.4744, x0)))), add(19, sin(sqrt(mul(add(neg(x1), 20), x0)))))))
+Raw Fitness: 3.1249147254071614
+

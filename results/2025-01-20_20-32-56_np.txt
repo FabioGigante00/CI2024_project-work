@@ -1,0 +1,19 @@
+# Configuration
+conf = {
+    'problem': 8,
+    'crossover': <function recombination_crossover at 0x000002B4953202C0>,
+    'OFFSPRING_SIZE': 200,
+    'POPULATION_SIZE': 200,
+    'OUTSIDER_SIZE': 20,
+    'pm': 0.161,
+    'x_elitism': 0.08,
+    'MAX_GENERATIONS': 100,
+    'HEIGHT': 5,
+    'PC': 0.1,
+    'P_PICK_CONSTANT': 0.4,
+    'P_CUT_TREE': 0.05,
+}
+
+# Resulting function
+np.multiply(np.multiply(9.94444, np.add(x[5], 0.841471)), np.add(np.subtract(np.multiply(x[5], np.add(x[5], x[5])), np.subtract(0.841471, np.subtract(np.abs(np.add(np.abs(np.add(np.subtract(np.subtract(np.multiply(np.subtract(18.9444, np.subtract(np.multiply(9.94444, np.add(x[5], 0.841471)), 9.39445)), np.add(0.841471, x[5])), np.add(x[5], 0.841471)), np.multiply(x[5], np.add(0.841471, x[5]))), x[5])), -9.39445)), 9.94444))), -9.39445))# Resulting fitness
+91303120.94099009
