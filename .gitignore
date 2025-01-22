@@ -112,4 +112,4 @@ imgs
 poetry.lock
 poetry.toml
 problem_0.npz
-data
+pyproject.toml
