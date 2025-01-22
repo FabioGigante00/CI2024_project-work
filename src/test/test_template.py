@@ -1,5 +1,5 @@
 import numpy as np
-
+import s328890
 
 if __name__ == '__main__':
     # > Setup
@@ -8,8 +8,7 @@ if __name__ == '__main__':
     labels = problem['y']
     terminal_list = ['x' + str(i) for i in range(input.shape[0])]
     # < Setup
-    output = np.sin(input.flatten())
     # > Test
-    print(f"MSE (train): {100*np.square(labels-np.sin(input.flatten())).sum()/len(labels):g}")
+    print(f"MSE (train): {100*np.square(labels-s328890.f1(input).sum()/len(labels)):g}")
     # < Test
    
