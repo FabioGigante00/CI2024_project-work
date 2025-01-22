@@ -113,3 +113,5 @@ poetry.lock
 poetry.toml
 problem_0.npz
 pyproject.toml
+.gitignore
+data/
