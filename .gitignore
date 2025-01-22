@@ -107,3 +107,9 @@ venv.bak/
 my_test.py
 .vscode
 imgs
+
+#poetry
+poetry.lock
+poetry.toml
+problem_0.npz
+data
